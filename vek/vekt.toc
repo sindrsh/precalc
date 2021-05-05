@@ -1,0 +1,21 @@
+\select@language {english}
+\select@language {english}
+\contentsline {section}{\numberline {3.1}Vektorbegrepet}{3}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Vektoren mellom to punkt}{3}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Lengden av en vektor}{5}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Regneregler for vektorer}{6}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Skalarproduktet}{8}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}F\IeC {\o }rste definisjon}{8}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Andre definisjon}{9}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Regneregler for skalarproduktet}{11}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Vinkelrette og parallelle vektorer}{11}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Vinkelrette vektorer}{11}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Parallelle vektorer}{12}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Determinanter}{14}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}$2 \times 2 $ determinanter}{14}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}$3 \times 3 $ determinanter}{15}{subsection.3.4.2}
+\contentsline {section}{\numberline {3.5}Vektorproduktet}{16}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Definisjon}{16}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Vektorprodukt som areal og volum}{18}{subsection.3.5.2}
+\contentsline {section}{Forklaringer}{20}{section*.1}
+\contentsline {section}{Oppgaver}{25}{section*.2}

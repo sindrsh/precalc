@@ -1,0 +1,328 @@
+\newcommand{\bint}{\rg[Bestemt integral I]{Det bestemte integralet $ I $ av en funksjon $ f(x) $ over intervallet $ [a, b] $ er gitt som
+		\nreq{I= \lim\limits_{n\to \infty}\sum\limits_{i=1}^{n} f(x_{i})\Delta x \label{bint}}
+		hvor $ {x_i=a+(i-1)\Delta x}$ og $ {\Delta x=\frac{b-a}{n}} $.
+	}}
+\newcommand{\anfndto}{\rg[Analysens fundamentalteorem]{\index{analysens fundamentalteorem}
+		Gitt en funksjon $ f(x) $ definert på intervallet $ [a, b] $. Hvis $ F $ er en antiderivert til $ f $, er
+		\begin{equation}
+		\int\limits_a^b f(x)\, dx = F(b)-F(a) \label{anfund2}
+		\end{equation}\vs
+	}}
+\newcommand{\anfndtoe}{\eks{
+Gitt funksjonen $ f(x)= e^{\sin x}  $. Finn $ \int\limits_0^\frac{\pi}{2} f'(x)\,dx $ .
+
+\sv
+Siden $ f $ er en antiderivert til $ f'(x) $, må vi ha at
+\alg{\int\limits_0^\frac{\pi}{2} f'(x)\,dx &= f\left(\frac{\pi}{2}\right)-f(0)\\
+	&= e^{\sin \frac{\pi}{2}}-e^{\sin 0} \\
+	&= e-1
+		}\vds
+}}
+\newcommand{\uint}{\rg[Ubestemt integral]{
+		Det ubestemte integralet av $ f(x) $ er gitt som
+		\begin{equation}
+		\int f(x)\, dx  = F(x)+ C \label{uint}
+		\end{equation}
+		Hvor $ F $ er en antiderivert til $ f $ og $ C $ er en vilkårlig konstant.
+	}}
+\newcommand{\uinte}{\eks[1]{
+		Ved derivasjon vet vi at $ {(x^2)'=2x} $. Bruk dette til å å finne $ \int 2x \,dx$. \\ 	
+		
+		\sv
+		Fra derivasjonen ser vi at $ x^2 $ er en antiderivert til $ 2x $. Vi kan dermed skrive
+		\[ \int 2x \,dx =  x^2 + C  \]\vs
+	}}
+\newcommand{\uinteto}{\eks[2]{
+		Ved derivasjon vet vi at $ {(x^2+3)'=2x} $. Bruk dette til å finne $ \int 2x \,dx$. \\ 	
+		
+		\sv
+		Fra derivasjonen ser vi at $ {x^2+3 }$ er en antiderivert til $ 2x $. Vi kan dermed skrive
+		\[ \int 2x \,dx =  x^2 +3 +C  \]
+		Men siden $ C $ er en vilkårlig konstant, kan vi liksågodt lage oss en ny konstant $ D=C+3 $, og får da at
+		\[ \int 2x \,dx =  x^2 + D  \]
+\textsl{Merk}: Siden integrasjonskonstanter er vilkårlige, kan vi tillate oss å komprimere flere konstanter til én. I utregningen over kunne vi skrevet $ C $ opp igen, underforstått at 3 var ''trekt inn'' i denne konstanten:
+\[ \int 2x\,dx=x^2+3+C=x^2+C \]	\vsb	
+	}}
+\newcommand{\anfnden}{\rg[Analysens fundamentalteorem (del 1)]{
+		For enhver kontinuerlig funksjon $ f(x) $ har vi at
+		\[ \left(\int f(x)\,dx\right)'=f(x)  \]	}
+}
+\newcommand{\anfndene}{	\eks{	
+		Vi har at $ \int f(x) \, dx= e^{x^2}+C $. Hva er $ f(x) $? \\
+		
+		\sv 
+		Fra analysens fundamentalteorem vet vi at vi kan finne $ f(x) $ ved å derivere det ubestemte integralet. Vi bruker da kjerneregelen, og finner at
+		\[ \left(e^{x^2}\right)'=2xe^{x^2} \]
+		Derfor er \[ f(x)=2xe^{x^2} \]
+	}}
+\newcommand{\uints}{\rg[Ubestemte integraler]{
+		For konstantene $ k $ og $ C $ har vi at
+		\begin{align}
+		& \int \left(f(x)+g(x)\right)\,dx= \int f(x)\,dx + \int g(x)\,dx \label{intfplusg}\\
+		& \int kf(x)\,dx = k\int f(x)\, dx \label{konstint} \\ 
+		& \int x^k \, dx = \frac{1}{k+1}x^{k+1} \label{xhatr}  + C \qquad (k\neq -1) \\
+		& \int \sin (kx) \, dx = -\frac{1}{k}\cos (kx) + C \\
+		& \int \cos (kx) \, dx = \frac{1}{k}\sin (kx) + C \\
+		& \int e^{kx} \, dx = \frac{1}{k}e^{kx} + C \\
+		& \int \frac{1}{\cos^{2}x} \, dx  =\tan x +C \label{tanint} \\
+		& \int \frac{1}{x+k} \, dx = \ln|x+k| + C \label{lnint} 
+		\end{align}\vs
+	}}
+\newcommand{\uintse}{\eks[1]{
+	Finn det bestemte integralet $ \displaystyle \int\limits_{0}^{\frac{\pi}{4}} \frac{8}{1-\sin^2 x}\,dx $.
+	
+	\sv
+	Vi starter med å observere at $ {1-\sin^2 x= \cos^2 x} $. I tillegg vet vi fra (\ref{konstint}) at konstanten 8 kan trekkes utenfor integralet. Vi kan derfor skrive integralet vårt som
+	\[ 8\int\limits_{0}^{\frac{\pi}{4}} \frac{1}{\cos^2 x}\,dx \]
+	Fra (\ref{tanint}) vet vi at $ \tan x $ er en antiderivert til $ \frac{1}{\cos^2 x} $. Når vi har funnet en antiderivert fører vi gjerne slik\footnote{Forklar for deg selv hvorfor vi ikke trenger å ta hensyn til konstanten når vi skal finne et bestemt integral.}:
+	\alg{
+		8\int\limits_{0}^{\frac{\pi}{4}} \frac{1}{\cos^2 x}\,dx &= 8\big[\tan x\big]_0^{\frac{\pi}{4}}	\\
+		&= 8\left[\tan \frac{\pi}{4}-\tan 0\right] \br
+		&= 8[1-0] \\
+		&= 8
+	}
+
+\textsl{Merk}: Bruken av klammeparantes er bare en annen måte å skrive (\ref{anfund2}) på.\vs
+}}
+\newcommand{\dint}{\rg[Delvis integrasjon]{ For to funksjoner $ u(x) $ og $ v(x) $ har vi at
+		\begin{equation}
+		\int uv' \, dx = uv -\int u'v \, dx \label{delvint}
+		\end{equation} \vs
+	}
+	}
+\newcommand{\dinte}{\eks[1]{
+		Integrer funksjonen ${f(x)= x \ln x }$. 
+		
+		\sv
+		Vi observerer at $ f(x) $ er sammensatt av $ x $ og $ \ln x $. Trikset bak delvis integrasjon er å sette én av disse til å være funksjonen $ u(x) $ og den andre til å være den deriverte av $ v(x) $, altså $ v'(x) $. Da har vi en ligning som i (\ref{delvint}) og kan (forhåpentligvis) bruke denne til å finne integralet vi søker.\vsk
+		
+		Vi må integrere $ v' $ for å finne $ v $ og derivere $ u $ for å finne $ u' $. Siden $ \ln x $ er lett å derivere, men vanskelig å integrere, setter vi
+		\alg{
+			u &=\ln x \\
+			v'&=x
+		} 
+		Da må vi ha at\footnote{Hvorfor ikke $ {v=\frac{1}{2}x^2 +C} $? Vi hadde jo da fått samme $ v' $. \newline
+			
+			Hvis vi lar $ V $ betegne en antiderivert til $ v' $, kan vi skrive $ {v=V+C }$. Av (\ref{delvint}) har vi da at
+			\alg{
+				\int uv'\, dx&=  u(V+C) -\int u'(V+C) \, dx \\
+				&=  u(V+C) -\int u'V \, dx-\int Cu' \, dx \\
+				&=  uV+Cu -\int u'V \, dx- Cu \\
+				&= uV- \int u'V \, dx
+			}
+			Vi har endt opp med et uttrykk hvor $ C $ ikke lenger deltar. Vi får altså det samme svaret uansett hva verdien til $ C $ er, og da velger vi selvsagt fra starten av at $ {C=0} $.}
+		\algv{
+			u'&=\frac{1}{x} \br
+			v&=\frac{1}{2}x^2 
+		}
+		Altså kan vi skrive (rekkefølgen på $ v' $ og $ u $ har selvsagt ingenting å si i (\ref{delvint}))
+		\alg{
+			\int x \ln x \, dx &= \int v'u \, dx \\
+			& = uv -\int u'v \, dx \\
+			&= \ln x \cdot \frac{1}{2}x^2 - \int \frac{1}{x}\cdot\frac{1}{2}x^2 \, dx \\
+			&=  \frac{1}{2}x^2 \ln x- \int \frac{1}{2}x \, dx \\
+			&= \frac{1}{2}x^2 \ln x - \frac{1}{4}x^2 + C
+		}\vds
+	}}
+\newcommand{\dinteto}{\eks[2]{
+		Integrer funksjonen $f(x)=\ln x $. \\
+		
+		\sv 
+		Vi starter med å skrive $ f(x)=\ln x\cdot 1  $, og setter
+		\alg{
+			u &= \ln x \\
+			v' &= 1
+		}
+		Vi får da at
+		\algv{
+			u'&= \frac{1}{x} \\
+			v &= x		
+		}
+		$\int f \,dx$ finner vi nå ved delvis integrasjon:
+		\alg{
+			\int \ln x\cdot1 \, dx &= \int u v' \,dx \\
+			&= uv -\int u'v \, dx \\
+			&= x\ln x  - \int x\cdot\frac{1}{x} \, dx \\
+			&= x\ln x - x + C \\
+			&= x(\ln x- 1)+C
+		}\vds
+	}}
+\newcommand{\byt}{\rg[Bytte av variabel]{
+		Gitt funksjonene $ f(x) $, $ u(x) $ og $ g(u) $. Hvis $ \int f(x) \, dx $ kan skrives om til $ \int g(u) u'\, dx  $, kan integralet løses med $ u $ som variabel:  
+		\begin{equation}
+		\int g(u) u'\, dx=\int g(u) \, du \label{bytvar}
+		\end{equation}\vs
+	}}
+\newcommand{\byte}{\eks[1]{
+		Finn det ubestemte integralet 
+		\[ \int 8x \sin \left(4x^2 \right) \, dx \] \vs
+		\sv
+		Vi setter $ {u(x)=4x^2 }$ og ${g(u)=\sin u }$. Dermed blir $ {u'=8x }$, og da er
+		\alg{
+			\int 8x \sin \left(4x^2 \right)\, dx &= \int u'g(u) \, dx \\
+			&= \int g(u) \,du \\
+			&= \int \sin u \, du \\
+			&= -\cos u + C\\
+			&= -\cos \left(4x^2\right) + C
+		}
+\textsl{Merk}: Når integralet vi skal finne er mhp. $ x $, er det viktig at sluttuttrykket har $ x $ som eneste variabel.
+	}}
+\newcommand{\byteto}{\eks[2]{
+		Finn det bestemte integralet
+		\[\int\limits_0^2 x^2 e^{2x^3}\, dx \] \vs
+		\sv 
+		Vi setter $ {u(x)=2x^3} $ og $ {g(u)=e^u} $, da blir $ {u'=6x^2 }$. I integralet vi skal løse mangler vi altså faktoren 6 for å kunne anvende oss av (\ref{bytvar}). Men vi kan alltids gange integralet vårt med 1, skrevet som $ \frac{6}{6} $. Da kan vi trekke 6-tallet vi ønsker inn i integralet, og la resten av brøken forbli utenfor:
+		\alg{
+			\int\limits_0^2 x^2 e^{2x^3} \, dx &= \frac{6}{6}\int\limits_0^2 x^2 e^{2x^3} \, dx \\
+			&= \frac{1}{6}\int\limits_0^2 6x^2 e^{2x^3} \, dx
+		}
+		Nå ligger alt til rette for å bytte variabel:
+		\alg{
+			\frac{1}{6}\int\limits_0^2 6x^2 e^{2x^3} \, dx&= \frac{1}{6}\int\limits_0^2 u'g(u) \,dx \\
+			&= \frac{1}{6} \int\limits_0^2 g(u)\, du \\
+			&= \frac{1}{6} \int\limits_0^2 e^u \, du \\
+			&= \frac{1}{6}\big[e^u\big]_0^2 \\
+			&= \frac{1}{6}\big[e^{2x^3}\big]_0^2 \\
+			&= \frac{1}{6}\left(e{2\cdot2^3-e^{2\cdot0^2}}\right) \\
+			&= \frac{1}{6}\left(e^{16}-1\right)
+		}
+Det finnes også en alternativ måte for å regne ut bestemte integral ved bytte av variabel, se \hrv{bestbyt} for denne.
+	}}
+\newcommand{\dbr}{\rg[Integrasjon ved delbrøksoppspaltning ]{
+		For integraler på formen
+		\[ \int \frac{a+bx+cx^2+...}{(x-d)(x-e)(x-f)...}\,dx\]
+		hvor $ a, b, c, ... $ er konstanter, skriver vi om integranden til
+		\[ \frac{A}{(x-d)}+\frac{B}{(x-e)}+\frac{C}{(x-f)}+... \]
+		og finner så de ukjente konstantene $ A, B, C, ... $
+	}}
+\newcommand{\dbre}{\eks[1]{
+		Finn det ubestemte integralet
+		\[ \int \frac{3x^2+3x+2}{x^3-x}\,dx \]	\vs
+		\sv
+		Vi starter med å faktorisere nevneren i integranden, og får at
+		\[ \frac{3x^2+3x+2}{x^3-x} = \frac{3x^2+3x+2}{x(x+1)(x-1)} \]
+		Denne brøken ønsker vi å skrive som
+		\[ \frac{3x^2+3x+2}{x(x+1)(x-1)} =  \frac{A}{x}+\frac{B}{x+1}+\frac{C}{x-1} \]
+		For å finne $ A $, $ B $ og $ C $, omskriver vi ligningen ved å gange med fellesnevneren $ x(x+1)(x-1) $:
+		\[ 	3x^2+3x+2 =  A(x+1)(x-1)+ Bx(x-1)+ Cx(x+1)	 \]
+		Ligningen må holde for alle verdier av $ x $. Vi setter først $ {x=0 }$, og får at
+		\alg{
+			2 &= A\cdot(-1) \\
+			-2&=A 
+		}
+		Videre setter vi $ {x=-1 }$:
+		\alg{
+			3\cdot(-1)^2+3(-1)+2 &= B\cdot(-1)(-1-1) 	\\
+			1 &= B
+		}
+		Til slutt setter vi $ {x=1} $:
+		\alg{
+			3\cdot1^2+3\cdot1+2 &= C(1+1)	\\
+			4&= C
+		}
+		Integralet vi skal finne kan vi derfor skrive som
+\small
+\[ \int \left(-\frac{2}{x}+\frac{1}{x+1}+\frac{4}{x-1}\right)\,dx = -2\ln |x|+\ln|x+1|+4\ln|x-1|+D \] \vs
+	}}
+\newcommand{\iar}{\rg[Integral som areal I]{\index{integral!som areal}Gitt en kontinuerlig funksjon $ f(x) $ og to tall $ a $ og $ b $ der $ {a<b }$. \vsk
+
+	Hvis $ {f\geq0} $ for  ${x\in [a, b]} $, er arealet $ A $ avgrenset av $ f $ på dette intervallet gitt som
+	\[ A=\int\limits_a^b f \,dx \]
+	\begin{figure}[H]
+	\centering
+	\includegraphics[]{\asym{intpos}}
+\end{figure}
+	Hvis $ {f\leq0 }$ for ${x\in [a, b]} $, er arealet $ A $ avgrenset av $ f $ på dette intervallet gitt som
+	\[ A=-\int\limits_a^b f \,dx \]
+	\begin{figure}[H]
+	\centering
+	\includegraphics[]{\asym{intneg}}
+\end{figure}\vs
+	}}
+\newcommand{\ivo}{\rg[Integral som volum]{\index{integral!som volum}
+		Gitt en tredimensjonal figur plassert i et koordinatsystem, med endepunktene satt til verdiene $ a $ og $ b $ langs $ x $-aksen.
+		\begin{center}
+			\centering
+			\includegraphics[scale=0.7]{\asym{test222}}
+			%	\captionof{figure}{Figur med krukkeform plassert i et koordinatsystem. \label{kruk}}
+		\end{center}
+		La videre $ A(x) $ være tverrsnittsarealet av figuren for verdien $ x $. Volumet $ V $ av figuren er da gitt som
+		\nreq{
+			V = \int\limits_a^b A\,dx	\label{intvol}
+		}\vs
+	}}
+\newcommand{\ivoe}{\eks[]{
+		Vis at volumet $ V $ av ei rett kjegle er gitt som
+		\[ V=\frac{1}{3}\pi h r^2 \]
+		hvor $ r $ er radiusen til grunnflata og $ h $ er høgden til kjegla.\\	
+		
+		\sv
+		Vi plasserer kjegla inn i et koordinatsystem med høyden langs $ x $-aksen og spissen plassert i origo. 
+		\begin{figure}[H]
+		\centering
+		\includegraphics[]{\asym{kjegle}}
+		\end{figure}
+		Radiusen $ r_t(x) $ kan beskrives som en rett linje med stigningstall $ \frac{r}{h} $: 
+		\[ r_t(x) = \frac{r}{h}x \]
+		Arealet $ A(x) $ av tverrsnittet blir da
+		\alg{A(x) &= \pi r_t^2 \\
+			&= \pi\left(\frac{r}{h}\right)^2x^2
+		}
+		Altså er volumet av kjegla gitt som
+		\alg{
+			\int\limits_0^h A\, dx &=\int\limits_0^h \pi \left(\frac{r}{h}\right)^2 x^2\, dx  \\
+			&=\pi\frac{r^2}{h^2}\int\limits_0^h x^2\, dx \\
+			&= \pi\frac{r^2}{h^2}\left[\frac{1}{3}x^3\right]_0^h	\\
+			&= \frac{1}{3}\pi h r^2
+		}\vs
+		
+	}}
+\newcommand{\omdr}{\rg[Volum av omdreiningslegemer]{\index{omdreiningslegeme!volumet av}Volumet $ V $ av omdreiningslegemet til $ f(x) $ på intervallet $ [a, b] $ er gitt som
+		\begin{equation}
+		V = \pi\int\limits_a^b f^2\,dx 
+		\end{equation}	\vs
+	}}
+\newcommand{\omdre}{\eks{
+		Gitt funksjonen \[ f(x)=\sqrt{x} \]
+		finn volumet av omdreiningsleget til $ f $ på intervallet $ [1, 3] $. 
+		
+		\sv
+		Volumet vi søker er gitt som
+		\alg{
+			\pi\int\limits_1^3 f^2\,dx &= \pi\int\limits_1^3 \left(\sqrt{x}\right)^2\,dx \\
+			&= \pi\int\limits_1^3 x\,dx \\
+			&= \pi\left[\frac{1}{2}x^2\right]_1^3 \\
+			&= \frac{\pi}{2} \left[9-1\right] \\
+			&= 4\pi
+		}\vds
+	}}
+\newcommand{\bintto}{\rg[Bestemt integral II]{
+		Det bestemte integralet $ I $ av en funksjon $ f(x) $ over intervallet $ [a, b] $ skrives som
+		\nreq{I = \int\limits_{a}^b f(x)\,dx \label{bintint}}\vs
+}}
+\newcommand{\bytb}{\rg[Bytte av variabel for bestemt integral]{
+		Gitt funksjonene $ u(x) $ og $ g(u) $. Da har vi at
+		\begin{equation}
+		\int\limits_a^b g(u) u'\, dx=\int\limits_{u(a)}^{u(b)}  g(u) \, du \label{bytvarb}
+		\end{equation}\vs
+}}
+\newcommand{\iarto}{\rg[Integral som areal II]{
+		Gitt to kontinuerlige funksjoner $ f(x) $ og $ g(x) $ og tre tall $ a $, $ b $ og $ c $ der $ {a<c<b }$. \vsk
+		
+		Hvis $ {f>g} $ for ${x\in [a, b]} $, er arealet $ A $ avgrenset mellom $ f $ og $ g $ på dette intervallet gitt ved
+		\begin{equation}\label{foggintr}
+		A = \int\limits_{a}^{b} (f-g)\,dx
+		\end{equation} 
+		\begin{figure}[H]
+			\centering
+			\includegraphics[]{\asym{foggint}}	
+		\end{figure}
+		Hvis $ {f\geq g} $ for ${x\in [a, c]} $ og $ {g\geq f} $ for ${x\in [c, b]} $, er arealet $ A $ avgrenset mellom $ f $ og $ g $ for ${x\in [a, b]} $ gitt ved
+		\begin{equation}\label{foggintr2}
+		A = \int\limits_{a}^{c} (f-g)\,dx + \int\limits_{c}^{b} (g-f)\,dx
+		\end{equation} 
+		\begin{figure}[H]
+			\centering
+			\includegraphics[]{\asym{foggint2}}	
+		\end{figure}
+}}

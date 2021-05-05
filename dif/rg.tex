@@ -1,0 +1,162 @@
+\newcommand{\fode}{\rg[Første ordens lineære differensialligninger]{
+		Ligninger på formen 
+		\[ y'+f(x)y=g(x)  \]
+		kan løses ved å multiplisere ligningen med \textit{den integrerende faktoren} $ e^{F(x)} $, hvor $ F $ er den antideriverte av $ f $ (uten konstantledd). Man kan da omskrive ligningen til
+		\[ \left(ye^{F(x)}\right)'=g(x)e^{F(x)} \]
+		som kan løses ved integrasjon.
+	}}
+\newcommand{\fodee}{\eks[1]{
+		Gitt differensialligningen
+		\[ y'-2xy=6x \]
+		\textbf{a)} Finn den generelle løsningen av ligningen. \os
+		\textbf{b)} Finn løsningen som oppfyller randbetingelsen $ y(0)=0 $.
+		
+		\sv
+		\textbf{a)} Uttrykket foran $ y $ er lik $ -2x $, den antideriverte blir derfor $ -x^2 $ og den integrerende faktoren blir da $ e^{-x^2} $
+		\alg{
+			(y' -2xy)e^{-x^2}&= 6x e^{-x^2} \\
+			\int (y' -2xy)e^{-x^2} \,dx &= \int 6x e^{-x^2}\, dx \\
+			\int \left(ye^{-x^2}\right)' \,dx &= \int 6x e^{-x^2}\, dx \\
+			ye^{-x^2} &= -3 e^{-x^2} +C \\
+			y &= -3  +Ce^{x^2}
+		}
+		\textsl{Merk:} Her er bytte av variabel brukt for å løse integralet på høyresiden i ligningen over. \vsk
+		
+		\textbf{b)} \algv{y(0)&=-3+Ce^{0^2} \\
+		0 &= -3+C \\
+		3 &= C
+	}
+		Løsningen som oppfyller randbetingelsen er altså
+		\[ y=3(e^{x^2}-1) \]\vds
+	}}
+\newcommand{\sep}{\rg[Separable differensialligninger]{Enhver ligning som kan skrives på formen 
+		\begin{equation}\label{sep}
+		{g(y)y' = f(x)} 
+		\end{equation} er en separabel differensialligning. Ligningen kan løses ved å integrere mhp. $ x $ på begge sider:
+		\alg{
+			\int g(y)y' \, dx &= \int f(x) \, dx \\
+			\int g(y) \, dy &= \int f(x) \, dx	
+		}
+		og deretter løse ligningen for $ y $.	
+	}}
+\newcommand{\sepe}{\eks{
+		Finn den generelle løsningen for differensialligningen
+		\[ y' + 8xy=0 \]
+		
+		\sv
+		Vi starter med å separere ligningen:
+		\alg{
+			y' + 8xy &=0 \\
+			\frac{y'}{y}&=-8x
+		}
+		Vi integrerer så på begge sider mhp. $ x $, og løser deretter for $ y $:
+		\alg{\int \frac{y'}{y} \,dx&=\int-8x\, dx \\
+			\int \frac{1}{y}\, dx &= -4x^2 +C\\
+			\ln |y| &= -4x^2 +C \\
+			e^{\ln |y|} &= e^{-4x^2 + C} \\
+			|y| &= e^{-4x^2 + C} \\
+			y &= \pm e^{-4x^2 + C} \\
+			&= \pm e^{-4x^2}e^C\\
+			 &= De^{-4x^2}
+		}
+ \textsl{Merk}: $ {D=\pm e^C} $.
+	}}
+\newcommand{\sode}{\rg[Andre ordens lineære differensialligninger]{
+		En differensialligning på formen
+		\begin{equation}
+		ay'' +by'+cy=0 \label{2ord}
+		\end{equation}
+		har karakteristisk ligning
+		\begin{equation}
+		ar^2 + br + c=0 \label{rlig}
+		\end{equation} 
+		\textbf{To løsninger:}\\
+		Hvis (\ref{rlig}) har to løsninger $ {r=r_1} $ og ${r=r_2} $, har (\ref{2ord}) løsningen
+		\begin{equation}
+		y = Ce^{r_1 x} + De^{r_2 x} \label{tore}
+		\end{equation}
+		
+		\textbf{Én løsning:}\\
+		Hvis (\ref{rlig}) bare har èn løsning ${r= r_1} $, har (\ref{2ord}) løsningen
+		\begin{equation}
+		y = Ce^{r_1x}+xDe^{r_1x} \label{enre}
+		\end{equation}
+		
+		\textbf{Kompleks løsning:}\\
+		Hvis \eqref{rlig}	har kompleks løsning $ {r = p \pm q\mathrm{i}} $, hvor $ {\mathrm{i}=\sqrt{-1}} $, kan den reelle løsningen til \eqref{2ord} skrives som
+		\begin{equation}
+		 y=e^{px}(C\cos (qx) + D \sin (qx)) \label{kompleks}
+		\end{equation}\vds
+	}	
+}
+\newcommand{\sodee}{\eks[1]{
+		Gitt differensialligningen
+		\[ y''+3y'-10y=0  \]
+		\textbf{a)} Finn den generelle løsningen \os
+		\textbf{b)} Finn løsningen som oppyller randbetingelsene $ {y(0)=3 }$ og $ {y'(0)=-1 }$. 
+		
+		\sv
+		\textbf{a)} Den karakteristiske ligningen blir
+		\[ r^2+3r-10=0 \]
+		Siden $ (-2)5=-10 $ og $ (-2)+5=3 $, kan vi skrive
+		\[ r^2+3r-10 = (r-2)(r+5) \]
+		Den karakteristiske ligningen har derfor løsningene $ {r=2} $ og $ {r=-5} $. Den generelle løsningen blir da
+		\[ y = Ce^{2x}+De^{-5x} \]
+		\textbf{b)} Fra den første randbetingelsen har vi at
+		\alg{
+		y(0) &= 3 \\
+		Ce^{2\cdot 0}+ De^{-5\cdot 0} &= 3 \\
+		C + D &= 3 \tag{I}\label{x1}
+		}
+		For å bruke den andre randbetingelsen må vi finne $ y' $:
+		\[ y' = 2Ce^{2x}-5De^{-5x} \]
+		Videre er \vs
+		\alg{
+		y'(0) &= -1 \\
+		2Ce^{2\cdot 0}-5De^{-5\cdot 0} &= -1\\
+		2C-5D &= -1 \tag{II}\label{x2}
+		}
+		Når vi løser ligningssettet dannet av (\ref{x1}) og (\ref{x2}), finner vi at $ {C=2} $ og $ {D=1} $. Løsningen vi søker er altså
+		\[ y = 2e^{2x}+e^{-5x} \]\vds
+	}}
+\newcommand{\sodeeto}{\eks[2]{
+		Finn den generelle løsningen av ligningen
+		\[ 2y''+8y'+8y=0 \] \vs
+		\sv
+		Den karakteristiske ligningen blir
+		\[ 2r^2 + 8r + 8 = 0 \]
+		Videre er
+		\alg{
+			r^2 + 4r + 4&= 0 \\
+			(r+2)^2 &= 0
+		}
+		Altså har vi bare løsningen $ {r=-2} $. Den generelle løsningen av differensialligningen blir derfor
+		\[ y = (C+Dx)e^{-2x} \]
+	}}	
+\newcommand{\sodeetre}{\eks[3]{
+		Finn den generelle løsningen av ligningen
+		\[ y''-4y' + 13y = 0 \] \vs
+		\sv
+		Den karakteristiske ligningen blir
+		\[ r^2-4r+13 = 0 \]
+		Denne ligningen har ingen åpenbart enkel løsning, så her må vi ta i bruk \textit{abc}-formelen:
+		\alg{
+			r &=\frac{ -(-4) \pm \sqrt{(-4)^2-4\cdot1\cdot13}}{2\cdot1} \\
+			r &=\frac{ 4 \pm \sqrt{-36}}{2} \\
+			r &=\frac{ 4 \pm \sqrt{36}\sqrt{-1}}{2} \\
+			r &=\frac{ 4 \pm 6\mathrm{i}}{2} \\
+			r &= 2 \pm 3\mathrm{i}
+		}
+		Her får vi komplekse verdier for $ r $, og dermed følgende generelle løsning:
+		\[ y = e^{2x}(C\cos 3x+D\sin 3x) \]\vds
+	}}
+\newcommand{\fjmas}{\rg[Fjør-masse system uten demping]{For et fjør-masse system uten demping er forflytningen $ y(t) $, relativt til likevektspunktet ${ y=0} $, etter en tid $ t $ gitt ved ligningen
+		\begin{equation}\label{fjormass}
+		my''+ky = 0 
+		\end{equation}
+		hvor $ m>0 $ er massen og $ k>0 $ er en fjørkonstant.
+}}
+\newcommand{\fjmasd}{\rg[Fjør-masse system med demping]{For et fjør-masse system med demping er forflytningen $ y(t) $, relativt til likevektspunktet $ {y=0} $, etter en tid $ t $ gitt ved ligningen
+		\nreq{my''+qy'+ky = 0 \label{fjormassd}}	
+		hvor $ {m>0} $ er masssen, $ {k>0} $ er en fjørkonstant og $ {q>0} $ er et friksjonstall.
+}}

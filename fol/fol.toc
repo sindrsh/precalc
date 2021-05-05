@@ -1,0 +1,14 @@
+\select@language {english}
+\select@language {english}
+\contentsline {chapter}{\numberline {7}F\IeC {\o }lger og rekker}{2}{chapter.7}
+\contentsline {section}{\numberline {7.1}F\IeC {\o }lger}{3}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Aritmetiske f\IeC {\o }lger}{4}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Geometriske f\IeC {\o }lger}{5}{subsection.7.1.2}
+\contentsline {section}{\numberline {7.2}Rekker}{6}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Aritmetiske rekker}{6}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Geometriske rekker}{7}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Uendelige geometrisk rekker}{9}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}Summetegnet}{11}{subsection.7.2.4}
+\contentsline {section}{\numberline {7.3}Induksjon}{11}{section.7.3}
+\contentsline {section}{Forklaringer}{15}{section*.1}
+\contentsline {section}{Oppgaver}{15}{section*.2}

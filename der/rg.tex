@@ -1,0 +1,36 @@
+\newcommand{\dfdx}{\rg[Den deriverte av utvalgte funksjoner av $\bm x $]{
+	 For en konstant $ k $ har vi at
+		\begin{align}
+		&  (x^k)' = k x^{k-1}  \\
+		& (\ln x)'=  \frac{1}{x} \\
+		& (e^x)' =e^{x}  \\
+		& (\sin x)' = \cos x \\
+		& (\cos x)' = -\sin x  \\
+		& (\tan x)' =  \frac{1}{\cos^{2}x} =  1+\tan^{2} x \br
+		&\left(k f(x)\right)' = kf'(x)
+		\end{align}\vds
+	}}
+\newcommand{\kjerne}{\rg[Kjerneregelen ]{
+		For en funksjon $ f(x)=g(u(x)) $ har vi at
+		\begin{equation}\label{kjerne}
+		f' = g'(u)u'
+		\end{equation}\vds
+	}}
+\newcommand{\prreg}{\rg[Produktregelen ved derivasjon]{
+		For funksjonen $ f(x)=u(x)v(x) $ har vi at
+		\nreq{f'=u'v+uv' \label{prreg}}\vds
+	}}
+\newcommand{\divreg}{\rg[Divisjonsregelen ved derivasjon]{
+		Dersom vi har funksjonen $ f(x)=\dfrac{u(x)}{v(x)} $, kan vi finne $ f'(x) $ ved
+		\[ f'=\frac{u'v-uv'}{v^2} \]
+	}}
+\newcommand{\anddert}{\rg[Andrederiverttesten]{
+		Gitt en funksjom $ f(x) $ som er kontinuerlig omkring\footnote{\textit{Kontinuerlig omkring} $ c $ betyr at det for en funksjon $ f(x) $ finnes et åpent intervall $ I $ hvor $ f $ er kontinuerlig og der $ c\in I $.} $ c $. Da har vi at
+		\begin{itemize}
+			\item Hvis $ {f'(c)=0} $ og $ {f''(c)<0} $, er $ f(c) $ et lokalt maksimum.
+			\item Hvis $ {f'(c)=0 }$ og $ {f''(c)>0} $, er $ f(c) $ et lokalt minimum.
+			\item Hvis ${ f'(c)=f''(c)=0 }$, kan man ikke ut ifra denne informasjonen alene si om $ f(c) $ er et lokalt maksimum eller minimum.
+		\end{itemize}	
+		Om én av de to første punktene er oppfylt, er $ c $ et lokalt ekstremalpunkt.\vs
+}}
+\newcommand{\antider}{\rg[Den antideriverte]{Hvis $ F(x) $ er en deriverbar funksjon og $ {F'(x)=f(x) }$, da er $ F $ en antiderivert av $ f $.}}

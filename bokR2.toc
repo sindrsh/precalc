@@ -1,0 +1,116 @@
+\babel@toc {english}{}
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}F\IeC {\o }lger og rekker}{9}{chapter.1}
+\contentsline {section}{\numberline {1.1}F\IeC {\o }lger}{10}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Aritmetiske f\IeC {\o }lger}{11}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Geometriske f\IeC {\o }lger}{12}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}Rekker}{13}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Aritmetiske rekker}{14}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Geometriske rekker}{15}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Uendelige geometrisk rekker}{16}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Summetegnet}{18}{subsection.1.2.4}
+\contentsline {section}{\numberline {1.3}Induksjon}{19}{section.1.3}
+\contentsline {section}{Forklaringer}{24}{section*.1}
+\contentsline {section}{Oppgaver}{26}{section*.2}
+\contentsline {chapter}{\numberline {2}Trigonometri}{31}{chapter.2}
+\contentsline {section}{\numberline {2.1}Vinkler og enhetssirkelen}{32}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Vinkel og vinkelm\IeC {\r a}l}{32}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Enhetssirkelen som tallinje}{34}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Trigonometriske uttrykk}{35}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Sinus, cosinus og tangens til $ x $}{35}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Arcuscosinus, arcusinus og arcustangens}{37}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Eksaktverdier }{39}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Trigonometriske identiteter}{40}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Sinus og cosinus kombinert }{42}{subsection.2.2.5}
+\contentsline {section}{\numberline {2.3}Line\IeC {\ae }re ligninger }{43}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Cosinus-ligninger}{43}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Sinusligninger}{45}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Tangensligninger}{47}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}$ a\qopname \relax o{sin}(kx) + b\qopname \relax o{cos}(kx) =0 $}{48}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}$ a\qopname \relax o{sin}(kx) + b\qopname \relax o{cos}(kx) =d $}{50}{subsection.2.3.5}
+\contentsline {section}{\numberline {2.4}Kvadratiske ligninger}{51}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}L\IeC {\o }sning ved abc-formelen}{51}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Kvadrater av sinus og cosinus kombinert}{53}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Trigonometriske funksjoner }{54}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Cosinusfunksjoner}{54}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Sinusfunksjoner}{60}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Tangensfunksjoner}{62}{subsection.2.5.3}
+\contentsline {section}{Forklaringer}{63}{section*.4}
+\contentsline {section}{Oppgaver}{68}{section*.5}
+\contentsline {chapter}{\numberline {3}Vektorer i rommet}{75}{chapter.3}
+\contentsline {section}{\numberline {3.1}Vektorbegrepet}{76}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Vektoren mellom to punkt}{77}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Regneregler for vektorer}{78}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Lengden av en vektor}{80}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Skalarproduktet}{81}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}F\IeC {\o }rste definisjon}{81}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Andre definisjon}{82}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Regneregler}{84}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Vinkelrette og parallelle vektorer}{85}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Vinkelrette vektorer}{85}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Parallelle vektorer}{86}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Determinanter}{88}{section.3.4}
+\contentsline {section}{\numberline {3.5}Vektorproduktet}{91}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Definisjon}{91}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Vektorprodukt som areal og volum}{92}{subsection.3.5.2}
+\contentsline {section}{Forklaringer}{94}{section*.10}
+\contentsline {section}{Oppgaver}{100}{section*.12}
+\contentsline {chapter}{\numberline {4}Romgeometrier}{105}{chapter.4}
+\contentsline {section}{\numberline {4.1}Parameteriseringer}{106}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Linje i rommet}{106}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Plan i rommet}{108}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Ligninger til geometrier}{111}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Ligningen til et plan}{111}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Linja mellom to plan}{114}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Kuleligningen}{116}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Avstander mellom geometrier}{119}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Avstand mellom punkt og linje}{119}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Avstand mellom punkt og plan}{121}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Vinkler mellom geometrier}{122}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Vinkelen mellom to linjer }{122}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Vinkelen mellom to plan}{124}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Vinkelen mellom plan og linje}{125}{subsection.4.4.3}
+\contentsline {section}{Forklaringer}{126}{section*.21}
+\contentsline {section}{Oppgaver}{128}{section*.22}
+\contentsline {chapter}{\numberline {5}Derivasjon}{133}{chapter.5}
+\contentsline {section}{\numberline {5.1}Derivasjonsregler}{134}{section.5.1}
+\contentsline {section}{\numberline {5.2}Andrederiverttesten}{137}{section.5.2}
+\contentsline {section}{\numberline {5.3}Den antideriverte}{139}{section.5.3}
+\contentsline {section}{Forklaringer}{141}{section*.26}
+\contentsline {section}{Oppgaver}{143}{section*.33}
+\contentsline {chapter}{\numberline {6}Integrasjon }{145}{chapter.6}
+\contentsline {section}{\numberline {6.1}Bestemt og ubestemt integral}{146}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Bestemt integral }{146}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Analysens fundamentalteorem }{149}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Ubestemte integral}{150}{subsection.6.1.3}
+\contentsline {section}{\numberline {6.2}Integralregning}{152}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Integralet av utvalge funksjoner }{152}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Bytte av variabel}{155}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Delvis integrasjon}{158}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Delbr\IeC {\o }ksoppspaltning}{161}{subsection.6.2.4}
+\contentsline {section}{\numberline {6.3}Areal og volum}{165}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Avgrenset areal}{165}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Volumet av en figur}{169}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Volum av omdreiningslegemer}{171}{subsection.6.3.3}
+\contentsline {section}{Forklaringer}{173}{section*.35}
+\contentsline {section}{Oppgaver}{179}{section*.36}
+\contentsline {chapter}{\numberline {7}Differensialligninger}{183}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduksjon til differensialligninger}{184}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}F\IeC {\o }rste ordens ligninger}{184}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Andre ordens ligninger}{185}{subsection.7.1.2}
+\contentsline {section}{\numberline {7.2}F\IeC {\o }rste ordens line\IeC {\ae }re differensialligninger}{185}{section.7.2}
+\contentsline {section}{\numberline {7.3}Separable differensialligninger}{188}{section.7.3}
+\contentsline {section}{\numberline {7.4}Retningsdiagram}{190}{section.7.4}
+\contentsline {section}{\numberline {7.5}Andre ordens line\IeC {\ae }re differensialligninger}{193}{section.7.5}
+\contentsline {section}{\numberline {7.6}Anvendelser}{197}{section.7.6}
+\contentsline {subsection}{\numberline {7.6.1}$ y '$ proporsjonal med $ y $}{197}{subsection.7.6.1}
+\contentsline {subsection}{\numberline {7.6.2}Populasjonsmodeller}{199}{subsection.7.6.2}
+\contentsline {subsection}{\numberline {7.6.3}Fj\IeC {\o }r-masse-system uten demping}{201}{subsection.7.6.3}
+\contentsline {subsection}{\numberline {7.6.4}Fj\IeC {\o }r-masse system med demping}{204}{subsection.7.6.4}
+\contentsline {section}{Forklaringer}{206}{section*.44}
+\contentsline {section}{Oppgaver}{209}{section*.48}
+\contentsline {chapter}{Vedlegg A-E}{213}{chapter*.51}
+\vspace {-5pt}
+\contentsline {chapter}{Indeks}{225}{chapter*.64}
+\vspace {-5pt}
+\contentsline {chapter}{Fasit}{227}{chapter*.66}

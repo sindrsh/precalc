@@ -1,0 +1,144 @@
+\documentclass[english, 11 pt]{report}
+%\input{/home/sindre/akademiet/R/preamb}
+%\input{/Users/sindre/Desktop/akademiet/R/preamb}
+%\input{/Volumes/TR2/R/preamb}
+\input{/media/sindre/TR2/R/preamb}
+
+\begin{document}
+\subsection{4.63}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{fig0}
+\end{figure}
+
+Vi starter med å tenge parallellepidet. Det ene vi har fått vite er at: \[ AB=3 \]
+I et parallellepidet er alle motstående sider paralelle og like lange. Derfor er: \[ AE=CG=5 \text{ og } AD=BC=3 \] 
+
+Husk videre at en vektor har en retning og en lengde, men kan befinne seg overalt. Ut ifra figuren ser man for eksemel at $ \overrightarrow{AE}=\overrightarrow{CG},\,\overrightarrow{BC}=\overrightarrow{AD}\text{ osv}  $. La oss definere:
+\begin{align*}
+\overrightarrow{CG} &= \vec{k} \\
+\overrightarrow{AB} &= \vec{a} \\
+\overrightarrow{BC} &= \vec{b}
+\end{align*}
+
+Vi kan da skrive: 
+\begin{align*}
+\angle BAD &= \angle(\vec a, \vec b) = 90^{\mathrm{o}} \\
+\angle BAE &= \angle(\vec a, \vec k) = 60^{\mathrm{o}} \\
+\angle DAE &= \angle(\vec b, \vec k) = 60^{\mathrm{o}} \\
+\end{align*}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{fig1}
+\end{figure}
+
+\textbf{a)} I tillegg til de vi allerede har definert, kaller vi vektoren mellom \textit{A} og \textit{C} for $ \vec c $. Vinkelen utspent av $ \vec a $ og $ \vec c $ kaller vi for \textit{u}. \\
+
+Ut ifra figuren kan vi finne at:
+\begin{equation}
+\vec c=\vec a + \vec b \label{vek1}
+\end{equation}
+
+Lengden til $ \vec c $ er gitt som $ \sqrt{\vec {c}^{\;2}} $. Vi starter med å regne ut uttrykket inni rottegnet:
+\begin{align*}
+	\vec {c}^{\;2} &= (\vec a + \vec b)^2 \\
+	 &= \vec {a}^{\;2} +2\vec a \cdot \vec b + \vec {b}^{\;2}
+\end{align*}
+Siden vinkelen utspent av $ \vec a $ og $ \vec b $ er $ 90^\mathrm{o} $, så er $ \vec a \cdot \vec b=0 $. Videre vet vi at $ \lvert \vec a \rvert =3$ og at $ \lvert \vec b \rvert =4$. Generelt har vi for alle vektorer $ \vec{v} $ at $ \vec{v}^{\,2}=|\vec v|^2 $. Vi får dermed:
+\begin{align*}
+\vec {c}^{\;2} &= 3^2+4^2 \\
+|\vec c\,|^2 &=25 \\
+|\vec c\,| &= 5 
+\end{align*}
+
+Ut ifra definisjonen av skalarproduktet av to vektorer vet vi at:
+\[ \vec{a}\cdot \vec c = \lvert \vec a \rvert \lvert \vec c\, \rvert \cos u \] 
+Igjen setter vi inn uttrykket fra (\ref{vek1}):
+\begin{align*}
+\vec a \cdot \vec c &=\lvert \vec a \rvert \lvert \vec c \rvert \cos u \\
+\vec a \cdot (\vec a + \vec b)  &= 3 \cdot 5 \cos u \\
+\vec{a}^{\,2} + \vec a \cdot \vec b & =  15 \cos u \\
+3^2 &= 15 \cos u \\
+\frac{9}{15} &=\cos u
+\end{align*}
+
+Over har vi nok en gang utnyttet at $ \vec a \cdot \vec b = 0 $. \\
+
+Når vi søker vinkelen til en vektor, bruker vi bare vinkler i intervallet $ v \in [0,180^\mathrm{o}] $. Dermed blir :
+\[u  = \cos^{-1} \left(\frac{9}{15}\right) \approx 51.1^\mathrm{o}  \] \\
+
+\textbf{b)} 
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{fig2}
+\end{figure}
+Vi observerer at:
+\begin{equation}
+\vec{m} = \vec{a} + \vec b + \vec k \label{vek2}
+\end{equation}
+
+\begin{align*}
+\vec{m}^{\,2} &= \left(\vec{a} + \vec b + \vec k\right)^2  \\
+&= \vec{a}^{\,2} + \vec{b}^{\,2} + \vec{k}^{\,2} + 2\left( \vec a \cdot \vec b+ \vec a \cdot\vec k +\vec k \cdot \vec b  \right) \\
+&= 3^2 + 4^2 + 5^2+ 2 \left(|\vec a| |\vec k| \cos 60 +|\vec k| |\vec b| \cos 60\right)  \\
+& = 50 + 2 \left(3\cdot 5 \cdot \frac{1}{2} + 4\cdot 5 \cdot \frac{1}{2}\right) \\
+& = 85
+\end{align*}
+Altså er $ |\vec m|=\sqrt{85} $. \\
+
+\textbf{c)}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{fig4}
+\end{figure}
+Av definisjonen for skalarproduktet skal vi ha at:
+\[ \vec c \cdot \vec m = |\vec c| \cdot |\vec m| \cos \beta \]
+
+Vi erstatter så $ \vec m $ med uttrykket fra ligning (2):
+\begin{align*}
+\vec c \cdot \vec m &= |\vec c| \cdot |\vec m| \cos \beta \\
+\left(\vec a + \vec b + \vec k\right)\cdot \left(\vec a + \vec b\right) &= 5 \sqrt{85} \cos \beta \\
+\vec{a}^{\,2}+ \vec a \cdot \vec k + \vec{b}^{\,2} + \vec b \cdot \vec k &= 5 \sqrt{85} \cos \beta \\
+3^2 + 7.5 + 4^2 + 10 &= 5 \sqrt{85} \cos \beta \\
+\frac{8.5}{\sqrt{85}} = \cos \beta
+\end{align*}
+\begin{align*}
+\beta & = \cos^{-1}\left(\frac{8.5}{\sqrt{85}}\right) \\
+ & \approx 22.8^{\mathrm{o}}
+\end{align*} \\
+
+\textbf{d)}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{fig3}
+\end{figure}
+
+Når vi står i punkt \textit{C} kan vi komme til punkt \textit{E} ved å gå følgende rute:
+\begin{equation}
+\overrightarrow{CE}= \vec{i}= -\vec a -\vec b + \vec k \label{vek3}
+\end{equation}
+For å komme fra punkt \textit{C} til punkt \textit{M} kan man gå denne ruten:
+\begin{align*}
+\overrightarrow{CM} &= -\vec a -\vec b + \frac{1}{2} \vec m \\
+& = -\vec a -\vec b + \frac{1}{2} \left(\vec a \vec b + \vec k\right) \\
+&= - \frac{1}{2} \vec a - \frac{1}{2} \vec b + \frac{1}{2} \vec a \\
+& = \frac{1}{2}\, \vec{i}
+\end{align*}
+
+Og dermed har vi vist at \textit{M} ligger på linja til \textit{CE}. \\
+
+\textbf{e)} Vi krever at: 
+\[  \vec i \cdot \vec m=0 \]
+Ligningen over omskriver vi ved hjelp av ligning (\ref{vek2}) og (\ref{vek2}):
+\begin{align*}
+\overrightarrow{i}\cdot \vec m &= \left(-\vec a -\vec b + \vec k\right)\cdot   \left(\vec{a} + \vec b + \vec k\right) \\
+&= -\vec{a}^{\,2} -\vec{b}^{\,2} +\vec{k}^{\,2} \\
+& = -3^2-4^2 + 5^2 \\
+& = 0
+\end{align*}
+
+Og dermed er kravet oppfylt.
+\end{document}

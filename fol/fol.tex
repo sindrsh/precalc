@@ -1,0 +1,349 @@
+\input{../doc}
+\input{../preamb}
+
+\begin{document}
+	
+\subimport{}{rg}
+\eqlen
+%\the\abovedisplayskip \\ 
+%\the\abovedisplayshortskip \\
+%\the\belowdisplayshortskip
+
+%\setcounter{chapter}{1}
+%\tableofcontents
+%\chapter{Følger og rekker}
+\vspace{\parskip}
+\textbf{Mål for opplæringen:}
+\begin{itemize}
+	\item finne og analysere rekursive og eksplisitte formler for tallmønstre med og uten digitale hjelpemidler, og gjennomføre og presentere enkle bevis knyttet til disse formlene
+	\item gjennomføre og gjøre rede for induksjonsbevis
+	\item summere endelige rekker med og uten digitale hjelpemidler, utlede og bruke formlene for summen av de $ n $ første leddene i aritmetiske og geometriske rekker, og bruke dette til å løse praktiske problemer
+	\item regne med uendelige geometriske rekker med konstante og variable kvotienter, bestemme konvergensområdet for disse rekkene og presentere resultatene
+\end{itemize}
+
+
+\newpage
+
+\section{Følger}\index{følge}
+Følger er en oppramsing av tall, gjerne skilt med komma. I følgen 
+\begin{equation}
+2, 4, 8, 16  \label{folg}
+\end{equation}
+sier vi at vi har fire \textit{ledd}\index{ledd}. Ledd nr.\,1 har verdien\index{verdi} 2, ledd nr.\,2 har verdien 4 osv. Hvert ledd i en rekke beskrives gjerne ved hjelp av en indeksert bokstav. Velger vi oss bokstaven $ a $ for følgen over, kan vi skrive $ {a_1 =2} $, $ {a_2=4} $ osv.\vsk
+
+Når vi lar $ a_i $ betegne leddene i en følge, bruker vi $ {i\in \mathbb{N}}$. $ \mathbb{N} $ er symbolet for tallene i følgen $ 1, 2, 3, 4$ osv, disse kaller vi gjerne \textit{de naturlige tallene}. Ønsker vi å fortelle at et tall er i en følge vi ikke har noe symbol for, bruker vi klammeparanteser '\{\}'. For eksempel er $ 8\in\lbrace2, 4, 8, 16\rbrace $. \vsk
+
+Ofte kan tallene i en følge settes i sammenheng med hverandre. Multipliserer vi for eksempel et ledd i følgen fra \eqref{folg} med $ 2 $, så har vi funnet det neste leddet. Den \textit{rekursive} formelen\index{rekursiv formel} er da
+\[ a_i = 2\cdot a_{i-1} \]
+I den rekursive formelen bruker vi altså den forrige verdien for å finne den neste. \vsk
+
+Den nevnte følgen er en \textit{endelig}\index{følge!endelig} følge fordi den har et konkret antall ledd. Hadde vi brukt den rekursive formelen kunne vi lagt på stadig flere ledd og fått følgen
+\begin{equation}
+ 2, 4, 8, 16, 32, 64, ...  \label{folg1}
+\end{equation}
+'$ ... $' betyr at nye ledd fortsetter i det uendelige, følgen kalles da en \textit{uendelig}\index{følge!uendelig} følge. \vsk
+
+Hva om vi for denne følgen ønsker å finne ledd nr. 20, altså $ a_{20} $? Det vil da lønne seg å finne en \textit{eksplisitt} formel. For å gjøre dette skriver vi opp noen ledd og ser om vi finner et mønster: 
+\alg{
+& a_1 = 2 = 2^1 \\
+& a_2 = 4 = 2^2 \\
+& a_3 = 8 = 2^3
+}
+Av ligningene over innser vi at vi for ledd nr.\,$ i $ kan skrive
+\[ a_i=2^i \] 
+Og slik kan vi fort finne ledd nr.\,20:
+\alg{
+a_{20}&=2^{20} \\
+&= 1048576
+}
+En eksplisitt formel gir oss altså et uttrykk der verdien til et ledd regnes ut direkte. Når man har et slikt uttrykk er det også vanlig å skrive dette som siste ledd i rekka, \eqref{folg1} blir da seende slik ut:
+%\footnote{Det er helt vilkårlig hvilken bokstav vi bruker i det eksplisitte uttrykket, i denne boka skal vi som regel bruke $ n $ om det siste leddet i en følge/rekke.}:
+\[  2, 4, 8, 16, 32, 64, ..., 2^i \]
+\tssec{Aritmetiske følger} \index{følge!aritmetisk}
+
+Følgen 
+\[ 2, 5, 8, 11, 14, 17 \]
+kalles en aritmetisk følge. Dette fordi to naboledd har en konstant differanse $ {d=3} $. Skriver vi opp de tre første leddene kan vi finne mønsteret til en eksplisitt formel\index{eksplisitt formel}:
+\alg{
+& a_1 = 2 = 2+3\cdot0\\
+& a_2 = 5 = 2+3\cdot1\\
+& a_3 = 8 = 2 +3\cdot2
+}
+Av ligningene over observerer vi at
+\[ a_i=2+3\cdot(i-1) \]
+\ari\newpage
+\arie
+\tssec{Geometriske følger} \index{følge!geometrisk}
+Følgen 
+\[ 2, 6, 18, 54, 162 \]
+kalles en geometrisk følge. Dette fordi forholdet mellom to naboledd er den samme \textit{kvotienten}\index{kvotient} $ {k=3} $. Også her kan vi gjenkjenne et fast mønster:
+\algv{
+	& a_1 = 2 = 2\cdot3^0\\
+	& a_2 = 6 = 2\cdot3^1\\
+	& a_3 = 18 = 2\cdot3^2
+}
+Den eksplisitte formelen blir derfor
+\[ a_i = 2\cdot3^{i-1} \]
+\geo
+\eks{En geometrisk følge har $ {a_1 = 2} $ og $ {k=4} $. For hvilken $ i $ er $ {a_i=128 }$? \\
+
+\sv
+Vi får ligningen
+\algv{
+2\cdot4^{i-1}&=128 \\
+4^{i-1}&= 64 \\
+4^{i-1} &= 4^3 \\
+ i-1 &= 3\\
+ i &= 4
+}
+Altså er ${ a_4=128} $.
+}
+\section{Rekker}\index{rekke}
+Den store forskjellen på en rekke og en følge, er at i en rekke er leddene skilt med plusstegn\footnote{Rekka ${ -1-2-3}$ ser ut til å være skilt med minustegn, men er egentlig bare en forkorting av $ {(-1)+(-2)+(-3)} $.}. 
+For eksempel er
+\[ 2+6+18+54+162 \]
+en rekke. Vi bruker begrepet ledd på samme måte som for en følge; i rekken over har ledd nr. 3 verdien 18, og i alt er det fem ledd.\vsk
+
+For en rekke er det naturlig at vi ikke bare ønsker å vite verdien til hvert enkelt ledd, men også hva summen av alle leddene blir. Så lenge en rekke ikke er uendelig, kan man alltids legge sammen ledd for ledd, men for noen rekker finnes det uttrykk som gir oss summen etter mye mindre arbeid (og til og med for tilfeller av uendelige rekker).
+\newpage
+\tssec{Aritmetiske rekker} \index{rekke!aritmetisk}
+Hvis leddene i en rekke kan beskrives som en aritmetisk følge, kalles rekken en \textit{aritmetisk rekke}. Da kan summen uttrykkes ved rekkens første og siste ledd: \regv
+\sar
+\sare
+\tssec{Geometriske rekker} \index{rekke!geometrisk}
+Hvis leddene i en rekke kan beskrives som en geometrisk følge, kalles rekken en \textit{geometrisk rekke}. Da kan summen uttrykkes ved rekkens første ledd og kvotienten:\regv
+\sge
+\eks{
+Gitt den uendelige rekken
+\[ 3+6+12+24+... \]	
+\textbf{a)} Finn summen av de 15 første leddene.\os
+
+\textbf{b)} For hvor mange ledd er summen av rekken lik 93? 
+
+\sv
+\textbf{a)} Vi observerer at dette er en geometrisk rekke med $ {a_1=3} $ og $ {k=2} $. Summen av de 15 første leddene blir da
+\alg{
+	S_{15}&= 3\cdot\frac{2^{15}-1}{1-2} \br
+	&= 	3\cdot\frac{1-32768}{-1} \br
+	&= 98301
+	}
+\textbf{b)} Vi lar $ n $ være antall ledd, og får at
+\alg{
+3\cdot\frac{1-2^n}{1-2} &= 93 \\
+2^n -1 &= \frac{93}{3} \br
+2^n &= 31+1 \\
+2^n &= 2^5 \\
+n &= 5
+	}\vds
+	}
+\tssec{Uendelige geometrisk rekker}
+Når en geometrisk rekke har uendelig mange ledd, merker vi oss dette:
+
+Hvis $ {|k|<1} $, er
+\alg{
+\lim\limits_{n\to\infty} S_n &=\lim\limits_{n\to\infty} a_1\frac{1-k^n}{1-k}  \\[5pt]
+&= a_1 \frac{1}{1-k}
+}
+Summen av uendelig mange ledd går altså mot en endelig (konkret) verdi! Når dette er et faktum sier vi at rekken \textit{konvergerer}\index{konvergere} og at rekken er konvergent\index{rekke!konvergent}. Hvis derimot $ |k|\geq 1$, går summen mot $ \pm \infty$. Da sier vi at rekken \textit{divergerer}\index{divergere} og at rekken er divergent\index{rekke!divergent}.\regv
+\suge
+\newpage
+\eks{
+Gitt den uendelige rekken 
+\[ 1+\frac{1}{x}+\frac{1}{x^2}+.... \]
+\textbf{a)} For hvilke $ x $ er rekken konvergent? \os
+
+\textbf{b)} Vis at \y{S_\infty=\frac{x}{x-1}} når rekka konvergerer.\os
+
+\textbf{c)} For hvilken $ x $ er summen av rekken lik $ \frac{3}{2} $?\os
+
+\textbf{d)} For hvilken $ x $ er summen av rekken lik $ -1 $?\\
+
+\sv
+\textbf{a)} Dette er en geometrisk rekke med $ {k=\frac{1}{x} }$ og ${ a_1 = 1} $. Rekken er konvergent når $ {|k|<1} $, vi krever derfor at
+\[ |x|>1  \] 
+
+\textbf{b)} Når $ |x|>1 $, har vi at
+\alg{
+S_\infty &= \frac{a_1}{1-k} \\
+&= \frac{1}{1-\frac{1}{x}} \\
+&= \frac{1}{\frac{x-1}{x}} \\
+&= \frac{x}{x-1}
+}
+Som var det vi skulle vise.\vsk
+
+\textbf{c)} Hvis rekken har en endelig sum $ {S_\infty=\frac{3}{2}} $, er
+\alg{
+\frac{x}{x-1}=\frac{3}{2} \\
+2x &= 3(x-1) \\
+x &=3
+}
+Summen av rekken er altså $ \frac{3}{2} $ når $ {x=3} $. \vsk
+
+\textbf{d)} Skal summen bli $ -1 $, må $ x $ oppfylle følgende ligning:
+\alg{
+\frac{x}{x-1}&= -1 \\
+x &= -(x-1) \\
+x &= \frac{1}{2}
+}
+Men $ {x=\frac{1}{2} }$ oppfyller ikke kravet fra oppgave a), rekken er derfor ikke konvergent (den er divergent) for dette valget av $ x $. Altså er det ingen verdier for $ x $ som oppfyller ligningen.
+}
+
+\subsection{Summetegnet}\index{summetegnet}
+Vi skal nå se på et symbol som forenkler skrivemåten av rekker betraktelig. Symbolet blir spesielt viktig i \hrs[kapittel]{Integrasjon}, hvor vi skal studere \textit{integrasjon}.\vsk
+
+Tidligere har vi skrevet rekkene mer eller mindre bent fram. For eksempel har vi sett på rekken
+\[ 2+6+18+54+162 \]
+med den eksplisitte formelen
+\[ a_n = 2\cdot3^{n-1} \]
+Ved hjelp av summetegnet $ \sum $ kan rekken vår komprimeres betratelig. Ved å skrive $ \sum\limits_{i=1}^5 $ indikerer vi at $ i $ er en løpende variabel som starter på 1 og deretter øker med 1 opp til 5. Hvis vi lar den eksplisitte formelen til rekken være uttrykt ved $ i $, kan vi skrive rekken som $ \sum\limits_{i=1}^5 2\cdot3^{i-1} $, underforstått at vi skal sette et plusstegn hver gang $ i $ øker med 1:
+\[ 2+6+18+54+162=\sum\limits_{i=1}^5 2\cdot3^{i-1} \]
+Den uendelige rekken 
+$ 2+6+18+... $ kan vi derimot skrive som
+\[ \sum\limits_{i=1}^\infty 2\cdot3^{i-1} \]
+\newpage
+For summetegnet har vi også noen regneregler verdt å nevne:\regv
+\rg[Regneregler for summetegnet]{
+For to følger $ \lbrace a_i\rbrace $ og $ \lbrace b_i\rbrace $ og en konstant $ c $ har vi at
+\begin{align}
+	\sum_{i=j}^{n} \left(a_i+b_i\right) &= \sum_{i=j}^{n} a_i + \sum_{i=j}^{n} b_i \label{sumreg1}\br
+	\sum_{i=j}^{n} c a_i &= c\sum_{i=j}^{n} a_i \label{sumreg2}
+\end{align}
+hvor $ {j, n \in \mathbb{N}} $ og $ {j<n} $.
+}
+
+\section{Induksjon} \index{induksjon}
+I teoretisk matematikk stilles det strenge krav til bevis av formler. En metode som brukes spesielt for formler med heltall, er \textit{induksjon}. Prinsippet er dette\footnote{Ordene formel og ligning vil bli brukt litt om hverandre. En formel er strengt tatt bare en ligning hvor vi kan finne den ukjente størrelsen direkte ved å sette inn kjente størresler.}:\vsk
+
+\textsl{Si vi har en ligning som er sann for et heltall $ n $. Hvis vi kan vise at ligningen også gjelder om vi adderer heltallet med 1, har vi vist at ligningen gjelder for alle heltall større eller lik} $ n $.\vsk
+
+Det kan være litt vanskelig i starten å få helt grep på induksjonsprinsippet, så la oss gå rett til et eksempel:\vsk
+
+Vi ønsker å vise at summen av de $ n $ første partallene er lik $ n(n+1) $:
+\begin{equation}
+2+4+6+...+2n=n(n+1) \label{induk}
+\end{equation}
+Vi starter med å vise at dette stemmer for $ {n=1} $:
+\alg{2 &= 1\cdot(1+1) \\
+	2&= 2}
+Nå vet vi altså om et heltall, nemlig $ {n=1} $, som formelen stemmer for. Videre antar vi at ligningen er gyldig helt opp til ledd nr. $ k $. Vi ønsker så å sjekke at den gjelder også for neste ledd, altså  når $ n=k+1 $. Summen blir da
+\[ 2+4+6+...+\quad\mathclap{\overbrace{2k}^{\text{ledd nr. }k} \;\;\;\,}+\quad\;\;\;\mathclap{\underbrace{2(k+1)}_{\text{ledd nr. }k+1}}\qquad=(k+1)((k+1)+1) \]
+Men fram til ledd nr. $ k $ er det tatt for gitt at (\ref{induk}) gjelder, dermed får vi at\footnote{Det kan se litt merkelig ut å skrive $ {2+4+6+...+2k }$, og anta at formelen vår gjelder for denne summen. Det virker jo da som at vi antar den gjelder for $ {n=1 }$, $ {n=2 }$ osv. Men dette er bare en litt kunstig skrivemåte som blir brukt for summen fram til ledd nr. $ k $. For etterpå sier vi at vi vet om et tall $ k $ som denne antakelsen er riktig for, nemlig $ {k=1} $, og da har vi jo bare ett ledd før ledd nr. $ {k+1} $. 
+	
+I påfølgende eksempler skal vi for enkelthets skyld la ledd nr. $ k $ være innbakt i symbolet ''$ ... $''. }
+\algv{
+	\underbrace{2+4+6+...+2k}_{k(k+1)}+2(k+1)&=(k+1)((k+1)+1) \\ 
+	k(k+1)+2(k+1)&=(k+1)(k+2)\br
+	(k+1)(k+2)&= (k+1)(k+2)
+	}
+Og nå kommer den briljante konklusjonen: Vi har vist at (\ref{induk}) er sann for ${ n=1 }$. I tillegg har vi vist at hvis ligningen gjelder for et heltall ${n= k} $, gjelder den også for $ {n=k+1} $. På grunn av dette vet vi at (\ref{induk}) gjelder for ${n= 1+1=2} $. Men når vi vet at den gjelder for $ {n=2} $, gelder den også for $ {n=2+1=3} $ og så videre, altså for alle heltall!\regv
+\ind
+\eks[1]{
+Vis ved induksjon at summen av de $ n $ første oddetallene er gitt ved ligningen
+\[ 1+3+5+...+(2n-1) = n^2 \]	
+for alle $ n\in\mathbb{N} $.
+
+\sv
+Vi sjekker at påstanden stemmer for $ {n=1} $:
+\alg{
+	1 &= 1^2 \\
+	1 &= 1
+	}
+Vi tar det for gitt at påstanden gjelder for $ {n=k} $, og sjekker at den stemmer også for $ {n=k+1 }$:
+\alg{
+	\underbrace{1+3+5+...}_{k^2}+(2(k+1)-1) &=(k+1)^2 \\
+	k^2 + 2k+1 &= (k+1)^2 \br
+	(k+1)^2 &= (k+1)^2
+	}
+Dermed er påstanden vist for alle $ n\in\mathbb{N} $.\vsk
+
+\textsl{Merk:} Hvis du har problemer med å faktorisere venstresiden når du utfører induksjon, kan du som reserveløsning skrive ut høyresiden istedenfor, men helst bør du la være. Dett er litt for elegansens skyld (selv ikke matematikk kan fraskrive seg en porsjon forfengelighet), men også fordi sjansen for regnefeil blir mindre.
+	}
+\newpage
+\eks[2]{
+Vis ved induksjon at:
+\[ 1^3 + 2^3 + 3^3 + ... + n^3= \frac{n^2(n+1)^2}{4} \]
+for alle $ n\in\mathbb{N} $. \\
+
+\sv
+Vi starter med å sjekke for $ n=1 $:
+\alg{1 &= \frac{1^2\cdot(1+1)^2}{4} \\
+	1^3&= \frac{2^2}{4} \\
+	1 &= 1}
+Ligningen er altså sann for $ {n=1 }$. Vi antar videre at den også stemmer for $ {n=k} $, og sjekker for $ {n=k+1} $:
+\alg{\underbrace{1^3+2^3+3^3+...}_{\frac{k^2(k+1)^2}{4}}+(k+1)^3 &= \frac{(k+1)^2(k+1+1)^2}{4} \\
+	\frac{k^2(k+1)^2}{4} + (k+1)^3 &= \frac{(k+1)^2(k+2)^2}{4} \\
+	\frac{k^2(k+1)^2+4(k+1)^3}{4} &= \\
+	\frac{(k+1)^2(k^2+4(k+1))}{4} &= \\	
+	\frac{(k+1)^2(k^2+4k+4))}{4} &= \\	
+	\frac{(k+1)^2(k+2)^2}{4} &= \frac{(k+1)^2(k+2)^2}{4}
+}
+Påstanden er dermed vist for alle $ n\in\mathbb{N} $.		
+	}\newpage
+\eks[3]{\label{prodind}
+Vis ved induksjon at:
+\[ 3\cdot9\cdot27\cdot... \cdot 3^n= 3^{\frac{1}{2}n(n+1)}\]\vs
+\sv
+Vi sjekker at påstanden er sann for $ n=1 $:
+\alg{
+3 &= 3^{\frac{1}{2}\cdot1(1+1)} \\
+3 &= 3^1
+}
+Videre antar vi at påsanden stemmer også for $ {n=k}$, og sjekker for $ n=k+1 $:
+\alg{
+ \underbrace{3\cdot9\cdot27\cdot...}_{3^{\frac{1}{2}k(k+1)}} \cdot 3^{k+1} &= 3^{\frac{1}{2}(k+1)(k+1+1)} \\
+3^{\frac{1}{2}k(k+1)}\cdot  3^{k+1} &= 3^{\frac{1}{2}(k+1)(k+2)} \\
+3^{\frac{1}{2}k(k+1)+k+1} &= \\
+3^{\frac{1}{2}k(k+1)+\frac{2}{2}(k+1)} &= \\
+3^{\frac{1}{2}(k+1)(k+2)} &= 3^{\frac{1}{2}(k+1)(k+2)}
+}
+Påstanden er dermed vist for alle $ n\in \mathbb{N} $.
+}
+\newpage
+\tsec{Forklaringer}
+\subsection*{Summen av en aritmetisk rekke}
+Ved å bruke den eksplisitte formelen fra (\ref{ekspl}), kan vi skrive summen av en aritmetisk rekke med $ n $ ledd som
+\begin{equation}
+S_n = a_1 + (a_1+d) + (a_1+ 2d)+...+ (a_1+d(n-1)) \label{a1}
+\end{equation}
+Men leddene i rekken kan også uttrykkes slik:
+\[ a_i= a_n-(n-i)d \]
+for $ 1\leq i\leq n $.
+Og da kan vi skrive summen som (her står siste ledd først, deretter nest siste osv.)
+\begin{equation}
+S_n = a_n + (a_n-d)+(a_n-2d)+...+(a_n-d(n-1)) \label{a2}
+\end{equation}
+Adderer vi (\ref{a1}) og (\ref{a2}), får vi $ 2S_n $ på venstre side. På høyre side blir alle \textit{d}-er kansellert, og vi ender opp med at
+\alg{
+	2S_n &= na_1 + na_n \br
+	S_n&=n\frac{a_1+a_n}{2} 
+	}
+\subsection*{Summen av en geometrisk rekke}
+Summen $ S_n $ av en geometrisk rekke med $ n $ ledd er
+\begin{equation}
+S_n = a_1 + a_1k + a_1k^2+...+a_1 k^{n-2}+a_1 k^{n-1} \label{geo1}
+\end{equation}
+Ganger vi denne summen med $ k $, får vi at
+\begin{equation}
+kS_n = a_1k + a_1k^2 + a_1k^3+...+a_1 k^{n-1}+a_1 k^{n} \label{geo2}
+\end{equation}
+Uttrykket vi søker framkommer når vi trekker (\ref{geo2}) ifra (\ref{geo1}):
+\alg{
+S_n-kS_n &= a_1-a_1k^n \\
+S_n(1-k) &= a_1(1-k^n) \\
+S_n &= a_1\frac{(1-k^n)}{1-k}
+}
+\subsection*{Regneregler for summetegnet}
+Ved å skrive ut summen og omrokkere på rekkefølgen av addisjonene, innser vi at
+\alg{
+\sum_{i=1}^{n} \left(a_i+b_i\right) &= a_1+b_1 + a_2+b_2 + ... + a_n + b_n \\
+&= a_1+a_2+...+a_n + b_1+b_2+...+b_n \\
+&= \sum_{i=1}^{n} a_i + \sum_{i=1}^{n} b_i 
+}
+Ved å skrive ut summen og faktorisere ut $ c $, innser vi også at
+\alg{
+\sum_{i=1}^{n} c a_i &= ca_1 + ca_2 + ...+ ca_n \\
+&= c(a_1+a_2+...+a_n) \\
+&= c\sum_{i=1}^{n} a_i 
+}
+%\subimport{opg/fas/}{los}
+\end{document}

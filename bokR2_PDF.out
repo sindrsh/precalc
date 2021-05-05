@@ -1,0 +1,112 @@
+\BOOKMARK [0][-]{chapter.1}{F\370lger og rekker}{}% 1
+\BOOKMARK [1][-]{section.1.1}{F\370lger}{chapter.1}% 2
+\BOOKMARK [2][-]{subsection.1.1.1}{Aritmetiske f\370lger}{section.1.1}% 3
+\BOOKMARK [2][-]{subsection.1.1.2}{Geometriske f\370lger}{section.1.1}% 4
+\BOOKMARK [1][-]{section.1.2}{Rekker}{chapter.1}% 5
+\BOOKMARK [2][-]{subsection.1.2.1}{Aritmetiske rekker}{section.1.2}% 6
+\BOOKMARK [2][-]{subsection.1.2.2}{Geometriske rekker}{section.1.2}% 7
+\BOOKMARK [2][-]{subsection.1.2.3}{Uendelige geometrisk rekker}{section.1.2}% 8
+\BOOKMARK [2][-]{subsection.1.2.4}{Summetegnet}{section.1.2}% 9
+\BOOKMARK [1][-]{section.1.3}{Induksjon}{chapter.1}% 10
+\BOOKMARK [1][-]{section*.1}{Forklaringer}{chapter.1}% 11
+\BOOKMARK [1][-]{section*.2}{Oppgaver}{chapter.1}% 12
+\BOOKMARK [0][-]{chapter.2}{Trigonometri}{}% 13
+\BOOKMARK [1][-]{section.2.1}{Vinkler og enhetssirkelen}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.1.1}{Vinkel og vinkelm\345l}{section.2.1}% 15
+\BOOKMARK [2][-]{subsection.2.1.2}{Enhetssirkelen som tallinje}{section.2.1}% 16
+\BOOKMARK [1][-]{section.2.2}{Trigonometriske uttrykk}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.1}{Sinus, cosinus og tangens til \040x }{section.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.2}{Arcuscosinus, arcusinus og arcustangens}{section.2.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.3}{Eksaktverdier }{section.2.2}% 20
+\BOOKMARK [2][-]{subsection.2.2.4}{Trigonometriske identiteter}{section.2.2}% 21
+\BOOKMARK [2][-]{subsection.2.2.5}{Sinus og cosinus kombinert }{section.2.2}% 22
+\BOOKMARK [1][-]{section.2.3}{Line\346re ligninger }{chapter.2}% 23
+\BOOKMARK [2][-]{subsection.2.3.1}{Cosinus-ligninger}{section.2.3}% 24
+\BOOKMARK [2][-]{subsection.2.3.2}{Sinusligninger}{section.2.3}% 25
+\BOOKMARK [2][-]{subsection.2.3.3}{Tangensligninger}{section.2.3}% 26
+\BOOKMARK [2][-]{subsection.2.3.4}{ asin\(kx\) + bcos\(kx\) =0 }{section.2.3}% 27
+\BOOKMARK [2][-]{subsection.2.3.5}{ asin\(kx\) + bcos\(kx\) =d }{section.2.3}% 28
+\BOOKMARK [1][-]{section.2.4}{Kvadratiske ligninger}{chapter.2}% 29
+\BOOKMARK [2][-]{subsection.2.4.1}{L\370sning ved abc-formelen}{section.2.4}% 30
+\BOOKMARK [2][-]{subsection.2.4.2}{Kvadrater av sinus og cosinus kombinert}{section.2.4}% 31
+\BOOKMARK [1][-]{section.2.5}{Trigonometriske funksjoner }{chapter.2}% 32
+\BOOKMARK [2][-]{subsection.2.5.1}{Cosinusfunksjoner}{section.2.5}% 33
+\BOOKMARK [2][-]{subsection.2.5.2}{Sinusfunksjoner}{section.2.5}% 34
+\BOOKMARK [2][-]{subsection.2.5.3}{Tangensfunksjoner}{section.2.5}% 35
+\BOOKMARK [1][-]{section*.4}{Forklaringer}{chapter.2}% 36
+\BOOKMARK [1][-]{section*.5}{Oppgaver}{chapter.2}% 37
+\BOOKMARK [0][-]{chapter.3}{Vektorer i rommet}{}% 38
+\BOOKMARK [1][-]{section.3.1}{Vektorbegrepet}{chapter.3}% 39
+\BOOKMARK [2][-]{subsection.3.1.1}{Vektoren mellom to punkt}{section.3.1}% 40
+\BOOKMARK [2][-]{subsection.3.1.2}{Regneregler for vektorer}{section.3.1}% 41
+\BOOKMARK [2][-]{subsection.3.1.3}{Lengden av en vektor}{section.3.1}% 42
+\BOOKMARK [1][-]{section.3.2}{Skalarproduktet}{chapter.3}% 43
+\BOOKMARK [2][-]{subsection.3.2.1}{F\370rste definisjon}{section.3.2}% 44
+\BOOKMARK [2][-]{subsection.3.2.2}{Andre definisjon}{section.3.2}% 45
+\BOOKMARK [2][-]{subsection.3.2.3}{Regneregler}{section.3.2}% 46
+\BOOKMARK [1][-]{section.3.3}{Vinkelrette og parallelle vektorer}{chapter.3}% 47
+\BOOKMARK [2][-]{subsection.3.3.1}{Vinkelrette vektorer}{section.3.3}% 48
+\BOOKMARK [2][-]{subsection.3.3.2}{Parallelle vektorer}{section.3.3}% 49
+\BOOKMARK [1][-]{section.3.4}{Determinanter}{chapter.3}% 50
+\BOOKMARK [1][-]{section.3.5}{Vektorproduktet}{chapter.3}% 51
+\BOOKMARK [2][-]{subsection.3.5.1}{Definisjon}{section.3.5}% 52
+\BOOKMARK [2][-]{subsection.3.5.2}{Vektorprodukt som areal og volum}{section.3.5}% 53
+\BOOKMARK [1][-]{section*.10}{Forklaringer}{chapter.3}% 54
+\BOOKMARK [1][-]{section*.12}{Oppgaver}{chapter.3}% 55
+\BOOKMARK [0][-]{chapter.4}{Romgeometrier}{}% 56
+\BOOKMARK [1][-]{section.4.1}{Parameteriseringer}{chapter.4}% 57
+\BOOKMARK [2][-]{subsection.4.1.1}{Linje i rommet}{section.4.1}% 58
+\BOOKMARK [2][-]{subsection.4.1.2}{Plan i rommet}{section.4.1}% 59
+\BOOKMARK [1][-]{section.4.2}{Ligninger til geometrier}{chapter.4}% 60
+\BOOKMARK [2][-]{subsection.4.2.1}{Ligningen til et plan}{section.4.2}% 61
+\BOOKMARK [2][-]{subsection.4.2.2}{Linja mellom to plan}{section.4.2}% 62
+\BOOKMARK [2][-]{subsection.4.2.3}{Kuleligningen}{section.4.2}% 63
+\BOOKMARK [1][-]{section.4.3}{Avstander mellom geometrier}{chapter.4}% 64
+\BOOKMARK [2][-]{subsection.4.3.1}{Avstand mellom punkt og linje}{section.4.3}% 65
+\BOOKMARK [2][-]{subsection.4.3.2}{Avstand mellom punkt og plan}{section.4.3}% 66
+\BOOKMARK [1][-]{section.4.4}{Vinkler mellom geometrier}{chapter.4}% 67
+\BOOKMARK [2][-]{subsection.4.4.1}{Vinkelen mellom to linjer }{section.4.4}% 68
+\BOOKMARK [2][-]{subsection.4.4.2}{Vinkelen mellom to plan}{section.4.4}% 69
+\BOOKMARK [2][-]{subsection.4.4.3}{Vinkelen mellom plan og linje}{section.4.4}% 70
+\BOOKMARK [1][-]{section*.21}{Forklaringer}{chapter.4}% 71
+\BOOKMARK [1][-]{section*.22}{Oppgaver}{chapter.4}% 72
+\BOOKMARK [0][-]{chapter.5}{Derivasjon}{}% 73
+\BOOKMARK [1][-]{section.5.1}{Derivasjonsregler}{chapter.5}% 74
+\BOOKMARK [1][-]{section.5.2}{Andrederiverttesten}{chapter.5}% 75
+\BOOKMARK [1][-]{section.5.3}{Den antideriverte}{chapter.5}% 76
+\BOOKMARK [1][-]{section*.26}{Forklaringer}{chapter.5}% 77
+\BOOKMARK [1][-]{section*.33}{Oppgaver}{chapter.5}% 78
+\BOOKMARK [0][-]{chapter.6}{Integrasjon }{}% 79
+\BOOKMARK [1][-]{section.6.1}{Bestemt og ubestemt integral}{chapter.6}% 80
+\BOOKMARK [2][-]{subsection.6.1.1}{Bestemt integral }{section.6.1}% 81
+\BOOKMARK [2][-]{subsection.6.1.2}{Analysens fundamentalteorem }{section.6.1}% 82
+\BOOKMARK [2][-]{subsection.6.1.3}{Ubestemte integral}{section.6.1}% 83
+\BOOKMARK [1][-]{section.6.2}{Integralregning}{chapter.6}% 84
+\BOOKMARK [2][-]{subsection.6.2.1}{Integralet av utvalge funksjoner }{section.6.2}% 85
+\BOOKMARK [2][-]{subsection.6.2.2}{Bytte av variabel}{section.6.2}% 86
+\BOOKMARK [2][-]{subsection.6.2.3}{Delvis integrasjon}{section.6.2}% 87
+\BOOKMARK [2][-]{subsection.6.2.4}{Delbr\370ksoppspaltning}{section.6.2}% 88
+\BOOKMARK [1][-]{section.6.3}{Areal og volum}{chapter.6}% 89
+\BOOKMARK [2][-]{subsection.6.3.1}{Avgrenset areal}{section.6.3}% 90
+\BOOKMARK [2][-]{subsection.6.3.2}{Volumet av en figur}{section.6.3}% 91
+\BOOKMARK [2][-]{subsection.6.3.3}{Volum av omdreiningslegemer}{section.6.3}% 92
+\BOOKMARK [1][-]{section*.35}{Forklaringer}{chapter.6}% 93
+\BOOKMARK [1][-]{section*.36}{Oppgaver}{chapter.6}% 94
+\BOOKMARK [0][-]{chapter.7}{Differensialligninger}{}% 95
+\BOOKMARK [1][-]{section.7.1}{Introduksjon til differensialligninger}{chapter.7}% 96
+\BOOKMARK [2][-]{subsection.7.1.1}{F\370rste ordens ligninger}{section.7.1}% 97
+\BOOKMARK [2][-]{subsection.7.1.2}{Andre ordens ligninger}{section.7.1}% 98
+\BOOKMARK [1][-]{section.7.2}{F\370rste ordens line\346re differensialligninger}{chapter.7}% 99
+\BOOKMARK [1][-]{section.7.3}{Separable differensialligninger}{chapter.7}% 100
+\BOOKMARK [1][-]{section.7.4}{Retningsdiagram}{chapter.7}% 101
+\BOOKMARK [1][-]{section.7.5}{Andre ordens line\346re differensialligninger}{chapter.7}% 102
+\BOOKMARK [1][-]{section.7.6}{Anvendelser}{chapter.7}% 103
+\BOOKMARK [2][-]{subsection.7.6.1}{ y ' proporsjonal med \040y }{section.7.6}% 104
+\BOOKMARK [2][-]{subsection.7.6.2}{Populasjonsmodeller}{section.7.6}% 105
+\BOOKMARK [2][-]{subsection.7.6.3}{Fj\370r-masse-system uten demping}{section.7.6}% 106
+\BOOKMARK [2][-]{subsection.7.6.4}{Fj\370r-masse system med demping}{section.7.6}% 107
+\BOOKMARK [1][-]{section*.44}{Forklaringer}{chapter.7}% 108
+\BOOKMARK [1][-]{section*.48}{Oppgaver}{chapter.7}% 109
+\BOOKMARK [0][-]{chapter*.51}{Vedlegg A-H}{}% 110
+\BOOKMARK [0][-]{chapter*.64}{Indeks}{}% 111
+\BOOKMARK [0][-]{chapter*.66}{Fasit}{}% 112

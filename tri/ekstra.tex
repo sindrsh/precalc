@@ -1,0 +1,32 @@
+\input{../doc}
+\input{../preamb}
+
+\begin{document}
+	
+\begin{minipage}{0.5\linewidth}
+	\includegraphics[]{\asym{unitcirc}}
+\end{minipage}
+\begin{minipage}{0.5\linewidth}
+\renewcommand{\arraystretch}{1.5}	
+\begin{tabular}{l|c|c|c|c|c}
+	& 0&$\frac{\pi}{6}$ & $\frac{\pi}{4}$ &$\frac{\pi}{3}$ & $\frac{\pi}{2}$    \\
+	\hline
+	$\sin x$ & 0 &$\frac{1}{2}$ & $\frac{\sqrt{2}}{2}$ & $\frac{\sqrt{3}}{2}$ & 1 \\
+	$\cos x$ & 1 & $\frac{\sqrt{3}}{2}$ & $\frac{\sqrt{2}}{2}$ & $\frac{1}{2}$ & 0 \\
+	$\tan x$ & 0 &$\frac{1}{\sqrt{3}}$ & $1$ & $\sqrt{3}$ & $ \infty  $
+\end{tabular}
+\end{minipage} \vsk
+\eks[1]{
+Løs likningen 
+\[ \cos x = -\frac{\sqrt{3}}{2} \]
+\sv
+
+Av tabellen ser vi at $ {\cos \frac{\pi}{6}=\frac{\sqrt{3}}{2}} $. Av figuren ser vi at $ \frac{5\pi}{6} $ er $ \frac{\pi}{6} $ speilet gjennom vertikalaksen. Altså har cosinusverdien til $ \frac{\pi}{6} $ og $ \frac{5\pi}{6} $ samme tallverdi, men motsatt fortegn. Dermed er $ \frac{5\pi}{6} $ en løsning av likningen. Av figuren ser vi at $ -\frac{5\pi}{6} $ er $ \frac{5\pi}{6} $ speilet gjennom horisontalaksen. Følgelig er ogå $ -\frac{5\pi}{6} $ en løsning. Så legger vi merke til at om vi starter på $ \frac{5\pi}{6} $, og går en hel runde rundt sirkelen, så kommer vi til et tall med samme cosinusverdi som $ \frac{5\pi}{6} $. Det samme gjelder for $ -\frac{5\pi}{6} $.
+Altså er
+\[ x=\frac{5\pi}{6}+2\pi n\qquad\vee\qquad -\frac{5\pi}{6}+2\pi n \]
+hvor $ n\in \mathbb{N} $. Dette kan vi kortere skrive som 
+\[ x=\pm \frac{5\pi}{6}+2\pi n \]
+}
+\end{document}
+
+

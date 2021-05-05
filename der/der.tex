@@ -1,0 +1,252 @@
+\input{../doc}
+\input{../preamb}
+ 
+\begin{document}
+\eqlen	
+%\setcounter{chapter}{4}	
+%\tableofcontents
+%\chapter{Derivasjon og funksjonsdrøfting}
+\textbf{Mål for opplæringen er at eleven skal kunne}
+\subimport{}{rg}
+\begin{itemize}
+	\item derivere sentrale funksjoner og bruke førstederiverte og andrederiverte til å drøfte slike funksjoner
+\end{itemize}
+
+\newpage
+
+
+\begin{comment}
+En funksjon $ f(u(x)) $ er avhengig av funksjonen $ u $, som igjen er avhengig av variabelen $ x $. Dette betyr at $ f $ kan deriveres med hensyn på enten $ u $ eller $ x $. Så lenge $ x $ er den uavhengige variabelen vil $ f'$ fremdeles bety $ f'(x) $, mens $ f'(u) $ altså indikerer $ f $ \textsl{derivert med hensyn på} $ u $.
+\end{comment}
+\section{Derivasjonsregler}
+I tidligere matematikkkurs lærte du å derivere\index{derivasjon} grunnleggende funksjoner og sammensatte funksjoner. Vi skal ta med oss en liten repetisjon av derivasjonsreglene og i tillegg presentere den deriverte av $ \sin x $, $ \cos x $ og $ \tan x $. Men først må vi ha en liten redegjøring for føringen av funksjoner og deres deriverte:\vsk
+
+For en funksjon $ f(x) $ vil $ f'(x) $ betegne $ f $ \textsl{derivert med hensyn på} $ x $. Hvis det på forhånd er etablert at $ f $ er en funksjon av $ x $, vil vi skrive $ f'(x) $ bare som $ f' $. \regv
+\rg[Definisjon av den deriverte]{
+For en deriverbar funksjon $ f(x) $ er den deriverte med hensyn på $ x $ definert som
+\begin{equation}
+f'(x)=\lim\limits_{\Delta x\to 0}\frac{f(x+\Delta x)-f(x)}{\Delta x} \label{defder}
+\end{equation}\vs
+}
+\dfdx
+\kjerne\newpage
+\eks{
+	Finn $ f' $ når  $ f(x)=(x^2+x)^2 $
+	\\
+	
+	\sv 
+	Vi setter $ u(x)=x^2+x$, og får at
+	\begin{align*}
+	& g(u)=u^2 \\
+	& g'(u)=2u \\
+	& u' = 2x + 1
+	\end{align*}
+	Altså blir
+	\algv{
+		f' &= g'(u)u' \\
+		&= 2u(2x+1)\\
+		&= 2(x^2+x)(2x+1) 
+	}\vds
+}
+\prreg
+\eks{Gitt funksjonen $ f(t)=t^2e^t $. Finn $ f'$. \vsk\\
+	
+	\sv
+	Vi setter $ u(t)=t^2 $ og $ v(t)=e^t $, og får at
+	\alg{
+	u'&=2t\\
+	v' &= e^t	
+}
+Videre er da\vs	
+	\alg{f' &= (uv)' \\
+		&= u'v+uv' \\ 
+		&= 2te^t+t^2e^t \\
+		&= te^t(2+t)}\vds
+}
+\rg[Divisjonsregelen ved derivasjon]{
+For funksjonen $ f(x)=\dfrac{u(x)}{v(x)} $ har vi at
+\begin{equation}\label{divreg}
+f'=\frac{u'v-uv'}{v^2}
+\end{equation}\vsb
+}
+\eks{
+	Gitt funskjonen $ f(x)=\frac{x^2}{\sin x} $. Finn $ f' $.
+
+\sv 
+
+Vi setter $ {u(x)=x^2 }$ og $ {v(x)=\sin x} $, og får da at
+\alg{
+u' &= 2x \\
+v' &= \cos x
+}
+Videre er da
+\alg{
+f' &= \left(\frac{u}{v}\right)' \br
+&= \frac{u'v-uv'}{v^2} \br
+&= \frac{(x^2)'\sin x-x^2(\sin x)'}{\sin^2 x} \br
+&= \frac{2x\sin x - x^2\cos x}{\sin^2 x} \br
+&= x\sin^{-2}(2\sin x-x\cos x)
+}
+\textit{Merk}: \eqref{divreg} er bare en utvidelse av \eqref{prreg} kombinert med potensregelen $ \frac{1}{a}=a^{-1} $. Uten å bruke \eqref{divreg} kunne vi derfor løst oppgaven slik\footnote{Minner igjen om at $ \sin^{-1} x$ i denne boka er det samme som $ \frac{1}{\sin x} $, mens uttrykket i andre tekster kan være samsvarende med $ \asin x $.}:\vsk
+
+Vi observerer at
+\[ f(x) = x^2 \sin^{-1} x \]
+Av \eqref{prreg} er da
+\alg{
+f' &=\left(x^2\right)'\sin^{-1} x + x^2\left(\sin^{-1} x\right)' \\
+&= 2x \sin^{-1}x - x^2 \sin^{-2} \cos x \\
+&= x\sin^{-1} x (2 x-x\sin^{-1}\cos x)
+}
+I derivasjonen av $ \sin^{-1} x$ har vi brukt kjerneregelen. Med litt omskriving vil du finne at det endelige svaret er ekvivalent med det vi fikk da vi brukte divisjonsregelen.
+}
+\section{Andrederiverttesten}
+Trolig er du også kjent med å finne maksimum\footnote{Vi minner igjen om at en utfyllende liste over punkt på en graf er å finne i \hrv{pktpgrf}.} og minimum\index{maksimum}\index{minimum}\footnote{Maksimum og minimum blir også kalt \textit{maksimumsverdier} og \textit{minimumsverdier}.} til en funksjon $ f $ ved å studere $ f'$ via et fortegnsskjema, men ofte er \textit{andrederiverttesten}\index{andrederiverttest} mindre tidkrevende:\regv
+\anddert
+\newpage
+\eks[1]{\label{maxmine}
+Gitt funksjonen
+\[ f(x)=x^3-3x^2\quad,\quad x\in[-2, 3] \]
+\textbf{a)} Finn alle lokale maksimum og minimum for $f$.\os
+
+\textbf{b)} Finn maksimal- og minimalverdien til $ f $.
+
+\sv
+\textbf{a)} Vi starter med å finne punktene hvor $ {f'(x)=0 }$:
+\alg{
+	f'(x)&= 0 \\
+	3x^2-6x &= 0 \\
+	3x(x-2) &= 0
+	}
+$ f'(x) $ er altså 0 for ${ x=0}  $ eller $ {x=2 }$. Videre finner vi at
+\[ f''(x)=6x-6 \]
+og at
+\algv{f''(0)&=-6 \\ f''(2)&=6}
+Av andrederiverttesten er da $ {x=0 }$  et lokalt maksimum og ${ x=2} $ et lokalt minimum for $ f $.\vsk
+
+\textbf{b)} $ f $-verdiene for de to lokale ekstremalpunktene vi fant i a) er
+\alg{f(0)&= 0 \\
+	f(2)&=-4
+	}
+Men vi må ikke glemme å sjekke endepunktene til $ f $:
+\alg{
+	f(-2) &= -20 \\
+	f(3) &= 0	
+	}
+Altså er $- 20 $ minimumsverdien til $ f $, mens 0 er maksimumsverdien.
+	}
+\eks[2]{
+Gitt funksjonen 
+\[ f(x)=\cos x \quad,\quad x\in[0, \pi]\]
+Finn lokale maksimum og minimum for $ f $.\\
+
+\sv
+Vi har at
+\algv{
+f'(x)&= -\sin x \br
+f''(x)&= -\cos x}
+Dette betyr at ${ f'=0} $ for $ {x\in\lbrace{0, \pi\rbrace}} $ og at $ f''(\pi)=-f''(0)=1 $.  Men siden ${ x=0} $ og ${ x=\pi} $ er endepunkter for $ f $, er ikke $ f' $ kontinuerlig \textit{omkring} disse verdiene, dermed har $ f $ ingen lokale maksumim eller miniumum. Istedenfor er $ {f(0)=1} $ absolutt maksimum og $ {f(\pi)=-1} $ absolutt minimum.
+}
+\section{Den antideriverte}\index{antiderivert}
+Vi skal nå se på en definisjon som kan virke veldig triviell, men som viser seg å være en viktig brikke når vi i neste kapittel skal studere \textit{integrasjon}. \vsk
+
+La oss starte med å se på funksjonen $ {f(x)=x^2}  $.
+Å derivere $ f $ mhp. $ x $ byr på få problemer:
+\[ f'=2x \]
+Hva nå med den deriverte av $ {g(x)=x^2+1} $? Svaret blir det samme som for $ f'$:
+\[ g'=2x \]
+Allerede nå innser vi at det finnes en haug av funksjoner, rett og slett uendelig mange, som har $ 2x $ som sin deriverte. Tiden er derfor inne for å lage en samlebetegnelse for alle funksjoner med samme deriverte:\regv
+\antider
+\eks{
+	Undersøk om følgende funksjoner er en antiderivert til ${f(x)=2x+e^x } $:
+	\alg{
+		g(x)&=x^2 +e^x  \\[5 pt]
+		h(x)&=x^2 +e^{2x}\\[5 pt]
+		k(x)&=x^2+e^x+4 
+	}\vds
+	
+	\sv
+	Vi finner de deriverte av $ g $, $ h $ og $ k $:
+	\alg{
+		g'(x)&=2x+e^x  \os 
+		h'(x)&=2x+2e^{2x} \os
+		k(x)&=2x+e^x
+	}
+	Siden $ {g'(x)=k'(x)=f(x)} $, mens $ { h'(x)\neq f(x)} $, er bare $ g(x) $ og $ k(x) $ en antiderivert til $ f $.
+}
+\newpage
+\tsec{Forklaringer}
+\subsection*{Derivasjonsregler}
+Vi skal nøye oss med å finne uttrykket for den deriverte av de tre uttrykkene som ikke ble gitt i R1, nemlig $ \cos x, \sin x $ og $ \tan x $.\vsk
+
+{\boldmath $ (\cos x)'=-\sin x $}\bs
+Vi skal her anvende de to ligningene (se \hrv{sinxcosxlim})
+\alg{&\lim\limits_{x\to0} \frac{\sin x}{x}=1 \tag{I} \label{Isinxx}\br
+&\lim\limits_{x\to0} \frac{\cos x-1}{x}=0\tag{II} \label{Icosxx}	
+}
+Per definisjon (se \eqref{defder}) er $ (\cos x)' $ gitt som
+\[ (\cos x)'= \lim\limits_{\Delta x\to 0}\frac{\cos(x+\Delta x)-\cos x}{\Delta x} \]
+Ved (\ref{cu-v}) kan vi skrive
+\alg{
+ \lim\limits_{\Delta x\to 0}\frac{\cos(x+\Delta x)-\cos x}{\Delta x}&=\lim\limits_{\Delta x\to 0} \frac{\cos x \cos (\Delta x)-\sin x\sin(\Delta x)-\cos x}{\Delta x} \\
+ &=\lim\limits_{\Delta x\to 0}\frac{( \cos(\Delta x)-1)\cos x-\sin x\sin(\Delta x)}{\Delta x} \\
+ &= \lim\limits_{\Delta x\to 0}\frac{\cos(\Delta x)-1)}{\Delta x}\cos x- \lim\limits_{\Delta x\to 0} \frac{\sin(\Delta x)}{\Delta x}\sin x \\
+ &= 0-1\cdot\sin x \\
+ &= -\sin x
+}
+Mellom tredje og fjerde linje i likningen over brukte vi (\ref{Isinxx}) og (\ref{Icosxx}). \vsk
+
+{\boldmath $ (\sin x)'=\cos x $}\bs
+Av (\ref{cossomsin}), (\ref{sinsomcos}) og (\ref{-cosxcosx}) har vi at
+\alg{
+\sin x &= \cos\left(x-\frac{\pi}{2}\right) \br
+\sin\left(\frac{\pi}{2}-x\right)&= \cos x
+}
+Bruker vi det faktum at $ (\cos x)'=-\sin x $, i kombinasjon med kjerneregelen, får vi at
+\algv{
+(\sin x)' &= \left(\cos\left(x-\frac{\pi}{2}\right)\right)' \\
+&= -\sin\left(x-\frac{\pi}{2}\right)\cdot 1 \\
+&= \sin\left(\frac{\pi}{2}-x\right) \\
+&= \cos x
+}\vsk
+
+{\boldmath $ (\tan x)'=\frac{1}{\cos^2 x} $}\bs
+Av kjerneregelen og produktregelen ved derivasjon (se (\ref{kjerne} og (\ref{prreg})) er
+\alg{
+	(\tan x)' &= \left(\sin x \cos^{-1} x\right)' \\
+&= \cos x \cos^{-1}x +\sin x\left(\cos^{-1}\right)'\\
+&= 1 +\sin x(-\cos^{-2}x)(-\sin x) \\
+&= 1+\tan^2 x\\
+&= \frac{\cos^2 x+\sin^2 x}{\cos^2 x} \tag{$ \cos^2 x+\sin^2 x=1 $} \\
+&= \frac{1}{\cos^2 x}
+}
+
+\subsection*{Andrederiverttesten}
+Av definisjonen for den deriverte har vi at
+\[ f''(c)=\lim\limits_{\Delta x \to 0}\frac{f'(c+\Delta x)-f'(c)}{\Delta x} \]
+Når $ f'(c)=0$, er
+\[ f''(c)=\frac{f'(c+\Delta x)}{\Delta x} \]
+Når $ f''(c)<0 $, betyr dette at
+\[\lim\limits_{\Delta x \to 0} \frac{f'(c+\Delta x)}{\Delta x}<0 \]
+Altså må $ f'(c+\Delta x) $ være positiv når $ \Delta x $ nærmer seg 0 fra negativ side av tallinjen og negativ når $ \Delta x $ nærmer seg 0 fra positiv side. Dermed skifter $ f' $ fortegn i $ c $, som da må være et maksimalpunkt for $ f $. Tilsvarende må $ c $ være et minimumspunkt for $ f $ hvis $ {f(c)=0} $ og $ {f''(c)<0} $.
+\begin{comment}
+Kommentering av ligninger.
+\begin{flalign}
+& & (a+b)^2&=a^2+2ab+b^2 && \llap{Right justify me!}
+\end{flalign}
+\subsection*{Infleksjonspunkt}
+For å argumentere for at $ f $ går fra konkav/konveks til konveks/konkav i et vendepunkt skal vi bruke følgende teorem:
+
+\textsl{Hvis $ f' $ er økende på et intervall, er $ f $ konveks på dette intervallet. Hvis $ f' $ er synkende på et intervall, er $ f $ konkav på dette intervallet.}
+
+Konkave og konvekse funksjoner er en marginal del av R2-faget, derfor nøyer vi oss med grafen til $ f(x)=\sin x $ og $ f'(x) $ som overbevisning om teoremets gyldighet:
+\begin{figure}
+\centering
+\includegraphics[]{\asym{konk2}}
+\caption{Grafen til $ f(x)=\sin x $ og $ f'(x)=\cos x $. $ f $ er konkav i intervallet til venstre og konveks i intervallet til høyre.}
+\end{figure}
+Siden $ f' $ er voksende når $ f''>0 $ og synkende når $ f''<0 $, følger det direkte av teoremet over at $ f $ går fra konveks til konkav når $ f'' $ går fra positiv til negativ, og fra konkav til konveks når $ f'' $ går fra negativ til positiv. For kontinuerlig funksjoner betyr dette at $ f''=0 $ i et infleksjonspunkt, men legg merke til at $ f''(c)=0 $ ikke nødvendigvis betyr at $ f'' $ skifter fortegn i $ c $.
+
+
+\end{comment}
+\end{document}
+

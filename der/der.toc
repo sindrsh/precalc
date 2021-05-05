@@ -1,0 +1,11 @@
+\select@language {english}
+\select@language {english}
+\contentsline {chapter}{\numberline {5}Derivasjon og funksjonsdr\IeC {\o }fting}{2}{chapter.5}
+\contentsline {section}{\numberline {5.1}Derivasjon}{3}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Derivasjonsregler}{3}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Den antideriverte}{5}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Funksjonsdr\IeC {\o }fting}{6}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Maksimum og minimum}{6}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Konvekse og konkave funksjoner}{8}{subsection.5.2.2}
+\contentsline {section}{Forklaringer}{11}{section*.1}
+\contentsline {section}{Oppgaver}{14}{section*.2}

@@ -1,0 +1,15 @@
+\select@language {english}
+\select@language {english}
+\contentsline {section}{\numberline {0.1}Introduksjon til differensialligninger}{2}{section.0.1}
+\contentsline {subsection}{\numberline {0.1.1}F\IeC {\o }rste ordens ligninger}{2}{subsection.0.1.1}
+\contentsline {subsection}{\numberline {0.1.2}Andre ordens ligninger}{3}{subsection.0.1.2}
+\contentsline {section}{\numberline {0.2}F\IeC {\o }rste ordens line\IeC {\ae }re differensialligninger}{3}{section.0.2}
+\contentsline {section}{\numberline {0.3}Separable differensialligninger}{6}{section.0.3}
+\contentsline {section}{\numberline {0.4}Retningsdiagram}{8}{section.0.4}
+\contentsline {section}{\numberline {0.5}Andre ordens line\IeC {\ae }re differensialligninger}{10}{section.0.5}
+\contentsline {section}{\numberline {0.6}Anvendelser}{14}{section.0.6}
+\contentsline {subsection}{\numberline {0.6.1}$ y '$ proporsjonal med $ y $}{15}{subsection.0.6.1}
+\contentsline {subsection}{\numberline {0.6.2}Populasjonsmodeller}{17}{subsection.0.6.2}
+\contentsline {subsection}{\numberline {0.6.3}Fj\IeC {\o }r-masse-system uten demping}{18}{subsection.0.6.3}
+\contentsline {subsection}{\numberline {0.6.4}Fj\IeC {\o }r-masse system med demping}{21}{subsection.0.6.4}
+\contentsline {section}{Forklaringer}{23}{section*.8}

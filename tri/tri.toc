@@ -1,0 +1,28 @@
+\select@language {english}
+\select@language {english}
+\contentsline {chapter}{\numberline {2}Trigonometri}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Vinkler og enhetssirkelen}{4}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Vinkel og vinkelm\IeC {\r a}l}{4}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Enhetssirkelen som tallinje}{6}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Trigonometriske uttrykk}{7}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Sinus, cosinus og tangens til \relax \mathversion {bold}$x$}{7}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Arcuscosinus, arcusinus og arcustangens}{9}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Eksaktverdier}{10}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Trigonometriske identiteter}{11}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Sinus og cosinus kombinert }{13}{subsection.2.2.5}
+\contentsline {section}{\numberline {2.3}Line\IeC {\ae }re ligninger }{14}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Cosinus-ligninger}{14}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Sinusligninger}{16}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Tangensligninger}{17}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}$ a\qopname \relax o{sin}(kx) + b\qopname \relax o{cos}(kx) =0 $}{19}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}$ a\qopname \relax o{sin}kx + b\qopname \relax o{cos}kc =d $}{20}{subsection.2.3.5}
+\contentsline {section}{\numberline {2.4}Kvadratiske ligninger}{21}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}L\IeC {\o }sning ved abc-formelen}{21}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Kvadrater av sinus og cosinus kombinert}{23}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Trigonometriske funksjoner }{25}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Cosinusfunksjoner}{25}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Sinusfunksjoner}{28}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Tangensfunksjoner}{30}{subsection.2.5.3}
+\contentsline {section}{Forklaringer}{32}{section*.1}
+\contentsline {section}{Oppgaver}{37}{section*.2}
+\contentsline {section}{Kommentar}{51}{section*.3}

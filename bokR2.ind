@@ -1,0 +1,216 @@
+\begin{theindex}
+
+  \item absolutt vinkelm\IeC {\r a}l, 32
+  \item amplitude, 55
+  \item analysens fundamentalteorem, 150
+  \item andrederiverttest, 137
+  \item antiderivert, 139
+  \item arcuscosinus, 37
+  \item arcussinus , 37
+  \item arcustangens , 37
+  \item avstand
+    \subitem fra punkt til linje, 119
+    \subitem fra punkt til plan, 121
+
+  \indexspace
+
+  \item b\IeC {\o }lgelengde, 55
+  \item b\IeC {\o }lgetall, 55
+  \item buelengde, 32
+
+  \indexspace
+
+  \item cosinus, 35
+    \subitem -funksjon, 54
+
+  \indexspace
+
+  \item demping, 204
+  \item derivasjon, 134
+  \item determinant, 88
+  \item differensialligning, 184
+    \subitem andre ordens, 185
+      \subsubitem line\IeC {\ae }r, 193
+    \subitem f\IeC {\o }rste ordens, 184
+      \subsubitem line\IeC {\ae }r, 185
+    \subitem separabel, 188
+  \item divergere, 16
+
+  \indexspace
+
+  \item eksplisitt formel, 11
+  \item eksponentialfunksjon, 207
+  \item ekstremalpunkt, 217
+  \item ekstremalverdi, 217
+  \item enhetssirkelen, 32
+    \subitem som tallinje, 35
+
+  \indexspace
+
+  \item f\IeC {\o }lge, 10
+    \subitem aritmetisk, 11
+    \subitem endelig, 10
+    \subitem geometrisk, 12
+    \subitem uendelig, 10
+  \item fart, 149, 197, 204
+  \item fase, 56
+  \item faseforskyvning, 56
+  \item fj\IeC {\o }r, 201
+    \subitem -konstant, 201
+  \item fj\IeC {\o }r-masse-system
+    \subitem med demping, 204
+    \subitem uten demping, 201
+  \item friksjon, 202
+  \item friksjonstall, 204
+
+  \indexspace
+
+  \item grunnstilling, 76
+
+  \indexspace
+
+  \item halveringstid, 198
+  \item homogen, 193
+  \item Hooks lov, 201
+
+  \indexspace
+
+  \item induksjon, 19
+  \item infinitesimal, 148
+  \item infleksjonspunkt, 218
+  \item initialkrav, 185
+  \item integral
+    \subitem bestemt, 148
+    \subitem som areal, 166
+    \subitem som volum, 169
+    \subitem ubestemt, 150
+  \item integralkurver, 192
+  \item integrand, 161
+  \item integrasjon
+    \subitem bytte av variabel, 155
+    \subitem delbr\IeC {\o }ksoppspaltning, 161
+    \subitem delvis, 158
+
+  \indexspace
+
+  \item karakteristisk ligning, 193
+  \item karbondatering, 198
+  \item kjerne, 37
+  \item klosse, 201
+  \item kompleks
+    \subitem l\IeC {\o }sning, 193, 194
+    \subitem tall, 193
+    \subitem verdi, 207
+  \item komponent, 76
+  \item konstantledd, 55
+  \item konvergere, 16
+  \item kryssprodukt, 91
+  \item kule, 116
+  \item kvadrant, 38
+  \item kvadrert, 51
+  \item kvotient, 12
+
+  \indexspace
+
+  \item Lagranges identitet, 97
+  \item ledd, 10
+  \item likevektslinje, 55
+  \item likevektspunkt, 201
+  \item line\IeC {\ae }rkombinasjon, 206
+  \item line\IeC {\ae }rt uavhengig, 206
+  \item linje, 106
+    \subitem mellom to plan, 114
+  \item luftmotstand, 202
+
+  \indexspace
+
+  \item maksimum, 137, 217
+  \item masse, 201
+  \item minimum, 137, 217
+  \item multiplum, 214
+
+  \indexspace
+
+  \item Newton (enhet), 201
+  \item Newtons andre lov, 202
+  \item normalvektor, 111
+
+  \indexspace
+
+  \item omdreiningslegeme
+    \subitem volumet av, 171
+  \item omdreiningsleme, 171
+  \item ortogonal, 86
+
+  \indexspace
+
+  \item parallellepiped, 93
+  \item parallellogram, 93
+  \item parameterisering
+    \subitem  av linje, 106
+    \subitem av plan, 108
+  \item periode, 55
+  \item plan, 108
+    \subitem ligningen til, 111
+  \item proporsjonal, 197
+  \item pyramide, 93
+
+  \indexspace
+
+  \item randbetingelse, 185
+  \item rekke, 13
+    \subitem aritmetisk, 14
+    \subitem divergent, 16
+    \subitem geometrisk, 15
+    \subitem konvergent, 16
+  \item rekursiv formel, 10
+  \item retning, 76
+  \item retningsdiagram, 191
+  \item retningsvektor
+    \subitem for linje, 106
+    \subitem for plan, 108
+
+  \indexspace
+
+  \item sinus, 35
+    \subitem -funksjon, 60
+  \item skalarprodukt, 81
+  \item summetegnet, 18
+
+  \indexspace
+
+  \item tangens, 37
+    \subitem -funksjon, 62
+  \item tetreaeder, 93
+  \item trekant, 93
+  \item trigonometrisk
+    \subitem identitet, 40
+    \subitem ligning
+      \subsubitem kvadratisk, 51
+      \subsubitem line\IeC {\ae }r, 43
+  \item tyngdekraft, 201
+
+  \indexspace
+
+  \item utspent
+    \subitem geometrisk figur, 92
+    \subitem vinkel, 81
+
+  \indexspace
+
+  \item vektor, 76
+    \subitem lengden av, 80
+    \subitem mellom to punkt, 77
+  \item vektorprodukt, 91
+    \subitem som areal og volum, 92
+  \item vendepunkt, 218
+  \item verdi, 10
+  \item vinkel, 32
+    \subitem -frekvens, 211
+    \subitem m\IeC {\r a}lt i grader, 32
+    \subitem m\IeC {\r a}lt i radianer, 32
+    \subitem mellom linjer, 122
+    \subitem mellom plan, 124
+    \subitem mellom plan og linje, 125
+
+\end{theindex}

@@ -1,0 +1,303 @@
+\newcommand\rad{
+	\rg[Relasjonen mellom grader og radianer]{\vspace{-5 pt}
+		\begin{equation}\label{gradertilrad}
+		1^\circ\ = \frac{\pi}{180}
+		\end{equation}	\vs
+	}	
+}
+\newcommand{\sincos}{\rg[Sinus og cosinus]{
+	La enhetssirkelen være tegnet inn i et koordinatsystem med sentrum i origo, som vist i figuren under. 
+	%\subimport{fig/}{korda}
+	\begin{figure}[H]
+	\centering
+	\includegraphics{\asym{sincos}}
+	\end{figure}
+	La videre $ x $ representere en buelengde vandret i positiv (mot klokka) eller negativ retning fra punktet $ (1, 0) $ til et punkt $ (a_0, b_0) $. Da er\vs
+\begin{align}
+	\cos x &= a_0 \label{sindef}\\
+	\sin x &= b_0\label{cosdef}
+\end{align}\vds
+	}}
+\newcommand{\tang}{\rg[Tangens]{\vs	\vspace{-5pt}
+	\begin{equation}\label{tandef}
+	\tan x = \frac{\sin x}{\cos x} 
+	\end{equation}\vs}}
+\newcommand{\arcus}{\rg[Arcusuttrykkene]{
+		Uttrykket
+		\nreq{\text{atri}\;x = d}
+		hvor tri erstattes med $ \sin, \cos $ eller $ \tan $, betyr at
+		\nreq{\text{tri}\;d=x}
+		\vds
+	}
+}
+\newcommand{\arcuse}{	\eks[]{\vs
+		\algv{
+	\asin \left(\frac{1}{2}\right)&=\frac{\pi}{6}\br
+	\sin\left(\frac{\pi}{6}\right)&= \frac{1}{2}	
+	}	\vs
+	}}
+\newcommand{\trien}{\rg[Trigonometriske identiteter]{ 
+		\vds
+		\begin{align} 
+		\cos (u+v) &=\cos u \cos v - \sin u \sin v \label{cuv} \\
+		\cos (u-v) &=\cos u \cos v + \sin u \sin v \label{cu-v} \\
+		\sin (u+v) &= \sin u \cos v +\cos u \sin v \label{suv} \\
+		\sin (u-v) &= \sin u \cos v - \cos u \sin v \\
+		\cos(-x) &= \cos x \label{-cosxcosx}\\
+		\sin(-x) &= -\sin x \\
+		\cos(x\pm\pi)&=-\cos x \\
+		\sin(x\pm\pi)&=-\sin x \\
+		\sin (2x) &= 2\cos x \sin x \label{sin2x}\\			
+		\cos^2 x + \sin^2 x &= 1 \label{1}\br
+		\cos\left(u-\frac{\pi}{2}\right)&=\sin u \label{cossomsi}\br
+		\sin\left(u+\frac{\pi}{2}\right)&=\cos u \label{sinsomcos}		
+		\end{align}
+		\vs
+		}}
+\newcommand{\triene}{\eks[1]{
+	Bruk de trigonometrisk identitetene til å finne eksaktverdien til $ \cos \left(\frac{\pi}{3}\right) $ og $ \sin \left(\frac{\pi}{3}\right) $ når du vet at $ {\sin\left(\frac{\pi}{6}\right)=\frac{1}{2}} $ og $ {\cos \left(\frac{\pi}{6}\right)=\frac{\sqrt{3}}{2}} $.\\
+		
+	\sv
+	Vi har at
+	\alg{
+	\cos\left(\frac{\pi}{3}\right)&=\cos\left(\frac{\pi}{6}+\frac{\pi}{6}\right) \\[5 pt]
+	&= \cos \left(\frac{\pi}{6}\right)\cos\left(\frac{\pi}{6}\right) - \sin \left(\frac{\pi}{6}\right)\sin\left(\frac{\pi}{6}\right) \\[5 pt]
+	&= \frac{3}{4} -\frac{1}{4} \\[5 pt]
+	&= \frac{1}{2}
+		}
+	og videre at
+	\alg{
+	\sin\left(\frac{\pi}{3}\right)&=\sin\left(\frac{\pi}{6}+\frac{\pi}{6}\right) \br
+	&= \sin \left(\frac{\pi}{6}\right)\cos\left(\frac{\pi}{6}\right) + \cos \left(\frac{\pi}{6}\right)\sin\left(\frac{\pi}{6}\right) \br
+	&= 2\left(\frac{\sqrt{3}}{4}\right) \br
+	&= \frac{\sqrt{3}}{2}
+		}\vs
+	}}
+\newcommand{\kvad}{\rg[Kvadratiske ligninger II]{For å løse ligninger på formen
+	\begin{equation}
+	a \cos^2 (kx) + b \sin^2 (kx) = d 
+	\end{equation}
+utnytter vi at $ {d=d(\cos^2 (kx) + \sin^2 (kx))} $. Vi dividerer så ligningen med $ \cos^2 (kx) $, og løser den resulterende tangensligningen.
+	}}
+\newcommand{\coslig}{\rg[Cosinusligninger ]{
+		Gitt ligningen
+		\begin{equation}
+		\cos x=d \label{cosligorig} 
+		\end{equation}
+		For ${n\in \mathbb{Z}} $ har vi at
+\begin{itemize}
+	\item Hvis ${d\in (-1, 1)}$, har \eqref{cosligorig} løsningene
+	\nreq{x=\pm\acos d+ 2\pi n \label{coslig}}
+	\item Hvis $ {d=1}$, har \eqref{cosligorig} løsningene
+	\nreq{ x=2\pi n \label{coslig1}}
+	\item Hvis $ {d=-1}$, har \eqref{cosligorig}  løsningene
+	\nreq{x=\pi+2\pi n \label{coslig_1}}
+\end{itemize}\vs
+	}
+}
+\newcommand{\coslige}{	\eks[1]{
+		Løs ligningen:
+		\[ 4\cos x = 2\sqrt{3} \] \vs
+		\sv 
+		Vi starter med å isolere cosinusuttrykket:
+		\alg{
+			4\cos x &= 2\sqrt{3} \\
+			\cos x &= \frac{\sqrt{3}}{2}
+		}
+		Siden $ \acos\left(\frac{\sqrt{3}}{2}\right)=\frac{\pi}{6} $, har vi at
+		\[ x =\pm \frac{\pi}{6}+2\pi n \]\vsb
+	}
+	}
+\newcommand{\cosligeto}{\eks[2]{
+		Finn løsningene til ligningen
+		\[ 4\cos \left(\frac{\pi}{6} x-\frac{\pi}{3}\right) = 2\sqrt{3} \qquad,\qquad x\in [-9,4]\] \vs
+		\sv
+		Fra svaret i \textit{Eksempel 1} på forrige side vet vi at kjernen må oppfylle kravet
+		\[ \frac{\pi}{6} x-\frac{\pi}{3} = \pm \frac{\pi}{6}+2\pi n \]
+Vi må altså enten ha at
+		\alg{
+	\frac{\pi}{6} x &= \frac{\pi}{6}+\frac{\pi}{3}+2\pi n \br
+	\frac{\pi}{6} &= \frac{\pi}{2}+2\pi n \br
+	x &= 3+12n
+}
+eller at\vspace{-8 pt}
+		\alg{
+	\frac{\pi}{6} x &= \frac{\pi}{3}-\frac{\pi}{6}+2\pi n \br
+	\frac{\pi}{6} x &= \frac{\pi}{6}+2\pi n \br
+	x &= 1+12n
+}
+På intervallet $ [-9, 4] $ vil ${ x\in \{-9, 1, 3\}}$ oppfylle dette kravet.
+	}}
+\newcommand{\sinlig}{\rg[Sinusligninger]{
+		
+		Gitt ligningen 
+		\begin{equation}
+		\sin x=d\ \label{silig} 
+		\end{equation}
+		For ${n\in \mathbb{Z}} $ har vi at
+		\begin{itemize}
+		\item 	Hvis ${d\in (-1, 1)}$ har \eqref{silig} løsningene
+			\nreq{
+		x=\asin d+ 2\pi n\quad\vee\quad x=\pi-\asin d + 2\pi n \label{sinlig}	
+	}		
+		\item 	Hvis $ {d=1}$ har (\ref{silig}) løsningene
+			\nreq{
+				x=\frac{\pi}{2}+2\pi n	\label{sinlig1}
+			}
+		\item 	Hvis $ {d=-1}$ har (\ref{silig}) løsningene
+			\nreq{
+				x=-\frac{\pi}{2}+2\pi n	\label{sinlig_1}
+			}\vs \vs
+		\end{itemize}
+	}
+}
+\newcommand{\sinlige}{	\eks{
+		Løs ligningen
+		\[ 2 \sin x = \sqrt{2} \]\vs
+		\sv
+		Vi kan skrive
+		\algv{
+			\sin x = \frac{\sqrt{2}}{2}
+		}
+		$ \asin\left(\frac{\sqrt{2}}{2}\right)=\frac{\pi}{4} $, da er $ x $ enten gitt som
+		\[ x = \frac{\pi}{4}+2\pi n \]
+		eller som
+		\algv{
+			x &= \pi-\frac{\pi}{4} + 2\pi n \\
+			&= \frac{3\pi}{4} + 2\pi n
+		}
+	\textsl{Merk}: Det kan være praktisk å bli fortrolig med sinus- og cosinusverdiene til tallene i \fref{enh}. Da vil man direkte se at $ \frac{\pi}{4} $ og $ \frac{3\pi}{4} $ er tall med samme sinusverdi, men at de ligger i hver sin kvadrant. Legges $ 2\pi n$ til hver av dem, har man funnet alle løsninger. Man unngår da å regne ut $ \pi $ minus et tall, dette er tidsbesparende og minsker i tillegg sjansen for regnefeil.
+	}}
+\newcommand{\tanlig}{\rg[Tangensligninger ]{
+		Ligningen \begin{equation}
+		\tan x=d\  \label{tanlig}
+		\end{equation}har løsningene		
+		\nreq{x=\atan d + \pi n \label{tansols}}
+		hvor $ {d\in\mathbb{R}} $ og ${n\in \mathbb{Z}} $.}
+}
+\newcommand{\tanlige}{	\eks{
+		Løs ligningen
+		\[ \sqrt{3}\tan (2x) = 1 \]\vs
+		\sv
+		Vi starter med å isolere tangensuttrykket:
+		\alg{
+			\sqrt{3}\tan (2x) &= 1 \\
+			\tan (2x) &= \frac{1}{\sqrt{3}}	
+		}
+		Siden $ \atan \left(\frac{1}{\sqrt{3}}\right) = \frac{\pi}{6} $, får vi at
+		\alg{
+			2x &= \frac{\pi}{6}+\pi n \br
+			x &= \frac{1}{2}\left(\frac{\pi}{6} + \pi n\right)	
+		}\vs
+	}}	
+\newcommand{\kvaden}{\rg[Kvadratiske ligninger I]{
+		Når vi skal løse ligninger av typen 
+		\begin{equation}
+		 a\,\text{tri}^2\,x+b\,\text{tri}\,x+c = 0 
+		\end{equation}
+		hvor $ a $, $ b $ og $ c $ er konstanter og tri erstattes med sin, cos eller tan, gjør vi følgende:
+		\begin{enumerate}
+			\item løser ligningen mhp. $\text{tri}\, x $
+			\item løser de nye ligningene mhp. $ x $
+		\end{enumerate}\vs
+	}
+	}
+\newcommand{\kvadene}{\eks[1]{
+		Løs ligingen
+		\[ \cos^2 x -3 \cos x - 4=0 \]\vs
+		\sv
+		Vi starter med å løse andregradsligningen mhp. $ \cos x $. Da $ 1(-4)=-4 $ og $ 1-4=-3 $, får vi at (se \hrv{abc})
+		\[ \cos x = -1 \quad \vee \quad \cos x = 4 \]
+		Siden $ {\cos x=4} $ ikke har noen reell løsning, trenger vi bare å løse ligningen $ {\cos x=-1 }$. Vi får da at
+		\[ x = \pi + 2\pi n \]\vds
+	}}
+%Funksjoner		
+\newcommand{\sinf}{\rg[Sinusfunksjonen]{
+		En funksjon $ f(x) $ på formen
+		\begin{equation}\label{sinfunk}
+		f(x)= a \sin (kx+c) + d
+		\end{equation}
+		kalles en sinusfunksjon med amplitude $ |a| $, bølgetall $ k $, fase $ c $ og likevektslinje $ y=d $. \vsk
+		
+		$ c $ er gitt ved ligningen
+		\begin{equation}\label{sinc}
+		k x_1+ c = \frac{\pi}{2}
+		\end{equation}
+		hvor $ x_1 $ er $ x $-verdien til et toppunkt. \vsk
+		
+		Funksjonen har ekstremalpunkter for alle $ x $ der
+		\begin{equation}\label{sinmax}
+		kx +c = \pm \frac{\pi}{2}+2\pi n
+		\end{equation}
+		for alle $ n\in \mathbb{Z} $.
+	}}
+\newcommand{\rel}{\rg[Relasjonene mellom sinus- og cosinusfunksjoner]{
+		\vspace{-11 pt}
+		\begin{align}
+		&\cos \left(kx+c -\frac{\pi}{2}\right)= \sin(kx+c)	\\[5 pt]
+		& \sin\left(kx +c + \frac{\pi}{2}\right)= \cos(kx+c)
+		\end{align}
+	}}
+\newcommand{\komb}{\rg[Sinus og cosinus kombinert ]{
+		Vi kan skrive
+		\begin{equation}\label{rsin}
+		a \cos (kx) +b \sin (kx)= r\sin(kx+c)
+		\end{equation}
+		der $ r=\sqrt{a^2+b^2} $ og hvor
+		\begin{align}
+				\cos c &= \frac{b}{r}\\[5 pt]
+			\sin c &= \frac{a}{r}
+		\end{align}
+		\vs}}	
+\newcommand{\kombe}{	
+	\eks{
+		Skriv om $ \sqrt{3} \sin(\pi x)-\cos(\pi x) $ til et sinusuttrykk. \\
+		
+		\sv
+		Vi starter med å finne $ r $:
+		\begin{align*}
+		r&=\sqrt{\sqrt{3}^{\,2}+(-1)^2}  \\
+		&= \sqrt{4} \\
+		&= 2
+		\end{align*}
+		Videre krever vi at
+		\algv{
+			\cos c &= \frac{\sqrt{3}}{2}\\[5 pt]
+			\sin c &= -\frac{1}{2}}
+		Tallet $ {c=-\frac{\pi}{6}} $ oppfyller disse kravene, derfor er
+		\[ \sqrt{3} \sin(\pi x)-\cos(\pi x) = 2 \sin\left(\pi x-\frac{\pi}{6}\right) \]	
+		
+		Se \hrv{lostriglig} for tips til hvordan å finne $ c $ når tallet ikke ligger i første kvadrant.		
+	}}				
+\newcommand{\asinbcos}{ 
+	\rg[\boldmath $ a\sin (kx) + b\cos (kx) =0 $]{
+	Ligningen
+	\begin{equation}
+	a\sin (kx) + b\cos (kx) =0 \label{asinbcos00}
+	\end{equation}
+	løses ved å dele begge sider med $ \cos (kx) $ og deretter løse den resulterende tangensligningen.
+}}
+\newcommand{\asinbcosd}{\rg[\boldmath $ a\sin (kx) + b\cos (kx) = d$]{
+		Ligningen 
+		\begin{equation}
+		a\sin (kx) + b\cos (kx) = d 
+		\end{equation}
+		kan løses ved å omforme venstresiden til et reint sinusuttrykk, og deretter løse den resulterende sinusligningen.
+}}
+
+\newcommand{\tanf}{\rg[Tangensfunksjoner]{
+		Funksjonen
+		\begin{equation}\label{tanfunk}
+		f(x)=a \tan(kx + c)+d
+		\end{equation}
+		har vertikale asymptoter for alle $ x $ der
+		\begin{equation}\
+		kx+c = \pm \frac{\pi}{2}+\pi n
+		\end{equation}
+		for $ n\in \mathbb{Z} $.\vsk\\
+		
+		Perioden $ P $ er gitt ved relasjonen
+		\begin{equation}\
+		P = \frac{\pi}{k}
+		\end{equation}\vs
+}}

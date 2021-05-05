@@ -1,0 +1,129 @@
+\input{doc}
+\input{preamb}
+
+%Kapittelutseende
+%\usepackage{titlesec}
+%\titleformat{\chapter}[display]{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}   
+%\titlespacing*{\chapter}{0pt}{-50pt}{40pt}
+%numdepth
+%\setcounter{subsecnumdepth}{1}
+
+\setcounter{tocdepth}{1}	
+%\graphicspath{{kap0/}}
+\fancypagestyle{plain}{%
+\fancyhf{}
+\renewcommand{\headrule}{}
+\fancyhead[RO, LE]{\thepage}
+}
+
+\begin{document}
+	
+	\pagecolor{blue!20}
+	
+	\begin{titlepage}
+		\begin{center}
+			\vspace*{1cm}
+			
+			{\fontsize{50}{60}{\textbf{Før kalkulus} \Large\newline \vsk
+					\hspace{15em}
+					Teoridel}}
+			
+			\vspace{2.45cm} 
+			\Large  Matematikk R2
+			\begin{figure}[H]
+				\centering
+				\qquad\includegraphics[scale=1.8]{\asym{frpg}}
+			\end{figure}           
+			\vspace{2 cm}
+			\raggedleft Sindre Sogge Heggen   \end{center}
+	\end{titlepage}
+	\pagecolor{white}
+\newpage
+\phantom{}
+\thispagestyle{empty}	
+\newpage	
+\import{kap0/}{framside}
+\newpage
+
+%\addcontentsline{toc}{chapter}{Innhold}
+\footnotesize
+\tableofcontents
+\normalsize
+\chapter{Følger og rekker\label{Folgerogrekker}}
+\vspace{20pt}
+\import{fol/}{fol}
+\newpage
+\import{opg/fol/}{opg}
+\chapter{Trigonometri\label{Trigonometri}}
+\vspace{20pt}
+\import{tri/}{tri}
+\newpage
+\import{opg/tri/}{opg}
+\newpage
+\import{tri/}{cmt}
+\chapter{Vektorer i rommet\label{Vektorerirommet}}
+\vspace{20pt}
+\import{vek/}{vekt}
+\newpage
+\import{opg/vek/}{opg}
+\chapter{Romgeometrier\label{Romgeometrier}}
+\vspace{20pt}
+\import{rom/}{rom}
+\newpage
+\import{opg/rom/}{opg}
+\chapter{Derivasjon\label{Derivasjon}}
+\vspace{20pt}
+\import{der/}{der}
+\newpage
+\import{opg/der/}{opg}
+\chapter{Integrasjon \label{Integrasjon}}
+\vspace{20pt}
+\import{int/}{int}
+\newpage
+\import{opg/int/}{opg}
+\chapter{Differensialligninger\label{Differensialligninger}}\
+\vspace{20pt}
+\import{dif/}{dif}
+\newpage
+\import{opg/dif/}{opg}
+\titleformat{\chapter}[hang]
+{\normalfont\LARGE\bfseries}{}{}{\vspace{-1cm}\Huge}
+\chapter*{Vedlegg \ref{husksincos}-\ref{d} \label{Tips} \addcontentsline{toc}{chapter}{Vedlegg A-E}}
+\phantomsection
+\vspace{20 pt}
+\import{tips/}{tips}
+{\printindex \addtocontents{toc}{\protect\vspace{-5pt}}
+	\addcontentsline{toc}{chapter}{Indeks}\phantomsection}
+\chapter*{Fasit}
+\setlength{\parskip}{5pt}
+\addtocontents{toc}{\protect\vspace{-5pt}}
+\addcontentsline{toc}{chapter}{Fasit}\phantomsection
+\import{opg/fol/}{fas}
+\import{opg/tri/}{fas}
+\newpage
+\import{opg/vek/}{fas}
+\import{opg/rom/}{fas}
+\import{opg/der/}{fas}
+\import{opg/int/}{fas}
+\import{opg/dif/}{fas}
+\phantom{}
+\newpage
+\thispagestyle{empty}
+\phantom{}
+\newpage
+\import{kap0/}{bakside}
+%\thispagestyle{empty} 
+%\phantom{}
+\end{document}
+%\end{document}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+\newcommand{\ari}{\rg[Aritmetisk følge]{
+		Et ledd $ a_i $  i en aritmetisk følge er gitt ved den rekursive formelen
+		\nreq{a_i=a_{i-1}+d }
+		og den eksplisitte formelen
+		\begin{equation}
+		a_i=a_1+d(i-1) \label{ekspl}
+		\end{equation}
+		hvor $ d $ er den konstante differansen $ a_i-a_{i-1} $.}}
+\newcommand{\arie}{\eks[]{Finn den rekursive og den eksplisitte formelen til følgen
+		\[ 7, 13, 19, 25, ... \]	\vs
+		\sv
+		Følgen har konstant differanse $ {d=6} $ og første ledd $ {a_1=7} $. Den rekursive formelen blir da
+		\[ a_i = a_{i-1}+6 \]
+		Mens den eksplisitte formelen blir
+		\[ a_i=7+6(i-1) \]\vds
+}}
+\newcommand{\geo}{\rg[Geometrisk følge]{
+		Et ledd $ a_i $  i en geometrisk følge med kvotient $ k $ er gitt ved den rekursive formelen
+		\nreq{a_i=a_{i-1}\cdot k}
+		
+		og den eksplisitte formelen
+		\nreq{a_i=a_1\cdot k^{i-1}}\vds
+	}}
+\newcommand{\sar}{\rg[Summen av en aritmetisk rekke]{
+		Summen $ S_n $ av de $ n $ første leddene i en aritmetisk rekke er gitt som
+		\nreq{S_n = n\frac{a_1+a_n}{2} \label{arrek}}
+hvor $ a_1 $ er første ledd i rekken.	}
+}
+\newcommand{\sare}{\eks{
+		Gitt den uendelige rekken
+		\[ 3+7+11+... \] 
+		\textbf{a)} Finn summen av de ti første leddene. \os
+		
+		\textbf{b)} For hvilken $ n $ er summen av rekken lik 903?\\
+		
+		\sv
+		\textbf{a)} Det $ i $-te leddet $a_i$ i rekken er gitt ved formelen
+		\[ a_i=3+4(i-1) \]
+		Dette er derfor en aritmetisk rekke, og summen av de $ n $ første  leddene er da gitt av ligning (\ref{arrek}). Ledd nr.\,10 blir da\footnote{Når én side av ligningen er blank, betyr dette at uttrykket på siden er uforandret.}
+		\alg{
+			a_{10} &= 3+4(10-1) \\
+			&= 39	
+		} 
+		De ti første leddene er dermed gitt som
+		\alg{
+			S_{10} &= 10\cdot\frac{3+39}{2} \\
+			&= 210
+		}
+		\textbf{b)} I formelen for $ S_n $ setter vi inn det eksplisitte uttrykket for $ a_n $, og får at	
+		\alg{ S_n &= n\frac{a_1+a_1+d(n-1)}{2} \\
+			2\cdot903 &= n(3+3+4(n-1))\\
+			0 &= 6n+4n^2-4n - 2\cdot903 \\
+			0 &= 2n^2+n-903
+			}
+		Denne ligningen har løsningene $ {n\in \big\lbrace21, -\frac{43}{2} \big\rbrace}$. Vi søker et positivt heltall, derfor er $ {n=21} $ eneste mulige løsning.
+	}}
+\newcommand{\sge}{\rg[Summen av en geometrisk rekke \label{geom}]{Summen $ S_n $ av de $ n $ første leddene i en geometrisk rekke med kvotient $ k $ og første ledd $ a_1 $ er gitt som
+		\nreq{S_n=a_1\frac{1-k^n}{1-k}\quad, \quad k\neq 1 \label{sumg}}
+		Hvis $ {k=1}, $ er
+		\nreq{ S_n = na_1}\vds
+	}}
+\newcommand{\suge}{\rg[Summen av en uendelig geometrisk rekke]{
+		For en uendelig geometrisk rekke med kvotient $ {k<|1|} $ og første ledd $ a_1 $ er summen $ S_\infty $ av rekken gitt som
+		\nreq{S_\infty = \frac{a_1}{1-k}}
+		
+		Hvis $ |k|\geq 1 $, vil summen gå mot $ \pm \infty $.
+	}}
+\newcommand{\ind}{
+\rg[Induksjon]{
+	Når vi ved induksjon ønsker å vise at ligningen
+	\begin{equation}\label{induksjon}
+	A(n)=B(n)
+	\end{equation}
+	er sann for alle $ n\in\mathbb{N} $, gjør vi følgende:
+	\begin{enumerate}
+		\item Sjekker at \eqref{induksjon} er sann for $ {n=1} $.
+		\item Sjekker at \eqref{induksjon} er sann for $ {n=k+1} $, antatt at den er sann for $ {n=k} $.
+	\end{enumerate}
+}
+}

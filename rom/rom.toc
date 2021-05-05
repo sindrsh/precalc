@@ -1,0 +1,18 @@
+\select@language {english}
+\select@language {english}
+\contentsline {chapter}{\numberline {4}Romgeometrier}{2}{chapter.4}
+\contentsline {section}{\numberline {4.1}Parameteriseringer}{3}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Linje i rommet}{3}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Plan i rommet}{4}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Ligninger til geometrier}{8}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Ligningen til et plan}{8}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Kuleligningen}{11}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Avstander mellom geometrier}{15}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Avstanden mellom punkt og linje}{15}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Avstand fra punkt til plan}{17}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Vinkler mellom geometrier}{17}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Vinkelen mellom to linjer }{17}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Vinkelen mellom to plan}{19}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Vinkelen mellom linje og plan}{20}{subsection.4.4.3}
+\contentsline {section}{Forklaringer}{22}{section*.1}
+\contentsline {section}{Oppgaver}{24}{section*.2}
