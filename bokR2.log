@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.10.11)  5 MAY 2021 22:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.10.11)  5 MAY 2021 22:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1917,21 +1917,21 @@ File: datetime2-english-base.ldf 2016/03/09 v1.04 (NLCT)
 ))) (./bokR2.aux)
 \openout1 = `bokR2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 13.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -2003,7 +2003,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 19.
+LaTeX Info: Redefining \selectfont on input line 13.
  ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
@@ -2014,10 +2014,10 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.15} into 
 your preamble.
- on input line 19.
+ on input line 13.
 
 \AtBeginShipoutBox=\box104
-Package hyperref Info: Link coloring OFF on input line 19.
+Package hyperref Info: Link coloring OFF on input line 13.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -2026,26 +2026,24 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count371
 )
-LaTeX Info: Redefining \ref on input line 19.
-LaTeX Info: Redefining \pageref on input line 19.
-LaTeX Info: Redefining \nameref on input line 19.
+LaTeX Info: Redefining \ref on input line 13.
+LaTeX Info: Redefining \pageref on input line 13.
+LaTeX Info: Redefining \nameref on input line 13.
 
 (./bokR2.out) (./bokR2.out)
 \@outlinefile=\write10
 \openout10 = `bokR2.out'.
 
 \GPT@outputbox=\box105
-</home/sindre/R/asymptote/frpg.pdf, id=220, 170.7178pt x 142.26149pt>
-File: /home/sindre/R/asymptote/frpg.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/frpg.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/frpg.pdf  used on input line 
-35.
+<asymptote/frpg.pdf, id=220, 170.7178pt x 142.26149pt>
+File: asymptote/frpg.pdf Graphic file (type pdf)
+<use asymptote/frpg.pdf>
+Package pdftex.def Info: asymptote/frpg.pdf  used on input line 29.
 (pdftex.def)             Requested size: 307.2918pt x 256.07045pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/sindre/R/asymptote/f
-rpg.pdf>] [2] (./kap0/framside.tex
-(./kap0/../doc.tex)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./asymptote/frpg.pdf>] [2]
+ (./kap0/framside.tex (./kap0/../doc.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 42--42
 [] \T1/lmr/m/it/10.95 ''Wahrlich es ist nicht das Wis-sen, son-dern das Ler-nen
 ,
@@ -2246,7 +2244,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 ed en ny
  []
 
-) [4] (./kap0//sym.tex (./kap0//../doc.tex)
+) [4] [5] (./kap0//sym.tex (./kap0//../doc.tex)
 Overfull \hbox (34.09125pt too wide) in paragraph at lines 6--22
 [] 
  []
@@ -2256,13 +2254,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--22
  
  []
 
-)) [5] (./bokR2.toc [6])
+)) [6] (./bokR2.toc [7])
 \tf@toc=\write11
 \openout11 = `bokR2.toc'.
 
- [7] [8
-
-]
+ [8]
 Kapittel 1.
 (./fol/fol.tex (./fol/../doc.tex) (./fol/rg.tex)
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 18.
@@ -2272,7 +2268,9 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 18.
- [9]
+ [9
+
+]
 Overfull \hbox (1.58719pt too wide) in paragraph at lines 31--33
 \T1/lmr/m/n/10.95 dek-sert bok-stav. Vel-ger vi oss bok-staven $\OML/lmm/m/it/1
 0.95 a$ \T1/lmr/m/n/10.95 for føl-gen over, kan vi skrive 
@@ -2490,34 +2488,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 300--300
 er
  []
 
-[23] [24]) [25] (./opg/fol/opg.tex (/home/sindre/R/doc.tex)
-Overfull \hbox (16.6026pt too wide) in paragraph at lines 45--46
+[23] [24]) [25] (./opg/fol/opg.tex (./opg/fol/../../doc.tex)
+Overfull \hbox (16.6026pt too wide) in paragraph at lines 43--44
 []\T1/lmr/bx/n/10.95 a) \T1/lmr/m/n/10.95 Bruk fig-uren un-der til å fork-lare 
 at sum-men $\OML/lmm/m/it/10.95 S[]$ \T1/lmr/m/n/10.95 av de $\OML/lmm/m/it/10.
 95 n$ \T1/lmr/m/n/10.95 første naturlige 
  []
 
-</home/sindre/R/asymptote/sum.pdf, id=480, 199.3849pt x 66.63896pt>
-File: /home/sindre/R/asymptote/sum.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/sum.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/sum.pdf  used on input line 5
-0.
+<opg/fol/../../asymptote/sum.pdf, id=480, 199.3849pt x 66.63896pt>
+File: opg/fol/../../asymptote/sum.pdf Graphic file (type pdf)
+<use opg/fol/../../asymptote/sum.pdf>
+Package pdftex.def Info: opg/fol/../../asymptote/sum.pdf  used on input line 48
+.
 (pdftex.def)             Requested size: 199.3844pt x 66.63878pt.
-[26 </home/sindre/R/asymptote/sum.pdf>]
-Overfull \hbox (1.12675pt too wide) in paragraph at lines 87--87
+[26 <./opg/fol/../../asymptote/sum.pdf>]
+Overfull \hbox (1.12675pt too wide) in paragraph at lines 85--85
 []\T1/lmr/bx/n/10.95 a) \T1/lmr/m/n/10.95 Skriv rekken som viser hvor mye penge
 r du har i banken 01.05.2017. 
  []
 
 
-Overfull \hbox (6.14532pt too wide) in paragraph at lines 89--90
+Overfull \hbox (6.14532pt too wide) in paragraph at lines 87--88
 []\T1/lmr/bx/n/10.95 b) \T1/lmr/m/n/10.95 Sett opp et ut-trykk $\OML/lmm/m/it/1
 0.95 P\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 n\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/
 n/10.95 som viser hvor mye penger du har i banken 
  []
 
 [27]
-Overfull \hbox (2.89018pt too wide) in paragraph at lines 108--108
+Overfull \hbox (2.89018pt too wide) in paragraph at lines 106--106
 []\T1/lmr/bx/n/10.95 a) \T1/lmr/m/n/10.95 Skriv det uen-delige des-i-mal-tal-le
 t 0.999... som en uen-delig ge-ometrisk 
  []
@@ -2598,11 +2596,10 @@ Overfull \hbox (4.19276pt too wide) in paragraph at lines 64--65
 dien 0. Videre 
  []
 
-</home/sindre/R/asymptote/enhtl.pdf, id=557, 128.97185pt x 114.3171pt>
-File: /home/sindre/R/asymptote/enhtl.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/enhtl.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/enhtl.pdf  used on input line
- 67.
+<tri/../asymptote/enhtl.pdf, id=557, 128.97185pt x 114.3171pt>
+File: tri/../asymptote/enhtl.pdf Graphic file (type pdf)
+<use tri/../asymptote/enhtl.pdf>
+Package pdftex.def Info: tri/../asymptote/enhtl.pdf  used on input line 67.
 (pdftex.def)             Requested size: 128.97151pt x 114.3168pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -2615,12 +2612,11 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 25.
 See the caption package documentation for explanation.
 
-) [34 </home/sindre/R/asymptote/enhtl.pdf>]
-</home/sindre/R/asymptote/unitcirc.pdf, id=574, 143.49611pt x 146.27649pt>
-File: /home/sindre/R/asymptote/unitcirc.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/unitcirc.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/unitcirc.pdf  used on input l
-ine 77.
+) [34 <./tri/../asymptote/enhtl.pdf>]
+<tri/../asymptote/unitcirc.pdf, id=574, 143.49611pt x 146.27649pt>
+File: tri/../asymptote/unitcirc.pdf Graphic file (type pdf)
+<use tri/../asymptote/unitcirc.pdf>
+Package pdftex.def Info: tri/../asymptote/unitcirc.pdf  used on input line 77.
 (pdftex.def)             Requested size: 143.49574pt x 146.27612pt.
 
 
@@ -2636,17 +2632,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--82
 ligere har lært, hvor du så
  []
 
-[35 </home/sindre/R/asymptote/unitcirc.pdf>]
+[35 <./tri/../asymptote/unitcirc.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 83--83
 []\T1/lmr/m/n/10.95 La en-hetssirke-len være teg-net inn i et ko-or-di-nat-sys-
 tem med
  []
 
-</home/sindre/R/asymptote/sincos.pdf, id=601, 142.19122pt x 144.00801pt>
-File: /home/sindre/R/asymptote/sincos.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/sincos.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/sincos.pdf  used on input lin
-e 83.
+<tri/../asymptote/sincos.pdf, id=601, 142.19122pt x 144.00801pt>
+File: tri/../asymptote/sincos.pdf Graphic file (type pdf)
+<use tri/../asymptote/sincos.pdf>
+Package pdftex.def Info: tri/../asymptote/sincos.pdf  used on input line 83.
 (pdftex.def)             Requested size: 142.19087pt x 144.00766pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 83--83
@@ -2667,18 +2662,16 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 25.
 See the caption package documentation for explanation.
 
-) [36 </home/sindre/R/asymptote/sincos.pdf>]
-</home/sindre/R/asymptote/acospi.pdf, id=619, 135.32558pt x 114.3171pt>
-File: /home/sindre/R/asymptote/acospi.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/acospi.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/acospi.pdf  used on input lin
-e 97.
+) [36 <./tri/../asymptote/sincos.pdf>]
+<tri/../asymptote/acospi.pdf, id=619, 135.32558pt x 114.3171pt>
+File: tri/../asymptote/acospi.pdf Graphic file (type pdf)
+<use tri/../asymptote/acospi.pdf>
+Package pdftex.def Info: tri/../asymptote/acospi.pdf  used on input line 97.
 (pdftex.def)             Requested size: 135.32524pt x 114.3168pt.
-</home/sindre/R/asymptote/acospib.pdf, id=620, 180.39395pt x 114.3171pt>
-File: /home/sindre/R/asymptote/acospib.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/acospib.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/acospib.pdf  used on input li
-ne 98.
+<tri/../asymptote/acospib.pdf, id=620, 180.39395pt x 114.3171pt>
+File: tri/../asymptote/acospib.pdf Graphic file (type pdf)
+<use tri/../asymptote/acospib.pdf>
+Package pdftex.def Info: tri/../asymptote/acospib.pdf  used on input line 98.
 (pdftex.def)             Requested size: 180.3935pt x 114.3168pt.
 
 
@@ -2692,8 +2685,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--99
 m/n/9 plassert på en-hetssirke-len som tallinje. b) I ko-or-di-nat-sys-temet
  []
 
-[37 </home/sindre/R/asymptote/acospi.pdf> </home/sindre/R/asymptote/acospib.pdf
->] (./tri/fig/kvad.tex
+[37 <./tri/../asymptote/acospi.pdf> <./tri/../asymptote/acospib.pdf>]
+(./tri/fig/kvad.tex
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 22.
@@ -2903,7 +2896,7 @@ mr/m/n/10.95 )$\T1/lmr/m/n/10.95 , og løser den re-sul-terende tan-genslignin-g
 en.
  []
 
-[53] (./tri/fig/fcos.tex (/home/sindre/R/doc.tex)
+[53] (./tri/fig/fcos.tex (./tri/fig/../../doc.tex)
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 21.
@@ -2934,14 +2927,14 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 23.
 See the caption package documentation for explanation.
 
-) [56] (./tri/fig/fcos2.tex (/home/sindre/R/doc.tex)
+) [56] (./tri/fig/fcos2.tex (./tri/fig/../../doc.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 411--5
 \T1/lmr/m/n/10.95 kalles en cos-i-nus-funksjon med am-pli-tude $\OMS/lmsy/m/n/1
 0.95 j\OML/lmm/m/it/10.95 a\OMS/lmsy/m/n/10.95 j$\T1/lmr/m/n/10.95 , bøl-ge-tal
 l $\OML/lmm/m/it/10.95 k$\T1/lmr/m/n/10.95 , fase $\OML/lmm/m/it/10.95 c$
  []
 
-) [57] (./tri/fig/cosopg.tex (/home/sindre/R/doc.tex))
+) [57] (./tri/fig/cosopg.tex (./tri/fig/../../doc.tex))
 Underfull \hbox (badness 10000) in paragraph at lines 429--429
 []\T1/lmr/m/n/10.95 Vi ob-serverer at ver-di-ene til $\OML/lmm/m/it/10.95 f$ \T
 1/lmr/m/n/10.95 vari-erer mel-lom 1 og 5. Dette be-
@@ -3053,11 +3046,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 487--487
  []
 
 [61]
-</home/sindre/R/asymptote/tanf.pdf, id=887, 173.71902pt x 113.03229pt>
-File: /home/sindre/R/asymptote/tanf.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/tanf.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/tanf.pdf  used on input line 
-493.
+<tri/../asymptote/tanf.pdf, id=887, 173.71902pt x 113.03229pt>
+File: tri/../asymptote/tanf.pdf Graphic file (type pdf)
+<use tri/../asymptote/tanf.pdf>
+Package pdftex.def Info: tri/../asymptote/tanf.pdf  used on input line 493.
 (pdftex.def)             Requested size: 173.71858pt x 113.032pt.
 
 
@@ -3065,12 +3057,11 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 493.
 See the caption package documentation for explanation.
 
-[62 </home/sindre/R/asymptote/tanf.pdf>]
-</home/sindre/R/asymptote/cosuv.pdf, id=907, 114.3171pt x 114.3171pt>
-File: /home/sindre/R/asymptote/cosuv.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/cosuv.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/cosuv.pdf  used on input line
- 513.
+[62 <./tri/../asymptote/tanf.pdf>]
+<tri/../asymptote/cosuv.pdf, id=907, 114.3171pt x 114.3171pt>
+File: tri/../asymptote/cosuv.pdf Graphic file (type pdf)
+<use tri/../asymptote/cosuv.pdf>
+Package pdftex.def Info: tri/../asymptote/cosuv.pdf  used on input line 513.
 (pdftex.def)             Requested size: 114.3168pt x 114.3168pt.
 
 
@@ -3078,7 +3069,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 513.
 See the caption package documentation for explanation.
 
-[63 </home/sindre/R/asymptote/cosuv.pdf>] [64]
+[63 <./tri/../asymptote/cosuv.pdf>] [64]
 Overfull \hbox (3.03664pt too wide) in paragraph at lines 565--566
 []\T1/lmr/m/n/10.95 Vi tar først med oss at (det får bli opp til leseren selv å
  bekrefte dette):  
@@ -3096,16 +3087,17 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 22.
 See the caption package documentation for explanation.
 
-)) [67] (./opg/tri/opg.tex (/home/sindre/R/doc.tex)
-</home/sindre/R/asymptote/rad.pdf, id=964, 120.19907pt x 114.3171pt>
-File: /home/sindre/R/asymptote/rad.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/rad.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/rad.pdf  used on input line 1
-6.
+)) [67] (./opg/tri/opg.tex (./opg/tri/../../doc.tex)
+<opg/tri/../../asymptote/rad.pdf, id=964, 120.19907pt x 114.3171pt>
+File: opg/tri/../../asymptote/rad.pdf Graphic file (type pdf)
+<use opg/tri/../../asymptote/rad.pdf>
+Package pdftex.def Info: opg/tri/../../asymptote/rad.pdf  used on input line 14
+.
 (pdftex.def)             Requested size: 120.19876pt x 114.3168pt.
- [68 </home/sindre/R/asymptote/rad.pdf>] [69] [70] [71] (/home/sindre/R/tri1/fi
-g/cosopg2.tex
-(/home/sindre/R/doc.tex)) [72]) [73] (./tri/cmt.tex (./tri/../doc.tex)
+ [68 <./opg/tri/../../asymptote/rad.pdf>] [69] [70] [71] (./opg/tri/../../tri/f
+ig/cosopg2.tex
+(./opg/tri/../../tri/fig/../../doc.tex)) [72]) [73] (./tri/cmt.tex
+(./tri/../doc.tex)
 Overfull \hbox (7.37178pt too wide) in paragraph at lines 18--19
 []\T1/lmr/m/n/10.95 Når det for ek-sem-pel skrives $[] \OT1/lmr/m/n/10.95 45[]$
 \T1/lmr/m/n/10.95 , menes det altså strengt tatt $[][] \OT1/lmr/m/n/10.95 45$\T
@@ -3122,11 +3114,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--25
  skal van-dres mot-satt av
  []
 
-</home/sindre/R/asymptote/vekt1.pdf, id=1036, 148.17357pt x 152.8912pt>
-File: /home/sindre/R/asymptote/vekt1.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/vekt1.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/vekt1.pdf  used on input line
- 26.
+<vek/../asymptote/vekt1.pdf, id=1036, 148.17357pt x 152.8912pt>
+File: vek/../asymptote/vekt1.pdf Graphic file (type pdf)
+<use vek/../asymptote/vekt1.pdf>
+Package pdftex.def Info: vek/../asymptote/vekt1.pdf  used on input line 26.
 (pdftex.def)             Requested size: 148.1732pt x 152.89082pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -3139,12 +3130,11 @@ Overfull \hbox (2.46727pt too wide) in paragraph at lines 27--27
 .95 grunnstill-in-gen[]\T1/lmr/m/n/10.95 , dette in-nebærer 
  []
 
-[76 </home/sindre/R/asymptote/vekt1.pdf>]
-</home/sindre/R/asymptote/vekt2.pdf, id=1239, 154.87863pt x 152.8912pt>
-File: /home/sindre/R/asymptote/vekt2.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/vekt2.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/vekt2.pdf  used on input line
- 31.
+[76 <./vek/../asymptote/vekt1.pdf>]
+<vek/../asymptote/vekt2.pdf, id=1239, 154.87863pt x 152.8912pt>
+File: vek/../asymptote/vekt2.pdf Graphic file (type pdf)
+<use vek/../asymptote/vekt2.pdf>
+Package pdftex.def Info: vek/../asymptote/vekt2.pdf  used on input line 31.
 (pdftex.def)             Requested size: 154.87823pt x 152.89082pt.
 
 
@@ -3168,25 +3158,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--39
 []\T1/lmr/m/n/10.95 Gitt vek-torene $[]$ og $[]$, punk-tet
  []
 
-</home/sindre/R/asymptote/uplusv.pdf, id=1242, 74.85968pt x 69.50969pt>
-File: /home/sindre/R/asymptote/uplusv.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/uplusv.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/uplusv.pdf  used on input lin
-e 39.
+<vek/../asymptote/uplusv.pdf, id=1242, 74.85968pt x 69.50969pt>
+File: vek/../asymptote/uplusv.pdf Graphic file (type pdf)
+<use vek/../asymptote/uplusv.pdf>
+Package pdftex.def Info: vek/../asymptote/uplusv.pdf  used on input line 39.
 (pdftex.def)             Requested size: 74.85948pt x 69.5095pt.
-</home/sindre/R/asymptote/uminusv.pdf, id=1243, 91.55203pt x 47.58778pt>
-File: /home/sindre/R/asymptote/uminusv.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/uminusv.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/uminusv.pdf  used on input li
-ne 39.
+<vek/../asymptote/uminusv.pdf, id=1243, 91.55203pt x 47.58778pt>
+File: vek/../asymptote/uminusv.pdf Graphic file (type pdf)
+<use vek/../asymptote/uminusv.pdf>
+Package pdftex.def Info: vek/../asymptote/uminusv.pdf  used on input line 39.
 (pdftex.def)             Requested size: 91.55179pt x 47.58765pt.
-[77 </home/sindre/R/asymptote/vekt2.pdf>] [78 </home/sindre/R/asymptote/uplusv.
-pdf> </home/sindre/R/asymptote/uminusv.pdf>]
-</home/sindre/R/asymptote/par2.pdf, id=1529, 137.9253pt x 116.81642pt>
-File: /home/sindre/R/asymptote/par2.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/par2.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/par2.pdf  used on input line 
-41.
+[77 <./vek/../asymptote/vekt2.pdf>] [78 <./vek/../asymptote/uplusv.pdf> <./vek/
+../asymptote/uminusv.pdf>]
+<vek/../asymptote/par2.pdf, id=1529, 137.9253pt x 116.81642pt>
+File: vek/../asymptote/par2.pdf Graphic file (type pdf)
+<use vek/../asymptote/par2.pdf>
+Package pdftex.def Info: vek/../asymptote/par2.pdf  used on input line 41.
 (pdftex.def)             Requested size: 137.92494pt x 116.81612pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 41--41
@@ -3195,12 +3182,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--41
 -tet til
  []
 
-[79 </home/sindre/R/asymptote/par2.pdf>]
-</home/sindre/R/asymptote/vekt3.pdf, id=1697, 157.32777pt x 152.8912pt>
-File: /home/sindre/R/asymptote/vekt3.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/vekt3.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/vekt3.pdf  used on input line
- 44.
+[79 <./vek/../asymptote/par2.pdf>]
+<vek/../asymptote/vekt3.pdf, id=1697, 157.32777pt x 152.8912pt>
+File: vek/../asymptote/vekt3.pdf Graphic file (type pdf)
+<use vek/../asymptote/vekt3.pdf>
+Package pdftex.def Info: vek/../asymptote/vekt3.pdf  used on input line 44.
 (pdftex.def)             Requested size: 157.32738pt x 152.89082pt.
 
 
@@ -3215,7 +3201,7 @@ $\OML/lmm/m/it/10.95 z[]$ \T1/lmr/m/n/10.95 og $[] \OT1/lmr/m/n/10.95 = []$ \T1
 /lmr/m/n/10.95 dan-ner vi en rettvin-klet trekant. 
  []
 
-[80 </home/sindre/R/asymptote/vekt3.pdf>]
+[80 <./vek/../asymptote/vekt3.pdf>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 76.
@@ -3428,35 +3414,30 @@ som skalarpro-duk-tet av
  []
 
 [92]
-</home/sindre/R/asymptote/trk.pdf, id=2040, 99.50174pt x 85.3589pt>
-File: /home/sindre/R/asymptote/trk.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/trk.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/trk.pdf  used on input line 2
-61.
+<vek/../asymptote/trk.pdf, id=2040, 99.50174pt x 85.3589pt>
+File: vek/../asymptote/trk.pdf Graphic file (type pdf)
+<use vek/../asymptote/trk.pdf>
+Package pdftex.def Info: vek/../asymptote/trk.pdf  used on input line 261.
 (pdftex.def)             Requested size: 99.5015pt x 85.35869pt.
-</home/sindre/R/asymptote/parll.pdf, id=2041, 113.81522pt x 85.25853pt>
-File: /home/sindre/R/asymptote/parll.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/parll.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/parll.pdf  used on input line
- 262.
+<vek/../asymptote/parll.pdf, id=2041, 113.81522pt x 85.25853pt>
+File: vek/../asymptote/parll.pdf Graphic file (type pdf)
+<use vek/../asymptote/parll.pdf>
+Package pdftex.def Info: vek/../asymptote/parll.pdf  used on input line 262.
 (pdftex.def)             Requested size: 113.81493pt x 85.2583pt.
-</home/sindre/R/asymptote/par.pdf, id=2042, 112.18913pt x 84.88713pt>
-File: /home/sindre/R/asymptote/par.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/par.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/par.pdf  used on input line 2
-63.
+<vek/../asymptote/par.pdf, id=2042, 112.18913pt x 84.88713pt>
+File: vek/../asymptote/par.pdf Graphic file (type pdf)
+<use vek/../asymptote/par.pdf>
+Package pdftex.def Info: vek/../asymptote/par.pdf  used on input line 263.
 (pdftex.def)             Requested size: 112.18884pt x 84.8869pt.
-</home/sindre/R/asymptote/pyram.pdf, id=2043, 103.08513pt x 82.25731pt>
-File: /home/sindre/R/asymptote/pyram.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/pyram.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/pyram.pdf  used on input line
- 264.
+<vek/../asymptote/pyram.pdf, id=2043, 103.08513pt x 82.25731pt>
+File: vek/../asymptote/pyram.pdf Graphic file (type pdf)
+<use vek/../asymptote/pyram.pdf>
+Package pdftex.def Info: vek/../asymptote/pyram.pdf  used on input line 264.
 (pdftex.def)             Requested size: 103.08487pt x 82.25708pt.
-</home/sindre/R/asymptote/tetra.pdf, id=2044, 103.08513pt x 82.25731pt>
-File: /home/sindre/R/asymptote/tetra.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/tetra.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/tetra.pdf  used on input line
- 265.
+<vek/../asymptote/tetra.pdf, id=2044, 103.08513pt x 82.25731pt>
+File: vek/../asymptote/tetra.pdf Graphic file (type pdf)
+<use vek/../asymptote/tetra.pdf>
+Package pdftex.def Info: vek/../asymptote/tetra.pdf  used on input line 265.
 (pdftex.def)             Requested size: 103.08487pt x 82.25708pt.
 
 
@@ -3488,9 +3469,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 269--269
 et ut-spent av vek-torene $[]$, $[]$ og $[]$ er gitt
  []
 
-[93 </home/sindre/R/asymptote/trk.pdf> </home/sindre/R/asymptote/parll.pdf> </h
-ome/sindre/R/asymptote/par.pdf> </home/sindre/R/asymptote/pyram.pdf> </home/sin
-dre/R/asymptote/tetra.pdf>]
+[93 <./vek/../asymptote/trk.pdf> <./vek/../asymptote/parll.pdf> <./vek/../asymp
+tote/par.pdf> <./vek/../asymptote/pyram.pdf> <./vek/../asymptote/tetra.pdf>]
 Overfull \hbox (2.62572pt too wide) in paragraph at lines 276--277
 []\T1/lmr/m/n/10.95 Ligning ([]3.28[]) forteller oss at $\OMS/lmsy/m/n/10.95 j[
 ] ^^B []j$ \T1/lmr/m/n/10.95 tilsvarer arealet av par-al-lel-logramet 
@@ -3503,11 +3483,10 @@ el er altså ([]3.33[]) og ([]3.34[]) opp-fylt for alle $[]$,
  []
 
 [96]
-</home/sindre/R/asymptote/parlb.pdf, id=2117, 153.11201pt x 107.2005pt>
-File: /home/sindre/R/asymptote/parlb.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/parlb.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/parlb.pdf  used on input line
- 392.
+<vek/../asymptote/parlb.pdf, id=2117, 153.11201pt x 107.2005pt>
+File: vek/../asymptote/parlb.pdf Graphic file (type pdf)
+<use vek/../asymptote/parlb.pdf>
+Package pdftex.def Info: vek/../asymptote/parlb.pdf  used on input line 392.
 (pdftex.def)             Requested size: 153.11163pt x 107.20023pt.
 
 
@@ -3515,11 +3494,10 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 392.
 See the caption package documentation for explanation.
 
-[97 </home/sindre/R/asymptote/parlb.pdf>]
-File: /home/sindre/R/asymptote/par.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/par.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/par.pdf  used on input line 3
-96.
+[97 <./vek/../asymptote/parlb.pdf>]
+File: vek/../asymptote/par.pdf Graphic file (type pdf)
+<use vek/../asymptote/par.pdf>
+Package pdftex.def Info: vek/../asymptote/par.pdf  used on input line 396.
 (pdftex.def)             Requested size: 112.18884pt x 84.8869pt.
 
 
@@ -3533,17 +3511,16 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 27.
 See the caption package documentation for explanation.
 
-) [98]) [99] (./opg/vek/opg.tex (/home/sindre/R/doc.tex) [100] [101] [102]
+) [98]) [99] (./opg/vek/opg.tex (./opg/vek/../../doc.tex) [100] [101] [102]
 (./opg/vek/ar1.tex)) [103] [104
 
 ]
 Kapittel 4.
 (./rom/rom.tex (./rom/../doc.tex) (./rom/rg.tex) [105]
-</home/sindre/R/asymptote/lin.pdf, id=2202, 199.1741pt x 127.0848pt>
-File: /home/sindre/R/asymptote/lin.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/lin.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/lin.pdf  used on input line 2
-0.
+<rom/../asymptote/lin.pdf, id=2202, 199.1741pt x 127.0848pt>
+File: rom/../asymptote/lin.pdf Graphic file (type pdf)
+<use rom/../asymptote/lin.pdf>
+Package pdftex.def Info: rom/../asymptote/lin.pdf  used on input line 20.
 (pdftex.def)             Requested size: 199.17361pt x 127.08447pt.
 
 
@@ -3572,7 +3549,7 @@ t/10.95 l$ \T1/lmr/m/n/10.95 og at $\OML/lmm/m/it/10.95 A \OT1/lmr/m/n/10.95 =
 (\OML/lmm/m/it/10.95 x[]; y[]; z[]\OT1/lmr/m/n/10.95 )$ 
  []
 
-[106 </home/sindre/R/asymptote/lin.pdf>]
+[106 <./rom/../asymptote/lin.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 27--27
 []\T1/lmr/m/n/10.95 Ei linje \T1/lmr/m/it/10.95 l \T1/lmr/m/n/10.95 som går gje
 n-nom punk-tet $[]$ og har ret-
@@ -3613,11 +3590,10 @@ n/10.95 ^^@\OT1/lmr/m/n/10.95 5$\T1/lmr/m/n/10.95 , altså lig-ger
  []
 
 [107]
-</home/sindre/R/asymptote/vegg.pdf, id=2221, 194.79778pt x 166.44183pt>
-File: /home/sindre/R/asymptote/vegg.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/vegg.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/vegg.pdf  used on input line 
-33.
+<rom/../asymptote/vegg.pdf, id=2221, 194.79778pt x 166.44183pt>
+File: rom/../asymptote/vegg.pdf Graphic file (type pdf)
+<use rom/../asymptote/vegg.pdf>
+Package pdftex.def Info: rom/../asymptote/vegg.pdf  used on input line 33.
 (pdftex.def)             Requested size: 194.79729pt x 166.4414pt.
 
 
@@ -3632,18 +3608,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--33
 n/9 rett opp. Gul-vet er et utk-lipp av $\OML/lmm/m/it/9 xy$\T1/lmr/m/n/9 -
  []
 
-</home/sindre/R/asymptote/plan.pdf, id=2222, 258.87717pt x 92.78665pt>
-File: /home/sindre/R/asymptote/plan.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/plan.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/plan.pdf  used on input line 
-37.
+<rom/../asymptote/plan.pdf, id=2222, 258.87717pt x 92.78665pt>
+File: rom/../asymptote/plan.pdf Graphic file (type pdf)
+<use rom/../asymptote/plan.pdf>
+Package pdftex.def Info: rom/../asymptote/plan.pdf  used on input line 37.
 (pdftex.def)             Requested size: 258.87653pt x 92.7864pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 37.
 See the caption package documentation for explanation.
 
-[108 </home/sindre/R/asymptote/vegg.pdf>]
+[108 <./rom/../asymptote/vegg.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 43--43
 []\T1/lmr/m/n/10.95 Et plan $\OML/lmm/m/it/10.95 $ \T1/lmr/m/n/10.95 som med i
 n-neholder punk-tet $[]$ og to
@@ -3693,7 +3668,7 @@ ten er altså opp-fylt, punk-tet $\OT1/lmr/m/n/10.95 (4\OML/lmm/m/it/10.95 ; \OT
 5 6)$
  []
 
-[109 </home/sindre/R/asymptote/plan.pdf>]
+[109 <./rom/../asymptote/plan.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 108--108
 []\T1/lmr/m/n/10.95 Et plan $\OML/lmm/m/it/10.95 $ \T1/lmr/m/n/10.95 in-nehold
 er ei linje $\OML/lmm/m/it/10.95 l$ \T1/lmr/m/n/10.95 og punk-tet $[]$. $\OML/l
@@ -3755,11 +3730,10 @@ eran-dre.
  []
 
 [110]
-</home/sindre/R/asymptote/surf1.pdf, id=2606, 258.87717pt x 99.08015pt>
-File: /home/sindre/R/asymptote/surf1.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/surf1.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/surf1.pdf  used on input line
- 113.
+<rom/../asymptote/surf1.pdf, id=2606, 258.87717pt x 99.08015pt>
+File: rom/../asymptote/surf1.pdf Graphic file (type pdf)
+<use rom/../asymptote/surf1.pdf>
+Package pdftex.def Info: rom/../asymptote/surf1.pdf  used on input line 113.
 (pdftex.def)             Requested size: 258.87653pt x 99.0799pt.
 
 
@@ -3773,7 +3747,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--113
 ML/lmm/m/it/9 $ \T1/lmr/m/n/9 med nor-malvek-tor
  []
 
-[111 </home/sindre/R/asymptote/surf1.pdf>]
+[111 <./rom/../asymptote/surf1.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 124--124
 []\T1/lmr/m/n/10.95 Et plan med nor-malvek-tor $[]$ kan ut-trykkes ved lignin-
  []
@@ -3835,11 +3809,10 @@ ram-e-teris-erin-gen til linja opp-fylle lignin-gen til
  []
 
 [113]
-</home/sindre/R/asymptote/plskj.pdf, id=2737, 79.20592pt x 113.81522pt>
-File: /home/sindre/R/asymptote/plskj.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/plskj.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/plskj.pdf  used on input line
- 153.
+<rom/../asymptote/plskj.pdf, id=2737, 79.20592pt x 113.81522pt>
+File: rom/../asymptote/plskj.pdf Graphic file (type pdf)
+<use rom/../asymptote/plskj.pdf>
+Package pdftex.def Info: rom/../asymptote/plskj.pdf  used on input line 153.
 (pdftex.def)             Requested size: 79.2057pt x 113.81493pt.
 
 
@@ -3859,7 +3832,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--154
  langs
  []
 
-[114 </home/sindre/R/asymptote/plskj.pdf>]
+[114 <./rom/../asymptote/plskj.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 180--180
 \T1/lmr/m/n/10.95 Planene skjærer hveran-dre langs ei linje $\OML/lmm/m/it/10.9
 5 l$\T1/lmr/m/n/10.95 , finn en pa-ram-e-teris-er-
@@ -3940,11 +3913,10 @@ gge planene. En pa-ram-e-ter-
  []
 
 [115]
-</home/sindre/R/asymptote/kule.pdf, id=2754, 128.03835pt x 127.97812pt>
-File: /home/sindre/R/asymptote/kule.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/kule.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/kule.pdf  used on input line 
-185.
+<rom/../asymptote/kule.pdf, id=2754, 128.03835pt x 127.97812pt>
+File: rom/../asymptote/kule.pdf Graphic file (type pdf)
+<use rom/../asymptote/kule.pdf>
+Package pdftex.def Info: rom/../asymptote/kule.pdf  used on input line 185.
 (pdftex.def)             Requested size: 128.03802pt x 127.9778pt.
 
 
@@ -3990,7 +3962,7 @@ y/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 2\OML/lmm/m/it/10.95 ; \OT1/lmr/m/n/10.95 1]$
  \T1/lmr/m/n/10.95 en nor-malvek-tor for tan-gent-planet. Av ([]4.2[])
  []
 
-[116 </home/sindre/R/asymptote/kule.pdf>] [117]
+[116 <./rom/../asymptote/kule.pdf>] [117]
 Underfull \hbox (badness 10000) in paragraph at lines 230--230
 []\T1/lmr/m/n/10.95 Vi skal her bruke to løs-ningsme-toder. Den første gir oss 
 di-rekte
@@ -4050,11 +4022,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 230--230
  []
 
 [118]
-</home/sindre/R/asymptote/plin.pdf, id=2775, 199.08377pt x 124.96687pt>
-File: /home/sindre/R/asymptote/plin.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/plin.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/plin.pdf  used on input line 
-235.
+<rom/../asymptote/plin.pdf, id=2775, 199.08377pt x 124.96687pt>
+File: rom/../asymptote/plin.pdf Graphic file (type pdf)
+<use rom/../asymptote/plin.pdf>
+Package pdftex.def Info: rom/../asymptote/plin.pdf  used on input line 235.
 (pdftex.def)             Requested size: 199.08327pt x 124.96657pt.
 
 
@@ -4074,7 +4045,7 @@ Overfull \hbox (5.5913pt too wide) in paragraph at lines 237--241
 m grunnlinja 
  []
 
-[119 </home/sindre/R/asymptote/plin.pdf>]
+[119 <./rom/../asymptote/plin.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 243--243
 []\T1/lmr/m/n/10.95 Avstanden $\OML/lmm/m/it/10.95 h$ \T1/lmr/m/n/10.95 mel-lom
  et punkt $\OML/lmm/m/it/10.95 B$ \T1/lmr/m/n/10.95 og en linje gitt av punk-te
@@ -4111,11 +4082,10 @@ Overfull \hbox (3.27994pt too wide) in paragraph at lines 291--292
 tte linjestykket 
  []
 
-</home/sindre/R/asymptote/pplan.pdf, id=2800, 258.87717pt x 102.73381pt>
-File: /home/sindre/R/asymptote/pplan.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/pplan.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/pplan.pdf  used on input line
- 292.
+<rom/../asymptote/pplan.pdf, id=2800, 258.87717pt x 102.73381pt>
+File: rom/../asymptote/pplan.pdf Graphic file (type pdf)
+<use rom/../asymptote/pplan.pdf>
+Package pdftex.def Info: rom/../asymptote/pplan.pdf  used on input line 292.
 (pdftex.def)             Requested size: 258.87653pt x 102.73355pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -4136,18 +4106,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 305--305
 ed
  []
 
-[121 </home/sindre/R/asymptote/pplan.pdf>]
-</home/sindre/R/asymptote/vinkell.pdf, id=2815, 128.03835pt x 85.34886pt>
-File: /home/sindre/R/asymptote/vinkell.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/vinkell.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/vinkell.pdf  used on input li
-ne 311.
+[121 <./rom/../asymptote/pplan.pdf>]
+<rom/../asymptote/vinkell.pdf, id=2815, 128.03835pt x 85.34886pt>
+File: rom/../asymptote/vinkell.pdf Graphic file (type pdf)
+<use rom/../asymptote/vinkell.pdf>
+Package pdftex.def Info: rom/../asymptote/vinkell.pdf  used on input line 311.
 (pdftex.def)             Requested size: 128.03802pt x 85.34863pt.
-</home/sindre/R/asymptote/vinkellb.pdf, id=2816, 128.03835pt x 85.34886pt>
-File: /home/sindre/R/asymptote/vinkellb.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/vinkellb.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/vinkellb.pdf  used on input l
-ine 312.
+<rom/../asymptote/vinkellb.pdf, id=2816, 128.03835pt x 85.34886pt>
+File: rom/../asymptote/vinkellb.pdf Graphic file (type pdf)
+<use rom/../asymptote/vinkellb.pdf>
+Package pdftex.def Info: rom/../asymptote/vinkellb.pdf  used on input line 312.
+
 (pdftex.def)             Requested size: 128.03802pt x 85.34863pt.
 
 
@@ -4155,8 +4124,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 313.
 See the caption package documentation for explanation.
 
-[122 </home/sindre/R/asymptote/vinkell.pdf> </home/sindre/R/asymptote/vinkellb.
-pdf>]
+[122 <./rom/../asymptote/vinkell.pdf> <./rom/../asymptote/vinkellb.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 327--327
 []\T1/lmr/m/n/10.95 Vinkelen $\OML/lmm/m/it/10.95 v$ \T1/lmr/m/n/10.95 mel-lom 
 ei linje med ret-ningsvek-toren $[]$ og ei linje
@@ -4175,17 +4143,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 353--353
  []
 
 [123]
-</home/sindre/R/asymptote/vinkelpl.pdf, id=2847, 139.47105pt x 101.48917pt>
-File: /home/sindre/R/asymptote/vinkelpl.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/vinkelpl.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/vinkelpl.pdf  used on input l
-ine 360.
+<rom/../asymptote/vinkelpl.pdf, id=2847, 139.47105pt x 101.48917pt>
+File: rom/../asymptote/vinkelpl.pdf Graphic file (type pdf)
+<use rom/../asymptote/vinkelpl.pdf>
+Package pdftex.def Info: rom/../asymptote/vinkelpl.pdf  used on input line 360.
+
 (pdftex.def)             Requested size: 139.4707pt x 101.4889pt.
-</home/sindre/R/asymptote/vinkelplb.pdf, id=2848, 53.60025pt x 73.17337pt>
-File: /home/sindre/R/asymptote/vinkelplb.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/vinkelplb.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/vinkelplb.pdf  used on input 
-line 362.
+<rom/../asymptote/vinkelplb.pdf, id=2848, 53.60025pt x 73.17337pt>
+File: rom/../asymptote/vinkelplb.pdf Graphic file (type pdf)
+<use rom/../asymptote/vinkelplb.pdf>
+Package pdftex.def Info: rom/../asymptote/vinkelplb.pdf  used on input line 362
+.
 (pdftex.def)             Requested size: 53.6001pt x 73.17317pt.
 
 
@@ -4211,25 +4179,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 367--367
 et plan med nor-malvek-toren $[]$ og et plan
  []
 
-</home/sindre/R/asymptote/vinkel.pdf, id=2851, 113.52412pt x 90.05646pt>
-File: /home/sindre/R/asymptote/vinkel.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/vinkel.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/vinkel.pdf  used on input lin
-e 372.
+<rom/../asymptote/vinkel.pdf, id=2851, 113.52412pt x 90.05646pt>
+File: rom/../asymptote/vinkel.pdf Graphic file (type pdf)
+<use rom/../asymptote/vinkel.pdf>
+Package pdftex.def Info: rom/../asymptote/vinkel.pdf  used on input line 372.
 (pdftex.def)             Requested size: 113.52383pt x 90.05623pt.
-</home/sindre/R/asymptote/vinkelb.pdf, id=2852, 38.52393pt x 72.9927pt>
-File: /home/sindre/R/asymptote/vinkelb.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/vinkelb.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/vinkelb.pdf  used on input li
-ne 374.
+<rom/../asymptote/vinkelb.pdf, id=2852, 38.52393pt x 72.9927pt>
+File: rom/../asymptote/vinkelb.pdf Graphic file (type pdf)
+<use rom/../asymptote/vinkelb.pdf>
+Package pdftex.def Info: rom/../asymptote/vinkelb.pdf  used on input line 374.
 (pdftex.def)             Requested size: 38.52382pt x 72.99251pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 375.
 See the caption package documentation for explanation.
 
-[124 </home/sindre/R/asymptote/vinkelpl.pdf> </home/sindre/R/asymptote/vinkelpl
-b.pdf>]
+[124 <./rom/../asymptote/vinkelpl.pdf> <./rom/../asymptote/vinkelplb.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 375--375
 []\T1/lmr/m/sl/9 Figur 4.11: |[]a) $[]$ \T1/lmr/m/n/9 og $[]$ ut-spen-ner vinke
 -len $[]$. \T1/lmr/m/sl/9 b) $[]$ \T1/lmr/m/n/9 og $[]$ ut-spen-ner vinke-len
@@ -4247,19 +4212,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 381--381
 et plan med nor-malvek-tor $[]$ og ei linje med
  []
 
-[125 </home/sindre/R/asymptote/vinkel.pdf> </home/sindre/R/asymptote/vinkelb.pd
-f>]
-</home/sindre/R/asymptote/pktplan.pdf, id=2900, 88.82184pt x 70.33276pt>
-File: /home/sindre/R/asymptote/pktplan.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/pktplan.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/pktplan.pdf  used on input li
-ne 389.
+[125 <./rom/../asymptote/vinkel.pdf> <./rom/../asymptote/vinkelb.pdf>]
+<rom/../asymptote/pktplan.pdf, id=2900, 88.82184pt x 70.33276pt>
+File: rom/../asymptote/pktplan.pdf Graphic file (type pdf)
+<use rom/../asymptote/pktplan.pdf>
+Package pdftex.def Info: rom/../asymptote/pktplan.pdf  used on input line 389.
 (pdftex.def)             Requested size: 88.82161pt x 70.33258pt.
-</home/sindre/R/asymptote/pktplanb.pdf, id=2901, 88.82184pt x 86.63367pt>
-File: /home/sindre/R/asymptote/pktplanb.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/pktplanb.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/pktplanb.pdf  used on input l
-ine 391.
+<rom/../asymptote/pktplanb.pdf, id=2901, 88.82184pt x 86.63367pt>
+File: rom/../asymptote/pktplanb.pdf Graphic file (type pdf)
+<use rom/../asymptote/pktplanb.pdf>
+Package pdftex.def Info: rom/../asymptote/pktplanb.pdf  used on input line 391.
+
 (pdftex.def)             Requested size: 88.82161pt x 86.63344pt.
 
 
@@ -4280,27 +4243,29 @@ Overfull \hbox (22.65675pt too wide) in paragraph at lines 406--408
 t/10.95 v$\T1/lmr/m/n/10.95 . Fra defin-isjo-nen av skalarpro- 
  []
 
-[126 </home/sindre/R/asymptote/pktplan.pdf> </home/sindre/R/asymptote/pktplanb.
-pdf>]) [127] (./opg/rom/opg.tex (/home/sindre/R/doc.tex) [128] [129] [130]
-</home/sindre/R/asymptote/plkul.pdf, id=2957, 209.12128pt x 114.3171pt>
-File: /home/sindre/R/asymptote/plkul.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/plkul.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/plkul.pdf  used on input line
- 124.
+[126 <./rom/../asymptote/pktplan.pdf> <./rom/../asymptote/pktplanb.pdf>])
+[127] (./opg/rom/opg.tex (./opg/rom/../../doc.tex) [128] [129] [130]
+<opg/rom/../../asymptote/plkul.pdf, id=2957, 209.12128pt x 114.3171pt>
+File: opg/rom/../../asymptote/plkul.pdf Graphic file (type pdf)
+<use opg/rom/../../asymptote/plkul.pdf>
+Package pdftex.def Info: opg/rom/../../asymptote/plkul.pdf  used on input line 
+122.
 (pdftex.def)             Requested size: 209.12076pt x 114.3168pt.
-
-[131 </home/sindre/R/asymptote/plkul.pdf>]
-File: /home/sindre/R/asymptote/pktplan.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/pktplan.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/pktplan.pdf  used on input li
-ne 146.
+ [131 <./opg/rom/../../asymptote/plkul.pdf>]
+<opg/rom/../../asymptote/pktplan.pdf, id=2969, 88.82184pt x 70.33276pt>
+File: opg/rom/../../asymptote/pktplan.pdf Graphic file (type pdf)
+<use opg/rom/../../asymptote/pktplan.pdf>
+Package pdftex.def Info: opg/rom/../../asymptote/pktplan.pdf  used on input lin
+e 144.
 (pdftex.def)             Requested size: 88.82161pt x 70.33258pt.
-File: /home/sindre/R/asymptote/pktplanb.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/pktplanb.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/pktplanb.pdf  used on input l
-ine 148.
+<opg/rom/../../asymptote/pktplanb.pdf, id=2970, 88.82184pt x 86.63367pt>
+File: opg/rom/../../asymptote/pktplanb.pdf Graphic file (type pdf)
+<use opg/rom/../../asymptote/pktplanb.pdf>
+Package pdftex.def Info: opg/rom/../../asymptote/pktplanb.pdf  used on input li
+ne 146.
 (pdftex.def)             Requested size: 88.82161pt x 86.63344pt.
-) [132]
+) [132 <./opg/rom/../../asymptote/pktplan.pdf> <./opg/rom/../../asymptote/pktpl
+anb.pdf>]
 Kapittel 5.
 (./der/der.tex (./der/../doc.tex) (./der/rg.tex) [133
 
@@ -4441,8 +4406,8 @@ t/10.95 x\OT1/lmr/m/n/10.95 )[] = \OMS/lmsy/m/n/10.95 ^^@ [] \OML/lmm/m/it/10.9
 5 x$\T1/lmr/m/n/10.95 , i kom-bi-nasjon med kjernerege- 
  []
 
-[141]) [142] (./opg/der/opg.tex (/home/sindre/R/doc.tex) [143])
-Overfull \hbox (12.00998pt too wide) in paragraph at lines 65--79
+[141]) [142] (./opg/der/opg.tex (./opg/der/../../doc.tex) [143])
+Overfull \hbox (12.00998pt too wide) in paragraph at lines 63--73
 \T1/lmr/m/n/10.95 Finn ek-stremalpunk-tene til $\OML/lmm/m/it/10.95 f$ \T1/lmr/
 m/n/10.95 og bruk dette til å fork-lare at ek-stremalver- 
  []
@@ -4458,11 +4423,10 @@ d lineære
 [145
 
 ]
-</home/sindre/R/asymptote/int0.pdf, id=3085, 170.7178pt x 113.81522pt>
-File: /home/sindre/R/asymptote/int0.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/int0.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/int0.pdf  used on input line 
-26.
+<int/../asymptote/int0.pdf, id=3101, 170.7178pt x 113.81522pt>
+File: int/../asymptote/int0.pdf Graphic file (type pdf)
+<use int/../asymptote/int0.pdf>
+Package pdftex.def Info: int/../asymptote/int0.pdf  used on input line 26.
 (pdftex.def)             Requested size: 170.71738pt x 113.81493pt.
 
 
@@ -4470,45 +4434,41 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 26.
 See the caption package documentation for explanation.
 
-</home/sindre/R/asymptote/int1a.pdf, id=3087, 170.7178pt x 142.24142pt>
-File: /home/sindre/R/asymptote/int1a.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/int1a.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/int1a.pdf  used on input line
- 28.
+<int/../asymptote/int1a.pdf, id=3103, 170.7178pt x 142.24142pt>
+File: int/../asymptote/int1a.pdf Graphic file (type pdf)
+<use int/../asymptote/int1a.pdf>
+Package pdftex.def Info: int/../asymptote/int1a.pdf  used on input line 28.
 (pdftex.def)             Requested size: 170.71738pt x 142.24106pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 28.
 See the caption package documentation for explanation.
 
-[146 </home/sindre/R/asymptote/int0.pdf> </home/sindre/R/asymptote/int1a.pdf>]
+[146 <./int/../asymptote/int0.pdf> <./int/../asymptote/int1a.pdf>]
 Overfull \hbox (3.9172pt too wide) in paragraph at lines 33--35
 \T1/lmr/m/n/10.95 Grafisk har vi tilnærmet $\OML/lmm/m/it/10.95 S$ \T1/lmr/m/n/
 10.95 ved å legge sam-men arealet av de tre grønne 
  []
 
-</home/sindre/R/asymptote/int1.pdf, id=3107, 170.7178pt x 142.23137pt>
-File: /home/sindre/R/asymptote/int1.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/int1.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/int1.pdf  used on input line 
-35.
+<int/../asymptote/int1.pdf, id=3124, 170.7178pt x 142.23137pt>
+File: int/../asymptote/int1.pdf Graphic file (type pdf)
+<use int/../asymptote/int1.pdf>
+Package pdftex.def Info: int/../asymptote/int1.pdf  used on input line 35.
 (pdftex.def)             Requested size: 170.71738pt x 142.23102pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 35.
 See the caption package documentation for explanation.
 
-</home/sindre/R/asymptote/int2.pdf, id=3108, 170.7178pt x 142.26149pt>
-File: /home/sindre/R/asymptote/int2.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/int2.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/int2.pdf  used on input line 
-39.
+<int/../asymptote/int2.pdf, id=3125, 170.7178pt x 142.26149pt>
+File: int/../asymptote/int2.pdf Graphic file (type pdf)
+<use int/../asymptote/int2.pdf>
+Package pdftex.def Info: int/../asymptote/int2.pdf  used on input line 39.
 (pdftex.def)             Requested size: 153.64459pt x 128.03413pt.
-</home/sindre/R/asymptote/int3.pdf, id=3109, 170.7178pt x 142.26149pt>
-File: /home/sindre/R/asymptote/int3.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/int3.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/int3.pdf  used on input line 
-40.
+<int/../asymptote/int3.pdf, id=3126, 170.7178pt x 142.26149pt>
+File: int/../asymptote/int3.pdf Graphic file (type pdf)
+<use int/../asymptote/int3.pdf>
+Package pdftex.def Info: int/../asymptote/int3.pdf  used on input line 40.
 (pdftex.def)             Requested size: 153.64459pt x 128.03413pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
@@ -4521,8 +4481,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--43
 ør-relser som går mot 0
  []
 
-[147 </home/sindre/R/asymptote/int1.pdf> </home/sindre/R/asymptote/int2.pdf> </
-home/sindre/R/asymptote/int3.pdf>]
+[147 <./int/../asymptote/int1.pdf> <./int/../asymptote/int2.pdf> <./int/../asym
+ptote/int3.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 53--53
 [][][][]\T1/lmr/m/n/9 Hvilke bok-staver vi bruker for å in-dikere stør-relser, 
 funksjoner og vari-abler er
@@ -4886,11 +4846,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 264--264
 lmr/m/n/10.95 av-grenset av $\OML/lmm/m/it/10.95 f$ \T1/lmr/m/n/10.95 på dette
  []
 
-</home/sindre/R/asymptote/intpos.pdf, id=3292, 170.7178pt x 113.71484pt>
-File: /home/sindre/R/asymptote/intpos.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/intpos.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/intpos.pdf  used on input lin
-e 264.
+<int/../asymptote/intpos.pdf, id=3308, 170.7178pt x 113.71484pt>
+File: int/../asymptote/intpos.pdf Graphic file (type pdf)
+<use int/../asymptote/intpos.pdf>
+Package pdftex.def Info: int/../asymptote/intpos.pdf  used on input line 264.
 (pdftex.def)             Requested size: 170.71738pt x 113.71455pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 264--264
@@ -4898,11 +4857,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 264--264
 r/m/n/10.95 av-grenset av $\OML/lmm/m/it/10.95 f$ \T1/lmr/m/n/10.95 på dette
  []
 
-</home/sindre/R/asymptote/intneg.pdf, id=3293, 170.7178pt x 113.80518pt>
-File: /home/sindre/R/asymptote/intneg.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/intneg.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/intneg.pdf  used on input lin
-e 264.
+<int/../asymptote/intneg.pdf, id=3309, 170.7178pt x 113.80518pt>
+File: int/../asymptote/intneg.pdf Graphic file (type pdf)
+<use int/../asymptote/intneg.pdf>
+Package pdftex.def Info: int/../asymptote/intneg.pdf  used on input line 264.
 (pdftex.def)             Requested size: 170.71738pt x 113.80489pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 267--267
@@ -4920,11 +4878,10 @@ lmr/m/n/10.95 av-grenset mel-lom $\OML/lmm/m/it/10.95 f$ \T1/lmr/m/n/10.95 og $
 \OML/lmm/m/it/10.95 g$
  []
 
-</home/sindre/R/asymptote/foggint.pdf, id=3294, 170.7178pt x 113.73491pt>
-File: /home/sindre/R/asymptote/foggint.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/foggint.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/foggint.pdf  used on input li
-ne 267.
+<int/../asymptote/foggint.pdf, id=3310, 170.7178pt x 113.73491pt>
+File: int/../asymptote/foggint.pdf Graphic file (type pdf)
+<use int/../asymptote/foggint.pdf>
+Package pdftex.def Info: int/../asymptote/foggint.pdf  used on input line 267.
 (pdftex.def)             Requested size: 170.71738pt x 113.7346pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 267--267
@@ -4932,15 +4889,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 267--267
 t/10.95 A$
  []
 
-</home/sindre/R/asymptote/foggint2.pdf, id=3295, 170.7178pt x 113.73491pt>
-File: /home/sindre/R/asymptote/foggint2.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/foggint2.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/foggint2.pdf  used on input l
-ine 267.
+<int/../asymptote/foggint2.pdf, id=3311, 170.7178pt x 113.73491pt>
+File: int/../asymptote/foggint2.pdf Graphic file (type pdf)
+<use int/../asymptote/foggint2.pdf>
+Package pdftex.def Info: int/../asymptote/foggint2.pdf  used on input line 267.
+
 (pdftex.def)             Requested size: 170.71738pt x 113.7346pt.
-[166 </home/sindre/R/asymptote/intpos.pdf> </home/sindre/R/asymptote/intneg.pdf
->] [167 </home/sindre/R/asymptote/foggint.pdf> </home/sindre/R/asymptote/foggin
-t2.pdf>]
+[166 <./int/../asymptote/intpos.pdf> <./int/../asymptote/intneg.pdf>] [167 <./i
+nt/../asymptote/foggint.pdf> <./int/../asymptote/foggint2.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 289--289
 []\T1/lmr/m/n/10.95 Gitt funksjonene $[]$ og $[]$. Vi har da at
  []
@@ -4957,11 +4913,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 293--293
 sys-tem, med
  []
 
-</home/sindre/R/asymptote/test222.pdf, id=3333, 153.57375pt x 124.44493pt>
-File: /home/sindre/R/asymptote/test222.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/test222.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/test222.pdf  used on input li
-ne 293.
+<int/../asymptote/test222.pdf, id=3349, 153.57375pt x 124.44493pt>
+File: int/../asymptote/test222.pdf Graphic file (type pdf)
+<use int/../asymptote/test222.pdf>
+Package pdftex.def Info: int/../asymptote/test222.pdf  used on input line 293.
 (pdftex.def)             Requested size: 107.50089pt x 87.11084pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 293--293
@@ -4976,11 +4931,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 294--294
 en langs
  []
 
-</home/sindre/R/asymptote/kjegle.pdf, id=3334, 167.08423pt x 85.10796pt>
-File: /home/sindre/R/asymptote/kjegle.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/kjegle.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/kjegle.pdf  used on input lin
-e 294.
+<int/../asymptote/kjegle.pdf, id=3350, 167.08423pt x 85.10796pt>
+File: int/../asymptote/kjegle.pdf Graphic file (type pdf)
+<use int/../asymptote/kjegle.pdf>
+Package pdftex.def Info: int/../asymptote/kjegle.pdf  used on input line 294.
 (pdftex.def)             Requested size: 167.08382pt x 85.10773pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 294--294
@@ -4989,19 +4943,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 294--294
 linje med stign-ingstall
  []
 
-[169 </home/sindre/R/asymptote/test222.pdf> </home/sindre/R/asymptote/kjegle.pd
-f>] [170]
-</home/sindre/R/asymptote/omdr2.pdf, id=3352, 167.08423pt x 68.15463pt>
-File: /home/sindre/R/asymptote/omdr2.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/omdr2.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/omdr2.pdf  used on input line
- 302.
+[169 <./int/../asymptote/test222.pdf> <./int/../asymptote/kjegle.pdf>] [170]
+<int/../asymptote/omdr2.pdf, id=3369, 167.08423pt x 68.15463pt>
+File: int/../asymptote/omdr2.pdf Graphic file (type pdf)
+<use int/../asymptote/omdr2.pdf>
+Package pdftex.def Info: int/../asymptote/omdr2.pdf  used on input line 302.
 (pdftex.def)             Requested size: 167.08382pt x 68.15446pt.
-</home/sindre/R/asymptote/omdr3.pdf, id=3353, 167.08423pt x 70.88483pt>
-File: /home/sindre/R/asymptote/omdr3.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/omdr3.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/omdr3.pdf  used on input line
- 305.
+<int/../asymptote/omdr3.pdf, id=3370, 167.08423pt x 70.88483pt>
+File: int/../asymptote/omdr3.pdf Graphic file (type pdf)
+<use int/../asymptote/omdr3.pdf>
+Package pdftex.def Info: int/../asymptote/omdr3.pdf  used on input line 305.
 (pdftex.def)             Requested size: 167.08382pt x 70.88464pt.
 
 
@@ -5017,13 +4968,11 @@ in-ingslegemet til $\OML/lmm/m/it/10.95 f\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.9
 5 [\OML/lmm/m/it/10.95 a; b\OT1/lmr/m/n/10.95 ]$ \T1/lmr/m/n/10.95 er
  []
 
-[171 </home/sindre/R/asymptote/omdr2.pdf> </home/sindre/R/asymptote/omdr3.pdf>]
-[172]
-</home/sindre/R/asymptote/int5.pdf, id=3375, 170.7178pt x 142.26149pt>
-File: /home/sindre/R/asymptote/int5.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/int5.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/int5.pdf  used on input line 
-324.
+[171 <./int/../asymptote/omdr2.pdf> <./int/../asymptote/omdr3.pdf>] [172]
+<int/../asymptote/int5.pdf, id=3391, 170.7178pt x 142.26149pt>
+File: int/../asymptote/int5.pdf Graphic file (type pdf)
+<use int/../asymptote/int5.pdf>
+Package pdftex.def Info: int/../asymptote/int5.pdf  used on input line 324.
 (pdftex.def)             Requested size: 170.71738pt x 142.26112pt.
 
 
@@ -5039,30 +4988,28 @@ n/10.95 = \OML/lmm/m/it/10.95 f\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x[]\OT1/
 lmr/m/n/10.95 )^^A\OML/lmm/m/it/10.95 x$\T1/lmr/m/n/10.95 , 
  []
 
-</home/sindre/R/asymptote/int4.pdf, id=3378, 170.7178pt x 142.26149pt>
-File: /home/sindre/R/asymptote/int4.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/int4.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/int4.pdf  used on input line 
-335.
+<int/../asymptote/int4.pdf, id=3394, 170.7178pt x 142.26149pt>
+File: int/../asymptote/int4.pdf Graphic file (type pdf)
+<use int/../asymptote/int4.pdf>
+Package pdftex.def Info: int/../asymptote/int4.pdf  used on input line 335.
 (pdftex.def)             Requested size: 170.71738pt x 142.26112pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 335.
 See the caption package documentation for explanation.
 
-[173 </home/sindre/R/asymptote/int5.pdf>]
+[173 <./int/../asymptote/int5.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 335--335
 []\T1/lmr/m/sl/9 Figur 6.7: |[]\T1/lmr/m/n/9 Arealene av $\OML/lmm/m/it/9 s[]$ 
 \T1/lmr/m/n/9 mark-ert som grønne søyler og area-lene av $\OML/lmm/m/it/9 c[]$ 
 \T1/lmr/m/n/9 mark-ert som
  []
 
-[174 </home/sindre/R/asymptote/int4.pdf>] [175] [176]
-</home/sindre/R/asymptote/test22.pdf, id=3428, 162.6075pt x 159.57617pt>
-File: /home/sindre/R/asymptote/test22.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/test22.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/test22.pdf  used on input lin
-e 449.
+[174 <./int/../asymptote/int4.pdf>] [175] [176]
+<int/../asymptote/test22.pdf, id=3444, 162.6075pt x 159.57617pt>
+File: int/../asymptote/test22.pdf Graphic file (type pdf)
+<use int/../asymptote/test22.pdf>
+Package pdftex.def Info: int/../asymptote/test22.pdf  used on input line 449.
 (pdftex.def)             Requested size: 162.6071pt x 159.57576pt.
 
 
@@ -5083,9 +5030,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 450--450
 den gitt i fork-larin-gen for
  []
 
-) [178 </home/sindre/R/asymptote/test22.pdf>] (./opg/int/opg.tex
-(/home/sindre/R/doc.tex) [179]
-Overfull \hbox (0.41634pt too wide) in paragraph at lines 44--45
+) [178 <./int/../asymptote/test22.pdf>] (./opg/int/opg.tex
+(./opg/int/../../doc.tex) [179]
+Overfull \hbox (0.41634pt too wide) in paragraph at lines 42--43
 []\T1/lmr/m/n/10.95 Gjennomsnittet av en funksjon $\OML/lmm/m/it/10.95 f\OT1/lm
 r/m/n/10.95 (\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 over 
 et in-ter-vall $\OT1/lmr/m/n/10.95 [\OML/lmm/m/it/10.95 a; b\OT1/lmr/m/n/10.95 
@@ -5093,27 +5040,27 @@ et in-ter-vall $\OT1/lmr/m/n/10.95 [\OML/lmm/m/it/10.95 a; b\OT1/lmr/m/n/10.95
  []
 
 [180]
-</home/sindre/R/asymptote/int6a.pdf, id=3466, 137.13232pt x 125.5892pt>
-File: /home/sindre/R/asymptote/int6a.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/int6a.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/int6a.pdf  used on input line
- 95.
+<opg/int/../../asymptote/int6a.pdf, id=3483, 137.13232pt x 125.5892pt>
+File: opg/int/../../asymptote/int6a.pdf Graphic file (type pdf)
+<use opg/int/../../asymptote/int6a.pdf>
+Package pdftex.def Info: opg/int/../../asymptote/int6a.pdf  used on input line 
+93.
 (pdftex.def)             Requested size: 123.41794pt x 113.02922pt.
-</home/sindre/R/asymptote/int6b.pdf, id=3467, 148.14346pt x 145.04187pt>
-File: /home/sindre/R/asymptote/int6b.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/int6b.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/int6b.pdf  used on input line
- 96.
+<opg/int/../../asymptote/int6b.pdf, id=3484, 148.14346pt x 145.04187pt>
+File: opg/int/../../asymptote/int6b.pdf Graphic file (type pdf)
+<use opg/int/../../asymptote/int6b.pdf>
+Package pdftex.def Info: opg/int/../../asymptote/int6b.pdf  used on input line 
+94.
 (pdftex.def)             Requested size: 133.32787pt x 130.53645pt.
- [181 </home/sindre/R/asymptote/int6a.pdf> </home/sindre/R/asymptote/int6b.pdf>
-]
-</home/sindre/R/asymptote/faropg.pdf, id=3486, 170.7178pt x 142.26149pt>
-File: /home/sindre/R/asymptote/faropg.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/faropg.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/faropg.pdf  used on input lin
-e 105.
+ [181 <./opg/int/../../asymptote/int6a.pdf> <./opg/int/../../asymptote/int6b.pd
+f>]
+<opg/int/../../asymptote/faropg.pdf, id=3502, 170.7178pt x 142.26149pt>
+File: opg/int/../../asymptote/faropg.pdf Graphic file (type pdf)
+<use opg/int/../../asymptote/faropg.pdf>
+Package pdftex.def Info: opg/int/../../asymptote/faropg.pdf  used on input line
+ 103.
 (pdftex.def)             Requested size: 153.64459pt x 128.03413pt.
-) [182 </home/sindre/R/asymptote/faropg.pdf>]
+) [182 <./opg/int/../../asymptote/faropg.pdf>]
 Kapittel 7.
 (./dif/dif.tex (./dif/../doc.tex) (./dif/rg.tex) [183
 
@@ -5187,7 +5134,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--127
  []
 
 [189] [190]
-<dif/retn.png, id=3569, 248.3679pt x 130.8087pt>
+<dif/retn.png, id=3585, 248.3679pt x 130.8087pt>
 File: dif/retn.png Graphic file (type png)
 <use dif/retn.png>
 Package pdftex.def Info: dif/retn.png  used on input line 161.
@@ -5206,7 +5153,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--162
  []
 
 [191 <./dif/retn.png>]
-<dif/retn2.png, id=3580, 248.3679pt x 130.8087pt>
+<dif/retn2.png, id=3597, 248.3679pt x 130.8087pt>
 File: dif/retn2.png Graphic file (type png)
 <use dif/retn2.png>
 Package pdftex.def Info: dif/retn2.png  used on input line 174.
@@ -5424,17 +5371,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 314--314
  []
 
 [199] [200]
-</home/sindre/R/asymptote/fjor1.pdf, id=3655, 69.64017pt x 142.26149pt>
-File: /home/sindre/R/asymptote/fjor1.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/fjor1.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/fjor1.pdf  used on input line
- 319.
+<dif/../asymptote/fjor1.pdf, id=3671, 69.64017pt x 142.26149pt>
+File: dif/../asymptote/fjor1.pdf Graphic file (type pdf)
+<use dif/../asymptote/fjor1.pdf>
+Package pdftex.def Info: dif/../asymptote/fjor1.pdf  used on input line 319.
 (pdftex.def)             Requested size: 69.63998pt x 142.26112pt.
-</home/sindre/R/asymptote/fjor.pdf, id=3656, 120.11876pt x 142.26149pt>
-File: /home/sindre/R/asymptote/fjor.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/fjor.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/fjor.pdf  used on input line 
-321.
+<dif/../asymptote/fjor.pdf, id=3672, 120.11876pt x 142.26149pt>
+File: dif/../asymptote/fjor.pdf Graphic file (type pdf)
+<use dif/../asymptote/fjor.pdf>
+Package pdftex.def Info: dif/../asymptote/fjor.pdf  used on input line 321.
 (pdftex.def)             Requested size: 120.11845pt x 142.26112pt.
 
 
@@ -5454,7 +5399,7 @@ Overfull \hbox (0.84325pt too wide) in paragraph at lines 335--336
 m-men av alle krefter $\OML/lmm/m/it/10.95 F[]$ \T1/lmr/m/n/10.95 som virker 
  []
 
-[201 </home/sindre/R/asymptote/fjor1.pdf> </home/sindre/R/asymptote/fjor.pdf>]
+[201 <./dif/../asymptote/fjor1.pdf> <./dif/../asymptote/fjor.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 337--337
 [][][][]\T1/lmr/m/n/9 Når frik-sjon-skrefter, altså krefter som alltid motvirke
 r beveg-elsen, er neglis-jert,
@@ -5582,8 +5527,8 @@ Overfull \hbox (9.3098pt too wide) in paragraph at lines 478--483
 \T1/lmr/m/n/10.95 Av denne kan vi skrive (husk at $[]$ og at $[]$)  
  []
 
-[207]) [208] (./opg/dif/opg.tex (/home/sindre/R/doc.tex) [209]
-<opg/dif/retn.png, id=3760, 230.5413pt x 133.4586pt>
+[207]) [208] (./opg/dif/opg.tex (./opg/dif/../../doc.tex) [209]
+<opg/dif/retn.png, id=3776, 230.5413pt x 133.4586pt>
 File: opg/dif/retn.png Graphic file (type png)
 <use opg/dif/retn.png>
 Package pdftex.def Info: opg/dif/retn.png  used on input line 53.
@@ -5597,25 +5542,24 @@ nom pun-ket $\OT1/lmr/m/n/10.95 (0\OML/lmm/m/it/10.95 ; \OT1/lmr/m/n/10.95 4)$
 
 [210 <./opg/dif/retn.png>] [211]) [212]
 
-LaTeX Warning: Reference `d' on page 213 undefined on input line 91.
+LaTeX Warning: Reference `d' on page 213 undefined on input line 85.
 
-(./tips/tips.tex (/home/sindre/R/doc.tex) [213
+(./tips/tips.tex (./tips/../doc.tex) [213
 
 ]
-</home/sindre/R/asymptote/sintip.pdf, id=3796, 114.51784pt x 75.10057pt>
-File: /home/sindre/R/asymptote/sintip.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/sintip.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/sintip.pdf  used on input lin
-e 60.
+<tips/../asymptote/sintip.pdf, id=3812, 114.51784pt x 75.10057pt>
+File: tips/../asymptote/sintip.pdf Graphic file (type pdf)
+<use tips/../asymptote/sintip.pdf>
+Package pdftex.def Info: tips/../asymptote/sintip.pdf  used on input line 58.
 (pdftex.def)             Requested size: 114.51755pt x 75.10037pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 61.
+(caption)                particular \caption on input line 59.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (1.00656pt too wide) in paragraph at lines 63--64
+Overfull \hbox (1.00656pt too wide) in paragraph at lines 61--62
 \T1/lmr/m/n/10.95 en løs-ning av ([]B1[]). Og da må også $[]$ være en løs-ning 
 (se tilbake 
  []
@@ -5624,98 +5568,97 @@ pdfTeX warning (ext4): destination with the same identifier (name{vedleq.1}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.76 ...\quad \text{ og } \quad x_1+x_2=b  \nreqvd
+l.74 ...\quad \text{ og } \quad x_1+x_2=b  \nreqvd
                                                   \label{and} \]pdfTeX warning 
 (ext4): destination with the same identifier (name{vedleq.1}) has been already 
 used, duplicate ignored
 <to be read again> 
                    \relax 
-l.76 ...\quad \text{ og } \quad x_1+x_2=b  \nreqvd
+l.74 ...\quad \text{ og } \quad x_1+x_2=b  \nreqvd
                                                   \label{and} \]pdfTeX warning 
 (ext4): destination with the same identifier (name{vedleq.1}) has been already 
 used, duplicate ignored
 <to be read again> 
                    \relax 
-l.76 ...\quad \text{ og } \quad x_1+x_2=b  \nreqvd
+l.74 ...\quad \text{ og } \quad x_1+x_2=b  \nreqvd
                                                   \label{and} \]pdfTeX warning 
 (ext4): destination with the same identifier (name{vedleq.1}) has been already 
 used, duplicate ignored
 <to be read again> 
                    \relax 
-l.76 ...\quad \text{ og } \quad x_1+x_2=b  \nreqvd
-                                                  \label{and} \] [214 </home/si
-ndre/R/asymptote/sintip.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
+l.74 ...\quad \text{ og } \quad x_1+x_2=b  \nreqvd
+                                                  \label{and} \] [214 <./tips/.
+./asymptote/sintip.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
 []\T1/lmr/m/n/10.95 Siden $[]$ og $[]$ er kravet fra ([]C1[])
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 97.
-</home/sindre/R/asymptote/sinx.pdf, id=3813, 170.7178pt x 110.91437pt>
-File: /home/sindre/R/asymptote/sinx.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/sinx.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/sinx.pdf  used on input line 
-104.
+(Font)              <14.4> on input line 95.
+<tips/../asymptote/sinx.pdf, id=3830, 170.7178pt x 110.91437pt>
+File: tips/../asymptote/sinx.pdf Graphic file (type pdf)
+<use tips/../asymptote/sinx.pdf>
+Package pdftex.def Info: tips/../asymptote/sinx.pdf  used on input line 102.
 (pdftex.def)             Requested size: 170.71738pt x 110.91408pt.
 pdfTeX warning (ext4): destination with the same identifier (name{vedleq.1}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.107 \[ \frac{\sin x}{x}< 1 \nreqvd
+l.105 \[ \frac{\sin x}{x}< 1 \nreqvd
                                     \label{sinx} \]pdfTeX warning (ext4): desti
 nation with the same identifier (name{vedleq.1}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.107 \[ \frac{\sin x}{x}< 1 \nreqvd
+l.105 \[ \frac{\sin x}{x}< 1 \nreqvd
                                     \label{sinx} \]pdfTeX warning (ext4): desti
 nation with the same identifier (name{vedleq.1}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.107 \[ \frac{\sin x}{x}< 1 \nreqvd
+l.105 \[ \frac{\sin x}{x}< 1 \nreqvd
                                     \label{sinx} \]pdfTeX warning (ext4): desti
 nation with the same identifier (name{vedleq.1}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.107 \[ \frac{\sin x}{x}< 1 \nreqvd
-                                    \label{sinx} \] [215 </home/sindre/R/asympt
-ote/sinx.pdf>]
-Overfull \hbox (21.44798pt too wide) in paragraph at lines 107--110
+l.105 \[ \frac{\sin x}{x}< 1 \nreqvd
+                                    \label{sinx} \] [215 <./tips/../asymptote/s
+inx.pdf>]
+Overfull \hbox (21.44798pt too wide) in paragraph at lines 105--108
 \T1/lmr/m/n/10.95 Videre ob-serverer vi at trekan-ten med $[] \OML/lmm/m/it/10.
 95 x$ \T1/lmr/m/n/10.95 som høyde og 1 som grunnlinje 
  []
 
 [216]
-Underfull \hbox (badness 10000) in paragraph at lines 146--146
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
 []$\OML/lmm/m/it/10.95 f$ \T1/lmr/m/n/10.95 har ab-so-lutt mak-si-mum $\OML/lmm
 /m/it/10.95 f\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 c\OT1/lmr/m/n/10.95 )$ \T1
 /lmr/m/n/10.95 hvis $[]$ for alle
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--146
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
 []$\OML/lmm/m/it/10.95 f$ \T1/lmr/m/n/10.95 har et lokalt mak-si-mum $\OML/lmm/
 m/it/10.95 f\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 c\OT1/lmr/m/n/10.95 )$ \T1/
 lmr/m/n/10.95 hvis det finnes et åpent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--146
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
 []$\OML/lmm/m/it/10.95 f$ \T1/lmr/m/n/10.95 har et lokalt min-i-mum $\OML/lmm/m
 /it/10.95 f\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 c\OT1/lmr/m/n/10.95 )$ \T1/l
 mr/m/n/10.95 hvis det finnes et åpent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
 []$\OML/lmm/m/it/10.95 c$ \T1/lmr/m/n/10.95 et ek-stremalpunkt for $\OML/lmm/m/
 it/10.95 f$\T1/lmr/m/n/10.95 . Nærmere bestemt et mak-si-
  []
 
 [217]
-Underfull \hbox (badness 10000) in paragraph at lines 170--170
+Underfull \hbox (badness 10000) in paragraph at lines 168--168
 []\T1/lmr/m/n/10.95 Hvis hele linja mel-lom $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/
 10.95 a; f\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 a\OT1/lmr/m/n/10.95 ))$ \T1/l
 mr/m/n/10.95 og $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 b; f\OT1/lmr/m/n/10.95
@@ -5723,14 +5666,13 @@ mr/m/n/10.95 og $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 b; f\OT1/lmr/m/n/10.95
 afen til
  []
 
-</home/sindre/R/asymptote/konv.pdf, id=3843, 115.99335pt x 91.49182pt>
-File: /home/sindre/R/asymptote/konv.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/konv.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/konv.pdf  used on input line 
-170.
+<tips/../asymptote/konv.pdf, id=3859, 115.99335pt x 91.49182pt>
+File: tips/../asymptote/konv.pdf Graphic file (type pdf)
+<use tips/../asymptote/konv.pdf>
+Package pdftex.def Info: tips/../asymptote/konv.pdf  used on input line 168.
 (pdftex.def)             Requested size: 115.99304pt x 91.49158pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--170
+Underfull \hbox (badness 10000) in paragraph at lines 168--168
 \T1/lmr/m/n/10.95 Hvis hele linja mel-lom $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10
 .95 a; f\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 a\OT1/lmr/m/n/10.95 ))$ \T1/lmr
 /m/n/10.95 og $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 b; f\OT1/lmr/m/n/10.95 (
@@ -5738,21 +5680,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--170
 afen
  []
 
-</home/sindre/R/asymptote/konk.pdf, id=3844, 115.99335pt x 89.60475pt>
-File: /home/sindre/R/asymptote/konk.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/konk.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/konk.pdf  used on input line 
-170.
+<tips/../asymptote/konk.pdf, id=3860, 115.99335pt x 89.60475pt>
+File: tips/../asymptote/konk.pdf Graphic file (type pdf)
+<use tips/../asymptote/konk.pdf>
+Package pdftex.def Info: tips/../asymptote/konk.pdf  used on input line 168.
 (pdftex.def)             Requested size: 115.99304pt x 89.6045pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
 []\T1/lmr/m/n/10.95 Hvis $[]$ og $\OML/lmm/m/it/10.95 f[]$ \T1/lmr/m/n/10.95 sk
 ifter fortegn i $\OML/lmm/m/it/10.95 c$\T1/lmr/m/n/10.95 , er $\OML/lmm/m/it/10
 .95 c$ \T1/lmr/m/n/10.95 et \T1/lmr/m/it/10.95 in-flek-sjon-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
 []\T1/lmr/m/n/10.95 Hvis $\OML/lmm/m/it/10.95 c$ \T1/lmr/m/n/10.95 er er in-fle
 k-sjon-spunkt for $\OML/lmm/m/it/10.95 f$\T1/lmr/m/n/10.95 , er $\OT1/lmr/m/n/1
 0.95 (\OML/lmm/m/it/10.95 c; f\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x\OT1/lmr
@@ -5760,32 +5701,32 @@ k-sjon-spunkt for $\OML/lmm/m/it/10.95 f$\T1/lmr/m/n/10.95 , er $\OT1/lmr/m/n/1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
 []\T1/lmr/m/n/10.95 Hvis $\OML/lmm/m/it/10.95 f[]$ \T1/lmr/m/n/10.95 går fra po
 s-i-tiv til neg-a-tiv, går $\OML/lmm/m/it/10.95 f$ \T1/lmr/m/n/10.95 fra kon-ve
 ks til
  []
 
-[218 </home/sindre/R/asymptote/konv.pdf> </home/sindre/R/asymptote/konk.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
+[218 <./tips/../asymptote/konv.pdf> <./tips/../asymptote/konk.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
 \T1/lmr/m/n/10.95 Av $[]$ er det $[]$ og $[]$ som opp-fyller kravet fra lignin-
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
 \T1/lmr/m/n/10.95 gen over. For å finne ut om $\OML/lmm/m/it/10.95 f[]$ \T1/lmr
 /m/n/10.95 skifter fortegn i disse punk-tene,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
 []$\OML/lmm/m/it/10.95 f[]$ \T1/lmr/m/n/10.95 går altså fra pos-i-tiv til neg-a
 -tiv i $[]$ og fra neg-a-tiv til pos-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
 \T1/lmr/m/n/10.95 i-tiv i $[]$. Dette be-tyr at $\OML/lmm/m/it/10.95 f$ \T1/lmr
 /m/n/10.95 går fra kon-veks til konkav i $[]$
  []
@@ -5794,49 +5735,49 @@ pdfTeX warning (ext4): destination with the same identifier (name{vedleq.1}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.244 \end{align*}
+l.242 \end{align*}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{vedleq.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.244 \end{align*}
+l.242 \end{align*}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{vedleq.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.244 \end{align*}
+l.242 \end{align*}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{vedleq.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.244 \end{align*}
+l.242 \end{align*}
                    [219]pdfTeX warning (ext4): destination with the same identi
 fier (name{vedleq.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.255 \end{align*}
+l.253 \end{align*}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{vedleq.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.255 \end{align*}
+l.253 \end{align*}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{vedleq.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.255 \end{align*}
+l.253 \end{align*}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{vedleq.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.255 \end{align*}
+l.253 \end{align*}
                   
-Overfull \hbox (16.39066pt too wide) in paragraph at lines 258--258
+Overfull \hbox (16.39066pt too wide) in paragraph at lines 256--256
 |\T1/lmr/bx/n/14.4 Vedlegg G: Bytte av vari-abel ved Leibniz-notasjon[]| 
  []
 
 [220]
-Overfull \hbox (10.56584pt too wide) in paragraph at lines 285--285
+Overfull \hbox (10.56584pt too wide) in paragraph at lines 283--283
 |\T1/lmr/bx/n/14.4 Vedlegg H: Bytte av vari-abel for bestemt in-te-gral[]| 
  []
 
@@ -5849,14 +5790,14 @@ runsystem(makeindex bokR2.idx)...executed safely (allowed).
 ] [224]) [225] [226
 
 ] (./opg/fol/fas.tex
-(/home/sindre/R/doc.tex)) (./opg/tri/fas.tex (/home/sindre/R/doc.tex) [227]
-[228]
-Overfull \hbox (32.59224pt too wide) in paragraph at lines 61--63
+(./opg/fol/../../doc.tex)) (./opg/tri/fas.tex (./opg/tri/../../doc.tex)
+[227] [228]
+Overfull \hbox (32.59224pt too wide) in paragraph at lines 59--61
 [][]\T1/lmr/bx/n/9 2.4.1[] a) $[]$ b) $[]$ c) $[]$ 
  []
 
 
-Overfull \hbox (3.37895pt too wide) in paragraph at lines 69--70
+Overfull \hbox (3.37895pt too wide) in paragraph at lines 67--68
 [][]\T1/lmr/bx/n/9 2.5.2[] a) $\OML/lmm/m/it/9 P \OT1/lmr/m/n/9 = []$ \T1/lmr/b
 x/n/9 b) $\OML/lmm/m/it/9 f[] \OT1/lmr/m/n/9 = 9$\T1/lmr/m/n/9 , $\OML/lmm/m/it
 /9 f[] \OT1/lmr/m/n/9 = \OMS/lmsy/m/n/9 ^^@\OT1/lmr/m/n/9 1$ \T1/lmr/bx/n/9 c) 
@@ -5864,31 +5805,30 @@ $\OML/lmm/m/it/9 f$ \T1/lmr/m/n/9 har mak-si-mum for $\OML/lmm/m/it/9 x \OT1/lm
 r/m/n/9 = [] []$ 
  []
 
-<opg/tri/skissin.pdf, id=3964, 223.83624pt x 135.50626pt>
+<opg/tri/skissin.pdf, id=3980, 223.83624pt x 135.50626pt>
 File: opg/tri/skissin.pdf Graphic file (type pdf)
 <use opg/tri/skissin.pdf>
-Package pdftex.def Info: opg/tri/skissin.pdf  used on input line 75.
+Package pdftex.def Info: opg/tri/skissin.pdf  used on input line 73.
 (pdftex.def)             Requested size: 223.8357pt x 135.5059pt.
-) [229 <./opg/tri/skissin.pdf>] (./opg/vek/fas.tex (/home/sindre/R/doc.tex))
-(./opg/rom/fas.tex (/home/sindre/R/doc.tex) [230]) (./opg/der/fas.tex
-(/home/sindre/R/doc.tex)) (./opg/int/fas.tex (/home/sindre/R/doc.tex) [231])
-(./opg/dif/fas.tex (/home/sindre/R/doc.tex)
-<opg/dif/retnfas.png, id=4063, 76.8471pt x 44.3256pt>
+) [229 <./opg/tri/skissin.pdf>] (./opg/vek/fas.tex (./opg/vek/../../doc.tex))
+(./opg/rom/fas.tex (./opg/rom/../../doc.tex) [230]) (./opg/der/fas.tex
+(./opg/der/../../doc.tex)) (./opg/int/fas.tex (./opg/int/../../doc.tex)
+[231]) (./opg/dif/fas.tex (./opg/dif/../../doc.tex)
+<opg/dif/retnfas.png, id=4080, 76.8471pt x 44.3256pt>
 File: opg/dif/retnfas.png Graphic file (type png)
 <use opg/dif/retnfas.png>
 Package pdftex.def Info: opg/dif/retnfas.png  used on input line 31.
 (pdftex.def)             Requested size: 99.90121pt x 57.62326pt.
-) [232 <./opg/dif/retnfas.png>]
-[233] (./kap0/bakside.tex (./kap0/../doc.tex))
+) [232 <./opg/dif/retnfas.png>] [233] (./kap0/bakside.tex (./kap0/../doc.tex))
 \tf@thm=\write12
 \openout12 = `bokR2.thm'.
 
  [234]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 111.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
  (./bokR2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 111.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
 Package rerunfilecheck Info: File `bokR2.out' has not changed.
 (rerunfilecheck)             Checksum: 37CF24ECF1BE491D1DDDAA525D970EA0;3265.
 
@@ -5901,10 +5841,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 53263 strings out of 494923
- 1185794 string characters out of 6180741
- 1387461 words of memory out of 5000000
- 54490 multiletter control sequences out of 15000+600000
+ 53293 strings out of 494923
+ 1184644 string characters out of 6180741
+ 1387446 words of memory out of 5000000
+ 54498 multiletter control sequences out of 15000+600000
  686635 words of font info for 178 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  69i,22n,111p,10479b,1169s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5947,10 +5887,10 @@ c/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
 ols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
 ls/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/esvect/vect10.p
 fb>
-Output written on bokR2.pdf (236 pages, 2228194 bytes).
+Output written on bokR2.pdf (236 pages, 2229688 bytes).
 PDF statistics:
- 4411 PDF objects out of 5155 (max. 8388607)
- 3361 compressed objects within 34 object streams
+ 4427 PDF objects out of 5155 (max. 8388607)
+ 3373 compressed objects within 34 object streams
  834 named destinations out of 1000 (max. 500000)
- 797 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 807 words of extra memory for PDF output out of 10000 (max. 10000000)
 

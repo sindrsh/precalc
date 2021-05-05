@@ -1,13 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.5)  9 AUG 2020 10:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.10.11)  5 MAY 2021 22:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **tips.tex
 (./tips.tex
 LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
-(/home/sindre/R/doc.tex)
-(/usr/share/texlive/texmf-dist/tex/latex/standalone/standalone.cls
+Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
+(../doc.tex) (/usr/share/texlive/texmf-dist/tex/latex/standalone/standalone.cls
 Document Class: standalone 2015/07/15 v1.2 Class to compile TeX sub-files stand
 alone
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
@@ -56,8 +55,7 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-))
-(/home/sindre/R/preamb.tex
+)) (../preamb.tex
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
@@ -403,6 +401,8 @@ File: babel.def 2018/02/14 3.18 Babel common definitions
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@dirlevel=\count92
 )
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
@@ -1917,21 +1917,21 @@ File: datetime2-english-base.ldf 2016/03/09 v1.04 (NLCT)
 ))) (./tips.aux)
 \openout1 = `tips.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 5.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -2003,7 +2003,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 7.
+LaTeX Info: Redefining \selectfont on input line 5.
  ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
@@ -2014,10 +2014,10 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.15} into 
 your preamble.
- on input line 7.
+ on input line 5.
 
 \AtBeginShipoutBox=\box104
-Package hyperref Info: Link coloring OFF on input line 7.
+Package hyperref Info: Link coloring OFF on input line 5.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -2026,89 +2026,88 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count371
 )
-LaTeX Info: Redefining \ref on input line 7.
-LaTeX Info: Redefining \pageref on input line 7.
-LaTeX Info: Redefining \nameref on input line 7.
+LaTeX Info: Redefining \ref on input line 5.
+LaTeX Info: Redefining \pageref on input line 5.
+LaTeX Info: Redefining \nameref on input line 5.
 
 (./tips.out) (./tips.out)
 \@outlinefile=\write10
 \openout10 = `tips.out'.
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 18.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 16.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 18.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 16.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 18.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 16.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 18.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 16.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 18.
+(Font)              <10.95> on input line 16.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 18.
+(Font)              <8> on input line 16.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 18.
-LaTeX Font Info:    Try loading font information for U+msa on input line 18.
+(Font)              <6> on input line 16.
+LaTeX Font Info:    Try loading font information for U+msa on input line 16.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 18.
+LaTeX Font Info:    Try loading font information for U+msb on input line 16.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+esint on input line 18.
+LaTeX Font Info:    Try loading font information for U+esint on input line 16.
 
 (/usr/share/texlive/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
-LaTeX Font Info:    Try loading font information for U+esvect on input line 18.
+LaTeX Font Info:    Try loading font information for U+esvect on input line 16.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/esvect/uesvect.fd
 File: uesvect.fd 
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 57.
+(Font)              <9> on input line 55.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 57.
-</home/sindre/R/asymptote/sintip.pdf, id=8, 114.51784pt x 75.10057pt>
-File: /home/sindre/R/asymptote/sintip.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/sintip.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/sintip.pdf  used on input lin
-e 60.
+(Font)              <5> on input line 55.
+<../asymptote/sintip.pdf, id=8, 114.51784pt x 75.10057pt>
+File: ../asymptote/sintip.pdf Graphic file (type pdf)
+<use ../asymptote/sintip.pdf>
+Package pdftex.def Info: ../asymptote/sintip.pdf  used on input line 58.
 (pdftex.def)             Requested size: 114.51755pt x 75.10037pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 61.
+(caption)                particular \caption on input line 59.
 See the caption package documentation for explanation.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
 
-LaTeX Warning: Hyper reference `enh' on page 2 undefined on input line 63.
+LaTeX Warning: Hyper reference `enh' on page 2 undefined on input line 61.
 
 
-LaTeX Warning: Reference `enh' on page 2 undefined on input line 63.
+LaTeX Warning: Reference `enh' on page 2 undefined on input line 61.
 
 
-Overfull \hbox (0.75365pt too wide) in paragraph at lines 63--64
+Overfull \hbox (0.75365pt too wide) in paragraph at lines 61--62
 \T1/lmr/m/n/10.95 en løs-ning av ([]B1[]). Og da må også $[]$ være en løs-ning 
 (se tilbake 
  []
@@ -2117,110 +2116,109 @@ pdfTeX warning (ext4): destination with the same identifier (name{vedleq.1}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.76 ...\quad \text{ og } \quad x_1+x_2=b  \nreqvd
+l.74 ...\quad \text{ og } \quad x_1+x_2=b  \nreqvd
                                                   \label{and} \]pdfTeX warning 
 (ext4): destination with the same identifier (name{vedleq.1}) has been already 
 used, duplicate ignored
 <to be read again> 
                    \relax 
-l.76 ...\quad \text{ og } \quad x_1+x_2=b  \nreqvd
+l.74 ...\quad \text{ og } \quad x_1+x_2=b  \nreqvd
                                                   \label{and} \]pdfTeX warning 
 (ext4): destination with the same identifier (name{vedleq.1}) has been already 
 used, duplicate ignored
 <to be read again> 
                    \relax 
-l.76 ...\quad \text{ og } \quad x_1+x_2=b  \nreqvd
+l.74 ...\quad \text{ og } \quad x_1+x_2=b  \nreqvd
                                                   \label{and} \]pdfTeX warning 
 (ext4): destination with the same identifier (name{vedleq.1}) has been already 
 used, duplicate ignored
 <to be read again> 
                    \relax 
-l.76 ...\quad \text{ og } \quad x_1+x_2=b  \nreqvd
-                                                  \label{and} \] [2 </home/sind
-re/R/asymptote/sintip.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
+l.74 ...\quad \text{ og } \quad x_1+x_2=b  \nreqvd
+                                                  \label{and} \] [2 <../asympto
+te/sintip.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
 []\T1/lmr/m/n/10.95 Siden $[]$ og $[]$ er kravet fra ([]C1[])
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 97.
+(Font)              <14.4> on input line 95.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 97.
+(Font)              <10> on input line 95.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 97.
-</home/sindre/R/asymptote/sinx.pdf, id=56, 170.7178pt x 110.91437pt>
-File: /home/sindre/R/asymptote/sinx.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/sinx.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/sinx.pdf  used on input line 
-104.
+(Font)              <7> on input line 95.
+<../asymptote/sinx.pdf, id=56, 170.7178pt x 110.91437pt>
+File: ../asymptote/sinx.pdf Graphic file (type pdf)
+<use ../asymptote/sinx.pdf>
+Package pdftex.def Info: ../asymptote/sinx.pdf  used on input line 102.
 (pdftex.def)             Requested size: 170.71738pt x 110.91408pt.
 pdfTeX warning (ext4): destination with the same identifier (name{vedleq.1}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.107 \[ \frac{\sin x}{x}< 1 \nreqvd
+l.105 \[ \frac{\sin x}{x}< 1 \nreqvd
                                     \label{sinx} \]pdfTeX warning (ext4): desti
 nation with the same identifier (name{vedleq.1}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.107 \[ \frac{\sin x}{x}< 1 \nreqvd
+l.105 \[ \frac{\sin x}{x}< 1 \nreqvd
                                     \label{sinx} \]pdfTeX warning (ext4): desti
 nation with the same identifier (name{vedleq.1}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.107 \[ \frac{\sin x}{x}< 1 \nreqvd
+l.105 \[ \frac{\sin x}{x}< 1 \nreqvd
                                     \label{sinx} \]pdfTeX warning (ext4): desti
 nation with the same identifier (name{vedleq.1}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.107 \[ \frac{\sin x}{x}< 1 \nreqvd
-                                    \label{sinx} \] [3 </home/sindre/R/asymptot
-e/sinx.pdf>]
-Overfull \hbox (21.21452pt too wide) in paragraph at lines 107--110
+l.105 \[ \frac{\sin x}{x}< 1 \nreqvd
+                                    \label{sinx} \] [3 <../asymptote/sinx.pdf>]
+
+Overfull \hbox (21.21452pt too wide) in paragraph at lines 105--108
 \T1/lmr/m/n/10.95 Videre ob-serverer vi at trekan-ten med $[] \OML/lmm/m/it/10.
 95 x$ \T1/lmr/m/n/10.95 som høyde og 1 som grunnlinje 
  []
 
 [4]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 146.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 144.
 
  (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 146.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 144.
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--146
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
 []$\OML/lmm/m/it/10.95 f$ \T1/lmr/m/n/10.95 har ab-so-lutt mak-si-mum $\OML/lmm
 /m/it/10.95 f\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 c\OT1/lmr/m/n/10.95 )$ \T1
 /lmr/m/n/10.95 hvis $[]$ for alle
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--146
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
 []$\OML/lmm/m/it/10.95 f$ \T1/lmr/m/n/10.95 har et lokalt mak-si-mum $\OML/lmm/
 m/it/10.95 f\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 c\OT1/lmr/m/n/10.95 )$ \T1/
 lmr/m/n/10.95 hvis det finnes et åpent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--146
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
 []$\OML/lmm/m/it/10.95 f$ \T1/lmr/m/n/10.95 har et lokalt min-i-mum $\OML/lmm/m
 /it/10.95 f\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 c\OT1/lmr/m/n/10.95 )$ \T1/l
 mr/m/n/10.95 hvis det finnes et åpent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
 []$\OML/lmm/m/it/10.95 c$ \T1/lmr/m/n/10.95 et ek-stremalpunkt for $\OML/lmm/m/
 it/10.95 f$\T1/lmr/m/n/10.95 . Nærmere bestemt et mak-si-
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 170--170
+Underfull \hbox (badness 10000) in paragraph at lines 168--168
 []\T1/lmr/m/n/10.95 Hvis hele linja mel-lom $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/
 10.95 a; f\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 a\OT1/lmr/m/n/10.95 ))$ \T1/l
 mr/m/n/10.95 og $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 b; f\OT1/lmr/m/n/10.95
@@ -2228,14 +2226,13 @@ mr/m/n/10.95 og $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 b; f\OT1/lmr/m/n/10.95
 afen til
  []
 
-</home/sindre/R/asymptote/konv.pdf, id=91, 115.99335pt x 91.49182pt>
-File: /home/sindre/R/asymptote/konv.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/konv.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/konv.pdf  used on input line 
-170.
+<../asymptote/konv.pdf, id=91, 115.99335pt x 91.49182pt>
+File: ../asymptote/konv.pdf Graphic file (type pdf)
+<use ../asymptote/konv.pdf>
+Package pdftex.def Info: ../asymptote/konv.pdf  used on input line 168.
 (pdftex.def)             Requested size: 115.99304pt x 91.49158pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--170
+Underfull \hbox (badness 10000) in paragraph at lines 168--168
 \T1/lmr/m/n/10.95 Hvis hele linja mel-lom $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10
 .95 a; f\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 a\OT1/lmr/m/n/10.95 ))$ \T1/lmr
 /m/n/10.95 og $\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 b; f\OT1/lmr/m/n/10.95 (
@@ -2243,21 +2240,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--170
 afen
  []
 
-</home/sindre/R/asymptote/konk.pdf, id=92, 115.99335pt x 89.60475pt>
-File: /home/sindre/R/asymptote/konk.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/konk.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/konk.pdf  used on input line 
-170.
+<../asymptote/konk.pdf, id=92, 115.99335pt x 89.60475pt>
+File: ../asymptote/konk.pdf Graphic file (type pdf)
+<use ../asymptote/konk.pdf>
+Package pdftex.def Info: ../asymptote/konk.pdf  used on input line 168.
 (pdftex.def)             Requested size: 115.99304pt x 89.6045pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
 []\T1/lmr/m/n/10.95 Hvis $[]$ og $\OML/lmm/m/it/10.95 f[]$ \T1/lmr/m/n/10.95 sk
 ifter fortegn i $\OML/lmm/m/it/10.95 c$\T1/lmr/m/n/10.95 , er $\OML/lmm/m/it/10
 .95 c$ \T1/lmr/m/n/10.95 et \T1/lmr/m/it/10.95 in-flek-sjon-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
 []\T1/lmr/m/n/10.95 Hvis $\OML/lmm/m/it/10.95 c$ \T1/lmr/m/n/10.95 er er in-fle
 k-sjon-spunkt for $\OML/lmm/m/it/10.95 f$\T1/lmr/m/n/10.95 , er $\OT1/lmr/m/n/1
 0.95 (\OML/lmm/m/it/10.95 c; f\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 x\OT1/lmr
@@ -2265,55 +2261,55 @@ k-sjon-spunkt for $\OML/lmm/m/it/10.95 f$\T1/lmr/m/n/10.95 , er $\OT1/lmr/m/n/1
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
 []\T1/lmr/m/n/10.95 Hvis $\OML/lmm/m/it/10.95 f[]$ \T1/lmr/m/n/10.95 går fra po
 s-i-tiv til neg-a-tiv, går $\OML/lmm/m/it/10.95 f$ \T1/lmr/m/n/10.95 fra kon-ve
 ks til
  []
 
-[6 </home/sindre/R/asymptote/konv.pdf> </home/sindre/R/asymptote/konk.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
+[6 <../asymptote/konv.pdf> <../asymptote/konk.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
 \T1/lmr/m/n/10.95 Av $[]$ er det $[]$ og $[]$ som opp-fyller kravet fra lignin-
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
 \T1/lmr/m/n/10.95 gen over. For å finne ut om $\OML/lmm/m/it/10.95 f[]$ \T1/lmr
 /m/n/10.95 skifter fortegn i disse punk-tene,
  []
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 220.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 218.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11> on input line 220.
+(Font)              <11> on input line 218.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.69997> on input line 220.
+(Font)              <7.69997> on input line 218.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.5> on input line 220.
+(Font)              <5.5> on input line 218.
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 220.
+(Font)              size <5> substituted on input line 218.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 220.
+(Font)              size <5> substituted on input line 218.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 220.
+(Font)              size <5> substituted on input line 218.
 
 
 LaTeX Font Warning: Font shape `U/esvect/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 220.
+(Font)              size <5> substituted on input line 218.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
 []$\OML/lmm/m/it/10.95 f[]$ \T1/lmr/m/n/10.95 går altså fra pos-i-tiv til neg-a
 -tiv i $[]$ og fra neg-a-tiv til pos-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
 \T1/lmr/m/n/10.95 i-tiv i $[]$. Dette be-tyr at $\OML/lmm/m/it/10.95 f$ \T1/lmr
 /m/n/10.95 går fra kon-veks til konkav i $[]$
  []
@@ -2322,52 +2318,52 @@ pdfTeX warning (ext4): destination with the same identifier (name{vedleq.1}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.244 \end{align*}
+l.242 \end{align*}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{vedleq.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.244 \end{align*}
+l.242 \end{align*}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{vedleq.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.244 \end{align*}
+l.242 \end{align*}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{vedleq.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.244 \end{align*}
+l.242 \end{align*}
                    [7]pdfTeX warning (ext4): destination with the same identifi
 er (name{vedleq.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.255 \end{align*}
+l.253 \end{align*}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{vedleq.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.255 \end{align*}
+l.253 \end{align*}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{vedleq.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.255 \end{align*}
+l.253 \end{align*}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{vedleq.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.255 \end{align*}
+l.253 \end{align*}
                   
-Overfull \hbox (16.39066pt too wide) in paragraph at lines 258--258
+Overfull \hbox (16.39066pt too wide) in paragraph at lines 256--256
 |\T1/lmr/bx/n/14.4 Vedlegg G: Bytte av vari-abel ved Leibniz-notasjon[]| 
  []
 
 
-LaTeX Warning: Reference `defder' on page 8 undefined on input line 261.
+LaTeX Warning: Reference `defder' on page 8 undefined on input line 259.
 
 [8]
-Overfull \hbox (10.56584pt too wide) in paragraph at lines 285--285
+Overfull \hbox (10.56584pt too wide) in paragraph at lines 283--283
 |\T1/lmr/bx/n/14.4 Vedlegg H: Bytte av vari-abel for bestemt in-te-gral[]| 
  []
 
@@ -2381,11 +2377,11 @@ Package caption Warning: Unused \captionsetup[subfigure] on input line 79.
 See the caption package documentation for explanation.
 
 [10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 383.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 383.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 381.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 381.
  (./tips.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 383.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 383.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 381.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 381.
 Package rerunfilecheck Info: File `tips.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -2398,13 +2394,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 50348 strings out of 492982
- 1137004 string characters out of 6134897
- 1357431 words of memory out of 5000000
- 52927 multiletter control sequences out of 15000+600000
+ 50350 strings out of 494923
+ 1136760 string characters out of 6180741
+ 1352370 words of memory out of 5000000
+ 52679 multiletter control sequences out of 15000+600000
  649363 words of font info for 155 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 69i,13n,102p,10493b,886s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 14 hyphenation exceptions out of 8191
+ 69i,13n,102p,10481b,886s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
@@ -2427,7 +2423,7 @@ type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr
 lic/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro9.pfb></usr/share
 /texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm
 /lmsy8.pfb>
-Output written on tips.pdf (10 pages, 389863 bytes).
+Output written on tips.pdf (10 pages, 389813 bytes).
 PDF statistics:
  243 PDF objects out of 1000 (max. 8388607)
  190 compressed objects within 2 object streams

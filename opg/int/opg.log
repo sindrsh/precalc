@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.5.5)  28 DEC 2019 22:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.10.11)  5 MAY 2021 22:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **opg.tex
 (./opg.tex
 LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
-(/home/sindre/R/doc.tex)
+Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
+(../../doc.tex)
 (/usr/share/texlive/texmf-dist/tex/latex/standalone/standalone.cls
 Document Class: standalone 2015/07/15 v1.2 Class to compile TeX sub-files stand
 alone
@@ -56,8 +56,7 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-))
-(/home/sindre/R/preamb.tex
+)) (../../preamb.tex
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
@@ -403,6 +402,8 @@ File: babel.def 2018/02/14 3.18 Babel common definitions
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@dirlevel=\count92
 )
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
@@ -1917,21 +1918,21 @@ File: datetime2-english-base.ldf 2016/03/09 v1.04 (NLCT)
 ))) (./opg.aux)
 \openout1 = `opg.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 4.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -2003,7 +2004,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 6.
+LaTeX Info: Redefining \selectfont on input line 4.
  ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
@@ -2014,10 +2015,10 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.15} into 
 your preamble.
- on input line 6.
+ on input line 4.
 
 \AtBeginShipoutBox=\box104
-Package hyperref Info: Link coloring OFF on input line 6.
+Package hyperref Info: Link coloring OFF on input line 4.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -2026,57 +2027,57 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count371
 )
-LaTeX Info: Redefining \ref on input line 6.
-LaTeX Info: Redefining \pageref on input line 6.
-LaTeX Info: Redefining \nameref on input line 6.
+LaTeX Info: Redefining \ref on input line 4.
+LaTeX Info: Redefining \pageref on input line 4.
+LaTeX Info: Redefining \nameref on input line 4.
 
 (./opg.out) (./opg.out)
 \@outlinefile=\write10
 \openout10 = `opg.out'.
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 12.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 10.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 12.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 10.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 12.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 10.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 12.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 10.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 12.
+(Font)              <10.95> on input line 10.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 12.
+(Font)              <8> on input line 10.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 12.
-LaTeX Font Info:    Try loading font information for U+msa on input line 12.
+(Font)              <6> on input line 10.
+LaTeX Font Info:    Try loading font information for U+msa on input line 10.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 12.
+LaTeX Font Info:    Try loading font information for U+msb on input line 10.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+esint on input line 12.
+LaTeX Font Info:    Try loading font information for U+esint on input line 10.
 
 (/usr/share/texlive/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
-LaTeX Font Info:    Try loading font information for U+esvect on input line 12.
+LaTeX Font Info:    Try loading font information for U+esvect on input line 10.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/esvect/uesvect.fd
@@ -2084,7 +2085,7 @@ File: uesvect.fd
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Overfull \hbox (0.20233pt too wide) in paragraph at lines 44--45
+Overfull \hbox (0.20233pt too wide) in paragraph at lines 42--43
 []\T1/lmr/m/n/10.95 Gjennomsnittet av en funksjon $\OML/lmm/m/it/10.95 f\OT1/lm
 r/m/n/10.95 (\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 over 
 et in-ter-vall $\OT1/lmr/m/n/10.95 [\OML/lmm/m/it/10.95 a; b\OT1/lmr/m/n/10.95 
@@ -2092,37 +2093,42 @@ et in-ter-vall $\OT1/lmr/m/n/10.95 [\OML/lmm/m/it/10.95 a; b\OT1/lmr/m/n/10.95
  []
 
 
-LaTeX Warning: Reference `1' on page 2 undefined on input line 71.
+LaTeX Warning: Reference `1' on page 2 undefined on input line 69.
 
 [2]
-</home/sindre/R/asymptote/int6a.pdf, id=44, 137.13232pt x 125.5892pt>
-File: /home/sindre/R/asymptote/int6a.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/int6a.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/int6a.pdf  used on input line
- 95.
+<../../asymptote/int6a.pdf, id=44, 137.13232pt x 125.5892pt>
+File: ../../asymptote/int6a.pdf Graphic file (type pdf)
+<use ../../asymptote/int6a.pdf>
+Package pdftex.def Info: ../../asymptote/int6a.pdf  used on input line 93.
 (pdftex.def)             Requested size: 123.41794pt x 113.02922pt.
-</home/sindre/R/asymptote/int6b.pdf, id=45, 148.14346pt x 145.04187pt>
-File: /home/sindre/R/asymptote/int6b.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/int6b.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/int6b.pdf  used on input line
- 96.
+<../../asymptote/int6b.pdf, id=45, 148.14346pt x 145.04187pt>
+File: ../../asymptote/int6b.pdf Graphic file (type pdf)
+<use ../../asymptote/int6b.pdf>
+Package pdftex.def Info: ../../asymptote/int6b.pdf  used on input line 94.
 (pdftex.def)             Requested size: 133.32787pt x 130.53645pt.
- [3 </home/sindre/R/asymptote/int6a.pdf> </home/sindre/R/asymptote/int6b.pdf>]
-</home/sindre/R/asymptote/faropg.pdf, id=65, 170.7178pt x 142.26149pt>
-File: /home/sindre/R/asymptote/faropg.pdf Graphic file (type pdf)
-<use /home/sindre/R/asymptote/faropg.pdf>
-Package pdftex.def Info: /home/sindre/R/asymptote/faropg.pdf  used on input lin
-e 105.
-(pdftex.def)             Requested size: 153.64459pt x 128.03413pt.
+ [3 <../../asymptote/int6a.pdf> <../../asymptote/int6b.pdf>]
+
+! LaTeX Error: File `../asymptote/faropg' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.103 	\includegraphics[scale=0.9]{\asym{faropg}}
+                                                 \\
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Reference `bint' on page 4 undefined on input line 128.
+LaTeX Warning: Reference `bint' on page 4 undefined on input line 126.
 
 
-LaTeX Warning: Reference `sumkvad' on page 4 undefined on input line 130.
+LaTeX Warning: Reference `sumkvad' on page 4 undefined on input line 128.
 
 
-LaTeX Warning: Reference `sumkvad' on page 4 undefined on input line 130.
+LaTeX Warning: Reference `sumkvad' on page 4 undefined on input line 128.
 
 \tf@thm=\write11
 \openout11 = `opg.thm'.
@@ -2131,12 +2137,12 @@ LaTeX Warning: Reference `sumkvad' on page 4 undefined on input line 130.
 Package caption Warning: Unused \captionsetup[subfigure] on input line 79.
 See the caption package documentation for explanation.
 
-[4 </home/sindre/R/asymptote/faropg.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 144.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
+[4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 142.
  (./opg.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 144.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 144.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 142.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 142.
 Package rerunfilecheck Info: File `opg.out' has not changed.
 (rerunfilecheck)             Checksum: 3352E68A8A61B27488E309A841133486;44.
 
@@ -2145,32 +2151,30 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 50090 strings out of 492982
- 1133046 string characters out of 6134897
- 1350463 words of memory out of 5000000
- 52723 multiletter control sequences out of 15000+600000
+ 50102 strings out of 494923
+ 1132824 string characters out of 6180741
+ 1345431 words of memory out of 5000000
+ 52471 multiletter control sequences out of 15000+600000
  561830 words of font info for 60 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 69i,11n,102p,10492b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 14 hyphenation exceptions out of 8191
+ 69i,11n,102p,10483b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/s
 hare/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/l
 m/lm-rm.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
-0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/esint-type1/esint10.pfb></usr/share/
-texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/
-lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6
-.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/
-type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></us
-r/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on opg.pdf (4 pages, 224505 bytes).
+0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/esint-type1/esint10.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/
+lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fon
+ts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
+Output written on opg.pdf (4 pages, 201787 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
- 120 compressed objects within 2 object streams
+ 128 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
  22 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

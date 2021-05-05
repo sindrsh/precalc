@@ -1,9 +1,0 @@
-\select@language {english}
-\select@language {english}
-\contentsline {section}{F\IeC {\o }lger og rekker}{1}{section*.1}
-\contentsline {section}{Trigonometriske uttrykk og ligninger}{1}{section*.2}
-\contentsline {section}{Vektorer i rommet}{1}{section*.3}
-\contentsline {section}{Romgeometrier}{1}{section*.4}
-\contentsline {section}{Derivasjon og funksjonsdr\IeC {\o }fting}{1}{section*.5}
-\contentsline {section}{Integrasjon}{1}{section*.6}
-\contentsline {section}{Differensialligninger}{1}{section*.7}

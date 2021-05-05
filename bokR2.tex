@@ -1,12 +1,6 @@
 \input{doc}
 \input{preamb}
 
-%Kapittelutseende
-%\usepackage{titlesec}
-%\titleformat{\chapter}[display]{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}   
-%\titlespacing*{\chapter}{0pt}{-50pt}{40pt}
-%numdepth
-%\setcounter{subsecnumdepth}{1}
 
 \setcounter{tocdepth}{1}	
 %\graphicspath{{kap0/}}
@@ -32,7 +26,7 @@
 			\Large  Matematikk R2
 			\begin{figure}[H]
 				\centering
-				\qquad\includegraphics[scale=1.8]{\asym{frpg}}
+				\qquad\includegraphics[scale=1.8]{asymptote/frpg}
 			\end{figure}           
 			\vspace{2 cm}
 			\raggedleft Sindre Sogge Heggen   \end{center}
@@ -80,7 +74,7 @@
 \vspace{20pt}
 \import{int/}{int}
 \newpage
-\import{opg/int/}{opg}
+\subimport{opg/int/}{opg}
 \chapter{Differensialligninger\label{Differensialligninger}}\
 \vspace{20pt}
 \import{dif/}{dif}
