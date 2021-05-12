@@ -2,29 +2,28 @@
 
 # About the book
 
-_First Principles of Math_ is a free text book (PDF) introducing the basic concepts of math, namely
+_Før kalkulus_ er en gratis læreverk (PDF) som presenterer alle tema gitt av kompetansemålene for matematikk R2.
+Boka består av _Før kalkulus; teoridel_ og _Før kalkulus; GeoGebra i R2. 
 
-- Integers and rational and irrational numbers
-- The elementary operations
-- Fractions
-- Negative numbers
-- Geometry
-- Algebra
-- Equations
-- Functions
+Innhold for _Før kalkulus; teoridel_:
+- Følger og rekker
+- Trigonometri
+- Vektorer i rommet
+- Romgeometrier
+- Derivasjon
+- Integrasjon
+- Differensialligninger
 
-### Files
-
-The book is available in two different languages; Norwegian (original) and English. The respective versions are found here
+### Filer
 
 - [First Principles of Math (English)](https://github.com/sindrsh/FirstPrinciplesOfMath/blob/master/G_eng.pdf)
-- [Matematikken sine byggesteinar (Norwegian, nynorsk)](https://github.com/sindrsh/FirstPrinciplesOfMath/blob/master/G.pdf)
-- [Matematikkens byggesteiner (Norwegian, bokmål)](https://github.com/sindrsh/FirstPrinciplesOfMath/blob/master/G_bm.pdf) 
+ 
 
 
 The complete file structure is available on GitHub (press the button _View on GitHub_ on the top of this page)
 
-
-### Contact
+### Kontakt
 sindre.heggen@gmail.com
 
+### Ønsker du å lage egne endringer?
+Den komplette LaTex-koden finner du her - [First Principles of Math (English)](https://github.com/sindrsh/FirstPrinciplesOfMath/blob/master/G_eng.pdf)
