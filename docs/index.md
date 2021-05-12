@@ -16,9 +16,9 @@ Innhold for _Før kalkulus; teoridel_:
 
 ### Filer
 
-- [Teoridel ()](https://github.com/sindrsh/precalc/blob/master/bokR2.pdf)
+- [Teoridel](https://github.com/sindrsh/precalc/blob/master/bokR2.pdf)
 - [Teoridel (tosidig printversjon)](https://github.com/sindrsh/precalc/blob/master/bokR2.pdf)
-- - [Teoridel (tosidig printversjon)](https://github.com/sindrsh/precalc/blob/master/ggb/ggbr2.pdf)
+- [Teoridel (tosidig printversjon)](https://github.com/sindrsh/precalc/blob/master/ggb/ggbr2.pdf)
  
 
 Den komplette filstrukturen for læreverket er tilgjengelig på GitHub (trykk på _View on GitHub_ øverst på denne siden)
