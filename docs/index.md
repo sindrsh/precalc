@@ -22,8 +22,10 @@ Innhold for _Før kalkulus; teoridel_:
 
 The complete file structure is available on GitHub (press the button _View on GitHub_ on the top of this page)
 
+### Ønsker du å lage egne endringer?
+Den komplette LaTex-koden finner du her - [First Principles of Math (English)](https://github.com/sindrsh/FirstPrinciplesOfMath/blob/master/G_eng.pdf)
+
 ### Kontakt
 sindre.heggen@gmail.com
 
-### Ønsker du å lage egne endringer?
-Den komplette LaTex-koden finner du her - [First Principles of Math (English)](https://github.com/sindrsh/FirstPrinciplesOfMath/blob/master/G_eng.pdf)
+
