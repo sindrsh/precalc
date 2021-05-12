@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.10.11)  5 MAY 2021 21:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.10.11)  12 MAY 2021 22:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1781,11 +1781,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--74
 []\T1/lmr/m/n/10.95 Skriver om en funksjon på for-men $[]$ til et kom-bin-ert
  []
 
-</home/sindre/R/scr/trikomb.png, id=131, 410.53375pt x 128.48pt>
-File: /home/sindre/R/scr/trikomb.png Graphic file (type png)
-<use /home/sindre/R/scr/trikomb.png>
-Package pdftex.def Info: /home/sindre/R/scr/trikomb.png  used on input line 79.
-
+<../scr/trikomb.png, id=131, 410.53375pt x 128.48pt>
+File: ../scr/trikomb.png Graphic file (type png)
+<use ../scr/trikomb.png>
+Package pdftex.def Info: ../scr/trikomb.png  used on input line 79.
 (pdftex.def)             Requested size: 205.26637pt x 64.23984pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 116--116
@@ -1836,7 +1835,7 @@ File: kaps/fig/reg2.png Graphic file (type png)
 <use kaps/fig/reg2.png>
 Package pdftex.def Info: kaps/fig/reg2.png  used on input line 116.
 (pdftex.def)             Requested size: 340.7723pt x 168.62958pt.
-[6 </home/sindre/R/scr/trikomb.png>]
+[6 <../scr/trikomb.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 118--118
 []\T1/lmr/m/sl/10.95 Merk\T1/lmr/m/n/10.95 : For å lage punk-tet $\OT1/lmr/m/n/
 10.95 (\OML/lmm/m/it/10.95 x; y; z\OT1/lmr/m/n/10.95 )$ \T1/lmr/m/n/10.95 kan m
@@ -2176,11 +2175,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 241--241
 ]$,
  []
 
-</home/sindre/R/scr/skjlinkulb2.png, id=166, 494.84875pt x 332.24126pt>
-File: /home/sindre/R/scr/skjlinkulb2.png Graphic file (type png)
-<use /home/sindre/R/scr/skjlinkulb2.png>
-Package pdftex.def Info: /home/sindre/R/scr/skjlinkulb2.png  used on input line
- 241.
+<../scr/skjlinkulb2.png, id=166, 494.84875pt x 332.24126pt>
+File: ../scr/skjlinkulb2.png Graphic file (type png)
+<use ../scr/skjlinkulb2.png>
+Package pdftex.def Info: ../scr/skjlinkulb2.png  used on input line 241.
 (pdftex.def)             Requested size: 247.42377pt x 166.12021pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 241--241
@@ -2231,7 +2229,7 @@ File: kaps/fig/vend.png Graphic file (type png)
 <use kaps/fig/vend.png>
 Package pdftex.def Info: kaps/fig/vend.png  used on input line 253.
 (pdftex.def)             Requested size: 190.21014pt x 102.88411pt.
-[14 </home/sindre/R/scr/skjlinkulb2.png> <./kaps/fig/fder.png>]
+[14 <../scr/skjlinkulb2.png> <./kaps/fig/fder.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 254--254
 []\T1/lmr/m/n/10.95 Finner ab-so-lutt mak-si-mum og maski-malpunkt for en funks
 jon $\OML/lmm/m/it/10.95 f$ \T1/lmr/m/n/10.95 på et gitt
@@ -2255,21 +2253,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 258--258
 n. (Merk: Hvis
  []
 
-</home/sindre/R/scr/int.png, id=187, 202.7575pt x 122.4575pt>
-File: /home/sindre/R/scr/int.png Graphic file (type png)
-<use /home/sindre/R/scr/int.png>
-Package pdftex.def Info: /home/sindre/R/scr/int.png  used on input line 266.
+<../scr/int.png, id=187, 202.7575pt x 122.4575pt>
+File: ../scr/int.png Graphic file (type png)
+<use ../scr/int.png>
+Package pdftex.def Info: ../scr/int.png  used on input line 266.
 (pdftex.def)             Requested size: 101.3785pt x 61.22859pt.
-</home/sindre/R/scr/intb.png, id=188, 214.8025pt x 119.44624pt>
-File: /home/sindre/R/scr/intb.png Graphic file (type png)
-<use /home/sindre/R/scr/intb.png>
-Package pdftex.def Info: /home/sindre/R/scr/intb.png  used on input line 274.
+<../scr/intb.png, id=188, 214.8025pt x 119.44624pt>
+File: ../scr/intb.png Graphic file (type png)
+<use ../scr/intb.png>
+Package pdftex.def Info: ../scr/intb.png  used on input line 274.
 (pdftex.def)             Requested size: 107.40099pt x 59.72296pt.
-[15 <./kaps/fig/vend.png> </home/sindre/R/scr/int.png>]
-</home/sindre/R/scr/omdr.png, id=193, 233.87375pt x 203.76125pt>
-File: /home/sindre/R/scr/omdr.png Graphic file (type png)
-<use /home/sindre/R/scr/omdr.png>
-Package pdftex.def Info: /home/sindre/R/scr/omdr.png  used on input line 284.
+[15 <./kaps/fig/vend.png> <../scr/int.png>]
+<../scr/omdr.png, id=193, 233.87375pt x 203.76125pt>
+File: ../scr/omdr.png Graphic file (type png)
+<use ../scr/omdr.png>
+Package pdftex.def Info: ../scr/omdr.png  used on input line 284.
 (pdftex.def)             Requested size: 116.93657pt x 101.88037pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 284--284
@@ -2284,22 +2282,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 287--287
 g av første eller an-dre
  []
 
-</home/sindre/R/scr/dif1.png, id=194, 286.06876pt x 103.38625pt>
-File: /home/sindre/R/scr/dif1.png Graphic file (type png)
-<use /home/sindre/R/scr/dif1.png>
-Package pdftex.def Info: /home/sindre/R/scr/dif1.png  used on input line 297.
+<../scr/dif1.png, id=194, 286.06876pt x 103.38625pt>
+File: ../scr/dif1.png Graphic file (type png)
+<use ../scr/dif1.png>
+Package pdftex.def Info: ../scr/dif1.png  used on input line 297.
 (pdftex.def)             Requested size: 143.03403pt x 51.693pt.
-</home/sindre/R/scr/dif2.png, id=195, 252.945pt x 123.46124pt>
-File: /home/sindre/R/scr/dif2.png Graphic file (type png)
-<use /home/sindre/R/scr/dif2.png>
-Package pdftex.def Info: /home/sindre/R/scr/dif2.png  used on input line 307.
+<../scr/dif2.png, id=195, 252.945pt x 123.46124pt>
+File: ../scr/dif2.png Graphic file (type png)
+<use ../scr/dif2.png>
+Package pdftex.def Info: ../scr/dif2.png  used on input line 307.
 (pdftex.def)             Requested size: 126.47218pt x 61.73045pt.
-[16 </home/sindre/R/scr/intb.png> </home/sindre/R/scr/omdr.png> </home/sindre/R
-/scr/dif1.png>]
-</home/sindre/R/scr/dif4.png, id=202, 295.1025pt x 102.3825pt>
-File: /home/sindre/R/scr/dif4.png Graphic file (type png)
-<use /home/sindre/R/scr/dif4.png>
-Package pdftex.def Info: /home/sindre/R/scr/dif4.png  used on input line 317.
+[16 <../scr/intb.png> <../scr/omdr.png> <../scr/dif1.png>]
+<../scr/dif4.png, id=202, 295.1025pt x 102.3825pt>
+File: ../scr/dif4.png Graphic file (type png)
+<use ../scr/dif4.png>
+Package pdftex.def Info: ../scr/dif4.png  used on input line 317.
 (pdftex.def)             Requested size: 147.55087pt x 51.19112pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 318--318
@@ -2307,10 +2304,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 318--318
 ørste eller an-dre or-den,
  []
 
-</home/sindre/R/scr/dif5.png, id=203, 260.975pt x 105.39375pt>
-File: /home/sindre/R/scr/dif5.png Graphic file (type png)
-<use /home/sindre/R/scr/dif5.png>
-Package pdftex.def Info: /home/sindre/R/scr/dif5.png  used on input line 330.
+<../scr/dif5.png, id=203, 260.975pt x 105.39375pt>
+File: ../scr/dif5.png Graphic file (type png)
+<use ../scr/dif5.png>
+Package pdftex.def Info: ../scr/dif5.png  used on input line 330.
 (pdftex.def)             Requested size: 130.48718pt x 52.69673pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 341--341
@@ -2319,13 +2316,12 @@ $ og punk-tet på $\OML/lmm/m/it/10.95 y[]$ \T1/lmr/m/n/10.95 er $[]$. Løs-nin-g
 en kan vi da
  []
 
-</home/sindre/R/scr/dif3.png, id=204, 339.2675pt x 123.46124pt>
-File: /home/sindre/R/scr/dif3.png Graphic file (type png)
-<use /home/sindre/R/scr/dif3.png>
-Package pdftex.def Info: /home/sindre/R/scr/dif3.png  used on input line 341.
+<../scr/dif3.png, id=204, 339.2675pt x 123.46124pt>
+File: ../scr/dif3.png Graphic file (type png)
+<use ../scr/dif3.png>
+Package pdftex.def Info: ../scr/dif3.png  used on input line 341.
 (pdftex.def)             Requested size: 169.63333pt x 61.73045pt.
-[17 </home/sindre/R/scr/dif2.png> </home/sindre/R/scr/dif4.png> </home/sindre/R
-/scr/dif5.png>]
+[17 <../scr/dif2.png> <../scr/dif4.png> <../scr/dif5.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 366--366
 \T1/lmr/m/n/10.95 I in-ntast-ings-fel-tet skvriver vi så \T1/lmtt/m/n/10.95 Ret
 nigsdiagram[x-x y] \T1/lmr/m/n/10.95 og får dette
@@ -2359,8 +2355,8 @@ File: kaps/fig/retn2a.png Graphic file (type png)
 <use kaps/fig/retn2a.png>
 Package pdftex.def Info: kaps/fig/retn2a.png  used on input line 366.
 (pdftex.def)             Requested size: 287.0718pt x 289.07928pt.
-[18 </home/sindre/R/scr/dif3.png> <./kaps/fig/retn.png>]) (./gen/gen.tex
-(../doc.tex) [19 <./kaps/fig/retn2.png> <./kaps/fig/retn2a.png>] (./ncmd.tex)
+[18 <../scr/dif3.png> <./kaps/fig/retn.png>]) (./gen/gen.tex (../doc.tex)
+[19 <./kaps/fig/retn2.png> <./kaps/fig/retn2a.png>] (./ncmd.tex)
 <gen/fig/funk.png, id=222, 671.50874pt x 468.75125pt>
 File: gen/fig/funk.png Graphic file (type png)
 <use gen/fig/funk.png>
@@ -2578,8 +2574,8 @@ LaTeX Warning: There were undefined references.
  ) 
 Here is how much of TeX's memory you used:
  34291 strings out of 494923
- 673746 string characters out of 6180741
- 754725 words of memory out of 5000000
+ 673242 string characters out of 6180741
+ 754701 words of memory out of 5000000
  36867 multiletter control sequences out of 15000+600000
  604949 words of font info for 96 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191

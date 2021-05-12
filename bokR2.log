@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.10.11)  5 MAY 2021 22:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.10.11)  12 MAY 2021 22:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2122,11 +2122,19 @@ Overfull \hbox (0.78621pt too wide) in paragraph at lines 45--45
 revet i L[]T[]X  
  []
 
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 47.
+(/usr/share/texmf/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/it' in size <10.95> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 47.
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 47.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.52 \newpage
+l.54 \newpage
               \phantom{} %\thispagestyle{empty} [1] (./kap0//intro.tex
 (./kap0//../doc.tex)
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 6.
@@ -2260,15 +2268,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--22
 
  [8]
 Kapittel 1.
-(./fol/fol.tex (./fol/../doc.tex) (./fol/rg.tex)
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 18.
-
-(/usr/share/texmf/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 18.
- [9
+(./fol/fol.tex (./fol/../doc.tex) (./fol/rg.tex) [9
 
 ]
 Overfull \hbox (1.58719pt too wide) in paragraph at lines 31--33
@@ -5841,10 +5841,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 53293 strings out of 494923
- 1184644 string characters out of 6180741
+ 53296 strings out of 494923
+ 1184692 string characters out of 6180741
  1387446 words of memory out of 5000000
- 54498 multiletter control sequences out of 15000+600000
+ 54501 multiletter control sequences out of 15000+600000
  686635 words of font info for 178 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  69i,22n,111p,10479b,1169s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5887,7 +5887,7 @@ c/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
 ols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
 ls/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/esvect/vect10.p
 fb>
-Output written on bokR2.pdf (236 pages, 2229688 bytes).
+Output written on bokR2.pdf (236 pages, 2230857 bytes).
 PDF statistics:
  4427 PDF objects out of 5155 (max. 8388607)
  3373 compressed objects within 34 object streams
