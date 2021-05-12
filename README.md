@@ -1,0 +1,1 @@
+\documentclass[english,openright ,hidelinks,pdftex, 11 pt,twoside, class=report,crop=false]{standalone}
