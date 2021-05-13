@@ -3,7 +3,7 @@
 # Om læreverket
 
 _Før kalkulus_ er et gratis læreverk (i PDF-format) som presenterer alle tema gitt av kompetansemålene for matematikk R2.
-verket består av bøkene består av _Før kalkulus; teoridel_ og _Før kalkulus; GeoGebra i R2_. 
+Verket består av bøkene består av _Før kalkulus; teoridel_ og _Før kalkulus; GeoGebra i R2_. 
 
 Innhold for _Før kalkulus; teoridel_:
 - Følger og rekker
