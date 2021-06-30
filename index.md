@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+<p align="center"><img src="frontpage.png" alt="FrontPage" height="300"> </p>
 
-You can use the [editor on GitHub](https://github.com/sindrsh/precalc/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# Om læreverket
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+_Før kalkulus_ er et gratis læreverk (i PDF-format) som presenterer alle tema gitt av kompetansemålene for matematikk R2.
+Verket består av bøkene består av _Før kalkulus; teoridel_ og _Før kalkulus; GeoGebra i R2_. 
 
-### Markdown
+Innhold for _Før kalkulus; teoridel_:
+- Følger og rekker
+- Trigonometri
+- Vektorer i rommet
+- Romgeometrier
+- Derivasjon
+- Integrasjon
+- Differensialligninger
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Filer
 
-```markdown
-Syntax highlighted code block
+- [Teoridel](https://github.com/sindrsh/precalc/blob/master/bokR2_PDF.pdf)
+- [Teoridel (tosidig printversjon)](https://github.com/sindrsh/precalc/blob/master/bokR2.pdf)
+- [GeoGebra i R2](https://github.com/sindrsh/precalc/blob/master/ggb/ggbr2.pdf)
+ 
 
-# Header 1
-## Header 2
-### Header 3
+Den komplette filstrukturen for læreverket er tilgjengelig på GitHub (trykk på _View on GitHub_ øverst på denne siden)
 
-- Bulleted
-- List
+### Kontakt
+sindre.heggen@gmail.com
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sindrsh/precalc/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
