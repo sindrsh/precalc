@@ -1,12 +1,12 @@
-\indexentry{f\IeC {\o }lge}{10}
+\indexentry{følge}{10}
 \indexentry{ledd}{10}
 \indexentry{verdi}{10}
 \indexentry{rekursiv formel}{10}
-\indexentry{f\IeC {\o }lge!endelig}{10}
-\indexentry{f\IeC {\o }lge!uendelig}{10}
-\indexentry{f\IeC {\o }lge!aritmetisk}{11}
+\indexentry{følge!endelig}{10}
+\indexentry{følge!uendelig}{10}
+\indexentry{følge!aritmetisk}{11}
 \indexentry{eksplisitt formel}{11}
-\indexentry{f\IeC {\o }lge!geometrisk}{12}
+\indexentry{følge!geometrisk}{12}
 \indexentry{kvotient}{12}
 \indexentry{rekke}{13}
 \indexentry{rekke!aritmetisk}{14}
@@ -18,10 +18,10 @@
 \indexentry{summetegnet}{18}
 \indexentry{induksjon}{19}
 \indexentry{vinkel}{32}
-\indexentry{vinkel!m\IeC {\r a}lt i grader}{32}
+\indexentry{vinkel!målt i grader}{32}
 \indexentry{buelengde}{32}
-\indexentry{absolutt vinkelm\IeC {\r a}l}{32}
-\indexentry{vinkel!m\IeC {\r a}lt i radianer}{32}
+\indexentry{absolutt vinkelmål}{32}
+\indexentry{vinkel!målt i radianer}{32}
 \indexentry{enhetssirkelen}{32}
 \indexentry{enhetssirkelen!som tallinje}{35}
 \indexentry{sinus}{35}
@@ -33,16 +33,16 @@
 \indexentry{arcustangens }{37}
 \indexentry{kvadrant}{38}
 \indexentry{trigonometrisk!identitet}{40}
-\indexentry{trigonometrisk!ligning!line\IeC {\ae }r}{43}
+\indexentry{trigonometrisk!ligning!lineær}{43}
 \indexentry{kvadrert}{51}
 \indexentry{trigonometrisk!ligning!kvadratisk}{51}
 \indexentry{cosinus!-funksjon}{54}
 \indexentry{periode}{55}
-\indexentry{b\IeC {\o }lgelengde}{55}
+\indexentry{bølgelengde}{55}
 \indexentry{likevektslinje}{55}
 \indexentry{konstantledd}{55}
 \indexentry{amplitude}{55}
-\indexentry{b\IeC {\o }lgetall}{55}
+\indexentry{bølgetall}{55}
 \indexentry{faseforskyvning}{56}
 \indexentry{fase}{56}
 \indexentry{sinus!-funksjon}{60}
@@ -94,49 +94,49 @@
 \indexentry{integral!ubestemt}{150}
 \indexentry{integrasjon!bytte av variabel}{155}
 \indexentry{integrasjon!delvis}{158}
-\indexentry{integrasjon!delbr\IeC {\o }ksoppspaltning}{161}
+\indexentry{integrasjon!delbrøksoppspaltning}{161}
 \indexentry{integrand}{161}
 \indexentry{integral!som areal}{166}
 \indexentry{integral!som volum}{169}
 \indexentry{omdreiningsleme}{171}
 \indexentry{omdreiningslegeme!volumet av}{171}
 \indexentry{differensialligning}{184}
-\indexentry{differensialligning!f\IeC {\o }rste ordens}{184}
+\indexentry{differensialligning!første ordens}{184}
 \indexentry{randbetingelse}{185}
 \indexentry{initialkrav}{185}
 \indexentry{differensialligning!andre ordens}{185}
-\indexentry{differensialligning!f\IeC {\o }rste ordens!line\IeC {\ae }r}{185}
+\indexentry{differensialligning!første ordens!lineær}{185}
 \indexentry{differensialligning!separabel}{188}
 \indexentry{retningsdiagram}{191}
 \indexentry{integralkurver}{192}
-\indexentry{differensialligning!andre ordens!line\IeC {\ae }r}{193}
+\indexentry{differensialligning!andre ordens!lineær}{193}
 \indexentry{homogen}{193}
 \indexentry{karakteristisk ligning}{193}
-\indexentry{kompleks!l\IeC {\o }sning}{193}
+\indexentry{kompleks!løsning}{193}
 \indexentry{kompleks!tall}{193}
-\indexentry{kompleks!l\IeC {\o }sning}{194}
+\indexentry{kompleks!løsning}{194}
 \indexentry{fart}{197}
 \indexentry{proporsjonal}{197}
 \indexentry{karbondatering}{198}
 \indexentry{halveringstid}{198}
-\indexentry{fj\IeC {\o }r-masse-system!uten demping}{201}
+\indexentry{fjør-masse-system!uten demping}{201}
 \indexentry{klosse}{201}
 \indexentry{masse}{201}
-\indexentry{fj\IeC {\o }r}{201}
+\indexentry{fjør}{201}
 \indexentry{Hooks lov}{201}
-\indexentry{fj\IeC {\o }r!-konstant}{201}
+\indexentry{fjør!-konstant}{201}
 \indexentry{tyngdekraft}{201}
 \indexentry{likevektspunkt}{201}
 \indexentry{Newton (enhet)}{201}
 \indexentry{Newtons andre lov}{202}
 \indexentry{luftmotstand}{202}
 \indexentry{friksjon}{202}
-\indexentry{fj\IeC {\o }r-masse-system!med demping}{204}
+\indexentry{fjør-masse-system!med demping}{204}
 \indexentry{demping}{204}
 \indexentry{fart}{204}
 \indexentry{friksjonstall}{204}
-\indexentry{line\IeC {\ae }rkombinasjon}{206}
-\indexentry{line\IeC {\ae }rt uavhengig}{206}
+\indexentry{lineærkombinasjon}{206}
+\indexentry{lineært uavhengig}{206}
 \indexentry{eksponentialfunksjon}{207}
 \indexentry{kompleks!verdi}{207}
 \indexentry{vinkel!-frekvens}{211}

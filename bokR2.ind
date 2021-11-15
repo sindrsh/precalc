@@ -1,6 +1,6 @@
 \begin{theindex}
 
-  \item absolutt vinkelm\IeC {\r a}l, 32
+  \item absolutt vinkelmål, 32
   \item amplitude, 55
   \item analysens fundamentalteorem, 150
   \item andrederiverttest, 137
@@ -14,9 +14,9 @@
 
   \indexspace
 
-  \item b\IeC {\o }lgelengde, 55
-  \item b\IeC {\o }lgetall, 55
   \item buelengde, 32
+  \item bølgelengde, 55
+  \item bølgetall, 55
 
   \indexspace
 
@@ -30,9 +30,9 @@
   \item determinant, 88
   \item differensialligning, 184
     \subitem andre ordens, 185
-      \subsubitem line\IeC {\ae }r, 193
-    \subitem f\IeC {\o }rste ordens, 184
-      \subsubitem line\IeC {\ae }r, 185
+      \subsubitem lineær, 193
+    \subitem første ordens, 184
+      \subsubitem lineær, 185
     \subitem separabel, 188
   \item divergere, 16
 
@@ -47,21 +47,21 @@
 
   \indexspace
 
-  \item f\IeC {\o }lge, 10
-    \subitem aritmetisk, 11
-    \subitem endelig, 10
-    \subitem geometrisk, 12
-    \subitem uendelig, 10
   \item fart, 149, 197, 204
   \item fase, 56
   \item faseforskyvning, 56
-  \item fj\IeC {\o }r, 201
+  \item fjør, 201
     \subitem -konstant, 201
-  \item fj\IeC {\o }r-masse-system
+  \item fjør-masse-system
     \subitem med demping, 204
     \subitem uten demping, 201
   \item friksjon, 202
   \item friksjonstall, 204
+  \item følge, 10
+    \subitem aritmetisk, 11
+    \subitem endelig, 10
+    \subitem geometrisk, 12
+    \subitem uendelig, 10
 
   \indexspace
 
@@ -88,7 +88,7 @@
   \item integrand, 161
   \item integrasjon
     \subitem bytte av variabel, 155
-    \subitem delbr\IeC {\o }ksoppspaltning, 161
+    \subitem delbrøksoppspaltning, 161
     \subitem delvis, 158
 
   \indexspace
@@ -98,7 +98,7 @@
   \item kjerne, 37
   \item klosse, 201
   \item kompleks
-    \subitem l\IeC {\o }sning, 193, 194
+    \subitem løsning, 193, 194
     \subitem tall, 193
     \subitem verdi, 207
   \item komponent, 76
@@ -116,8 +116,8 @@
   \item ledd, 10
   \item likevektslinje, 55
   \item likevektspunkt, 201
-  \item line\IeC {\ae }rkombinasjon, 206
-  \item line\IeC {\ae }rt uavhengig, 206
+  \item lineærkombinasjon, 206
+  \item lineært uavhengig, 206
   \item linje, 106
     \subitem mellom to plan, 114
   \item luftmotstand, 202
@@ -187,7 +187,7 @@
     \subitem identitet, 40
     \subitem ligning
       \subsubitem kvadratisk, 51
-      \subsubitem line\IeC {\ae }r, 43
+      \subsubitem lineær, 43
   \item tyngdekraft, 201
 
   \indexspace
@@ -207,10 +207,10 @@
   \item verdi, 10
   \item vinkel, 32
     \subitem -frekvens, 211
-    \subitem m\IeC {\r a}lt i grader, 32
-    \subitem m\IeC {\r a}lt i radianer, 32
     \subitem mellom linjer, 122
     \subitem mellom plan, 124
     \subitem mellom plan og linje, 125
+    \subitem målt i grader, 32
+    \subitem målt i radianer, 32
 
 \end{theindex}

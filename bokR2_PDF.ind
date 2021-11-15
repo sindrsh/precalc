@@ -1,6 +1,6 @@
 \begin{theindex}
 
-  \item absolutt vinkelm\IeC {\r a}l, \hyperpage{32}
+  \item absolutt vinkelmål, \hyperpage{32}
   \item amplitude, \hyperpage{55}
   \item analysens fundamentalteorem, \hyperpage{149}
   \item andrederiverttest, \hyperpage{136}
@@ -14,9 +14,9 @@
 
   \indexspace
 
-  \item b\IeC {\o }lgelengde, \hyperpage{55}
-  \item b\IeC {\o }lgetall, \hyperpage{55}
   \item buelengde, \hyperpage{32}
+  \item bølgelengde, \hyperpage{55}
+  \item bølgetall, \hyperpage{55}
 
   \indexspace
 
@@ -30,9 +30,9 @@
   \item determinant, \hyperpage{88}
   \item differensialligning, \hyperpage{183}
     \subitem andre ordens, \hyperpage{184}
-      \subsubitem line\IeC {\ae }r, \hyperpage{192}
-    \subitem f\IeC {\o }rste ordens, \hyperpage{183}
-      \subsubitem line\IeC {\ae }r, \hyperpage{184}
+      \subsubitem lineær, \hyperpage{192}
+    \subitem første ordens, \hyperpage{183}
+      \subsubitem lineær, \hyperpage{184}
     \subitem separabel, \hyperpage{187}
   \item divergere, \hyperpage{17}
 
@@ -47,21 +47,21 @@
 
   \indexspace
 
-  \item f\IeC {\o }lge, \hyperpage{11}
-    \subitem aritmetisk, \hyperpage{12}
-    \subitem endelig, \hyperpage{11}
-    \subitem geometrisk, \hyperpage{13}
-    \subitem uendelig, \hyperpage{11}
   \item fart, \hyperpage{148}, \hyperpage{196}, \hyperpage{203}
   \item fase, \hyperpage{56}
   \item faseforskyvning, \hyperpage{56}
-  \item fj\IeC {\o }r, \hyperpage{200}
+  \item fjør, \hyperpage{200}
     \subitem -konstant, \hyperpage{200}
-  \item fj\IeC {\o }r-masse-system
+  \item fjør-masse-system
     \subitem med demping, \hyperpage{203}
     \subitem uten demping, \hyperpage{200}
   \item friksjon, \hyperpage{201}
   \item friksjonstall, \hyperpage{203}
+  \item følge, \hyperpage{11}
+    \subitem aritmetisk, \hyperpage{12}
+    \subitem endelig, \hyperpage{11}
+    \subitem geometrisk, \hyperpage{13}
+    \subitem uendelig, \hyperpage{11}
 
   \indexspace
 
@@ -88,7 +88,7 @@
   \item integrand, \hyperpage{160}
   \item integrasjon
     \subitem bytte av variabel, \hyperpage{154}
-    \subitem delbr\IeC {\o }ksoppspaltning, \hyperpage{160}
+    \subitem delbrøksoppspaltning, \hyperpage{160}
     \subitem delvis, \hyperpage{157}
 
   \indexspace
@@ -98,7 +98,7 @@
   \item kjerne, \hyperpage{37}
   \item klosse, \hyperpage{200}
   \item kompleks
-    \subitem l\IeC {\o }sning, \hyperpage{192, 193}
+    \subitem løsning, \hyperpage{192, 193}
     \subitem tall, \hyperpage{192}
     \subitem verdi, \hyperpage{206}
   \item komponent, \hyperpage{76}
@@ -116,8 +116,8 @@
   \item ledd, \hyperpage{11}
   \item likevektslinje, \hyperpage{55}
   \item likevektspunkt, \hyperpage{200}
-  \item line\IeC {\ae }rkombinasjon, \hyperpage{205}
-  \item line\IeC {\ae }rt uavhengig, \hyperpage{205}
+  \item lineærkombinasjon, \hyperpage{205}
+  \item lineært uavhengig, \hyperpage{205}
   \item linje, \hyperpage{105}
     \subitem mellom to plan, \hyperpage{113}
   \item luftmotstand, \hyperpage{201}
@@ -187,7 +187,7 @@
     \subitem identitet, \hyperpage{40}
     \subitem ligning
       \subsubitem kvadratisk, \hyperpage{51}
-      \subsubitem line\IeC {\ae }r, \hyperpage{43}
+      \subsubitem lineær, \hyperpage{43}
   \item tyngdekraft, \hyperpage{200}
 
   \indexspace
@@ -207,10 +207,10 @@
   \item verdi, \hyperpage{11}
   \item vinkel, \hyperpage{32}
     \subitem -frekvens, \hyperpage{210}
-    \subitem m\IeC {\r a}lt i grader, \hyperpage{32}
-    \subitem m\IeC {\r a}lt i radianer, \hyperpage{32}
     \subitem mellom linjer, \hyperpage{121}
     \subitem mellom plan, \hyperpage{123}
     \subitem mellom plan og linje, \hyperpage{124}
+    \subitem målt i grader, \hyperpage{32}
+    \subitem målt i radianer, \hyperpage{32}
 
 \end{theindex}
